@@ -1,2 +1,5 @@
 # SDPD-mf_thixo
-Code for multphase flows with SDPD including thixotropic modelling
+
+
+
+Smoothed Dissipative Particle Dynamics (SDPD) model for the analysis of multiphase and thixotropic fluids implemented in LAMMPS.
