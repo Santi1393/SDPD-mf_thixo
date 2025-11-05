@@ -1,0 +1,50 @@
+variable a_thixo11 equal 1.0
+variable b_thixo11 equal 1.0
+variable alpha_thixo11 equal 0.0
+variable f0_thixo11 equal 1.0
+
+variable a_thixo22 equal 1.0
+variable b_thixo22 equal 1.0
+variable alpha_thixo22 equal 0.0
+variable f0_thixo22 equal 1.0
+
+variable a_thixo33 equal 1.0
+variable b_thixo33 equal 1.0
+variable alpha_thixo33 equal 0.0
+variable f0_thixo33 equal 1.0
+
+variable a_thixo44 equal 1.0
+variable b_thixo44 equal 1.0
+variable alpha_thixo44 equal 0.0
+variable f0_thixo44 equal 1.0
+
+variable a_thixo12 equal 2*(${a_thixo11}*${a_thixo22})/(${a_thixo11}+${a_thixo22})
+variable b_thixo12 equal 2*(${b_thixo11}*${b_thixo22})/(${b_thixo11}+${b_thixo22})
+variable alpha_thixo12 equal 0
+variable f0_thixo12 equal 2*(${f0_thixo11}*${f0_thixo22})/(${f0_thixo11}+${f0_thixo22})
+
+variable a_thixo13 equal 2*(${a_thixo11}*${a_thixo33})/(${a_thixo11}+${a_thixo33})
+variable b_thixo13 equal 2*(${b_thixo11}*${b_thixo33})/(${b_thixo11}+${b_thixo33})
+variable alpha_thixo13 equal 0
+variable f0_thixo13 equal 2*(${f0_thixo11}*${f0_thixo33})/(${f0_thixo11}+${f0_thixo33})
+
+variable a_thixo14 equal 2*(${a_thixo11}*${a_thixo44})/(${a_thixo11}+${a_thixo44})
+variable b_thixo14 equal 2*(${b_thixo11}*${b_thixo44})/(${b_thixo11}+${b_thixo44})
+variable alpha_thixo14 equal 0
+variable f0_thixo14 equal 2*(${f0_thixo11}*${f0_thixo44})/(${f0_thixo11}+${f0_thixo44})
+
+variable a_thixo23 equal 2*(${a_thixo22}*${a_thixo33})/(${a_thixo22}+${a_thixo33})
+variable b_thixo23 equal 2*(${b_thixo22}*${b_thixo33})/(${b_thixo22}+${b_thixo33})
+variable alpha_thixo23 equal 0
+variable f0_thixo23 equal 2*(${f0_thixo22}*${f0_thixo33})/(${f0_thixo22}+${f0_thixo33})
+
+variable a_thixo24 equal 2*(${a_thixo22}*${a_thixo44})/(${a_thixo22}+${a_thixo44})
+variable b_thixo24 equal 2*(${b_thixo22}*${b_thixo44})/(${b_thixo22}+${b_thixo44})
+variable alpha_thixo24 equal 0
+variable f0_thixo24 equal 2*(${f0_thixo22}*${f0_thixo44})/(${f0_thixo22}+${f0_thixo44})
+
+variable a_thixo34 equal 2*(${a_thixo33}*${a_thixo44})/(${a_thixo33}+${a_thixo44})
+variable b_thixo34 equal 2*(${b_thixo33}*${b_thixo44})/(${b_thixo33}+${b_thixo44})
+variable alpha_thixo34 equal 0
+variable f0_thixo34 equal 2*(${f0_thixo33}*${f0_thixo44})/(${f0_thixo33}+${f0_thixo44})
+

@@ -1,0 +1,11 @@
+pair_coeff 1 1 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta11} ${ksai11} ${a_thixo11} ${b_thixo11} ${alpha_thixo11} ${f0_thixo11} ${s11} 0 0 0
+pair_coeff 2 2 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta22} ${ksai22} ${a_thixo22} ${b_thixo22} ${alpha_thixo22} ${f0_thixo22} ${s22} 0 0 0
+pair_coeff 3 3 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta33} ${ksai33} ${a_thixo33} ${b_thixo33} ${alpha_thixo33} ${f0_thixo33} ${s33} 0 0 0
+pair_coeff 4 4 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta44} ${ksai44} ${a_thixo44} ${b_thixo44} ${alpha_thixo44} ${f0_thixo44} ${s44} 0 0 0
+
+pair_coeff 1 2 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta12} ${ksai12} ${a_thixo12} ${b_thixo12} ${alpha_thixo12} ${f0_thixo12} ${s12} 0 0 0
+pair_coeff 1 3 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta13} ${ksai13} ${a_thixo13} ${b_thixo13} ${alpha_thixo13} ${f0_thixo13} ${s13} 0 0 0
+pair_coeff 1 4 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta14} ${ksai14} ${a_thixo14} ${b_thixo14} ${alpha_thixo14} ${f0_thixo14} ${s14} 0 0 0
+pair_coeff 2 3 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta23} ${ksai23} ${a_thixo23} ${b_thixo23} ${alpha_thixo23} ${f0_thixo23} ${s23} 0 0 0
+pair_coeff 2 4 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta24} ${ksai24} ${a_thixo24} ${b_thixo24} ${alpha_thixo24} ${f0_thixo24} ${s24} 0 0 0
+pair_coeff 3 4 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta34} ${ksai34} ${a_thixo34} ${b_thixo34} ${alpha_thixo34} ${f0_thixo34} ${s34} 0 0 0
