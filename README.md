@@ -14,6 +14,10 @@ b) Update MF: This updated multiphase (mf) version is based on the description p
 
 c) Transient viscosity model: This update includes a thixotropic (viscosity transient) model to simulate complex multiphase flows
 
+# Software version
+
+This SDPD extension must be compiled in the 21-Nov-2023 release of the open source LAMMPS (Large-scale Atomic/Molecular Massively Parallel Simulator).
+
 # Installation
 
 1. Replace the files atom.cpp, atom.h, atom_vec.cpp, atom_vec.h, fix_sph.cpp and fix_sph.h with the files from the .tar
