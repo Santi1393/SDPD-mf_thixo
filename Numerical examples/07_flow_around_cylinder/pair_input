@@ -1,0 +1,3 @@
+pair_coeff 1 3 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta13} ${ksai13} ${wall_index11} ${a_thixo11} ${b_thixo11} ${alpha_thixo11} ${f0_thixo11} ${s13} 0.0 0 0
+
+

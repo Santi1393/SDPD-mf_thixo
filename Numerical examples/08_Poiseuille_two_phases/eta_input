@@ -1,0 +1,2 @@
+variable eta12 equal 2*(v_eta11*v_eta22)/(v_eta11+v_eta22)
+variable ksai12 equal 0.999*v_eta12*(2.0*v_dim-1.0)/v_dim

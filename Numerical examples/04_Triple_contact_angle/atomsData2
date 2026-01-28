@@ -1,0 +1,39 @@
+###### lattice variables
+
+variable        xbas equal 1.
+variable	ybas equal 1.94416
+variable 	zbas equal 1.83297
+variable 	pi_number equal 3.14159265358979323846
+
+
+### Variables for the global box
+variable	coreLz equal ${dh} 					#thicknes box n of rows
+variable	boxL equal ${coreL}
+
+variable 	Ny equal ${coreL}/${dh}			# box Y lenght
+variable 	Nx equal ${coreL}/${dh}	 		# box X lenght
+variable 	Nz equal ${coreLz}/${dh}			# box z lenght
+
+# create geometry
+variable 	a equal  (${xbas}/${dh})^2.
+lattice		sq $a #${dh} #spacing .5 0.5 0.5
+
+
+region		box block 0 ${Nx} 0 ${Ny} 0 ${Nz} units lattice
+create_box	4 box
+create_atoms	1 box
+
+##### Drop ARRAY ############## 
+
+variable droplet_radius equal 10
+
+    region droplet_1_1 sphere 38 43 0.0 ${droplet_radius} units lattice
+    region droplet_1_2 sphere 59 39 0.0 ${droplet_radius} units lattice    
+    region droplet_2_1 sphere 48 62 0.0 ${droplet_radius} units lattice
+    
+    set region droplet_1_1 type 2    
+    set region droplet_1_2 type 3    
+    set region droplet_2_1 type 4        
+    
+mass            * ${mass}
+

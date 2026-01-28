@@ -1,0 +1,165 @@
+##### General initialization of meso simulations in 2D
+dimension	2
+boundary	p p p
+
+variable pairStyle string sph
+atom_style    ${pairStyle}
+
+newton on
+comm_modify vel yes
+
+variable dim equal 2
+variable pairStyle string 'meso'
+variable Amdpd equal 1
+variable Bmdpd equal 25
+variable gamdpd equal 18
+variable pi_number equal 3.14159265359
+variable dh equal 0.2
+variable T equal 0.00000000000001
+variable Tbuf equal 1.0
+variable rho0 equal 1.0
+variable rho equal 1.0
+variable c0 equal 20
+variable h equal ${dh}*4
+variable hrho equal ${dh}*4
+variable mass equal ${dh}^${dim}
+variable dt equal 0.0001
+variable dVx equal 1
+variable dVy equal 1
+variable dSSx equal 1
+variable dSSy equal 1
+variable fqV equal 10000
+variable fqDump equal 5000
+variable fqRes equal 100000
+variable fqTher equal 1000
+variable preRunTemp equal 1000
+variable prodRun equal 3000000
+
+variable dhN equal 30			     			###### dh times for the radii definition (for sphere)
+variable diaNx equal 3			      			###### Diameter times in the X axis (for sphere)
+variable diaNy equal 3			      			###### Diameter times in the Y axis (for sphere)
+variable squareL equal 30			      		###### dh times for the length definition (for square)
+variable lenNx equal 3			      			###### length times in the X-Y axis (for square)
+
+variable coreL equal 20
+
+variable consL equal 1.0
+variable buffL equal 1.0
+variable freqVelUpd equal 10
+variable atomsFile string 'atomsData2'
+variable eta_input string 'eta_input'
+variable thixo_input string 'thixo_input'
+variable pair_input string 'pair_input'
+variable s_input string 's_input'
+
+
+####### Viscosity and bulk viscosity definition
+include ${eta_input}
+
+####### Variable wall
+variable wall_index11 equal 0
+
+
+####### Fluid type = 1 (newtonnian) or 2 (thixotropic)
+variable fluid_type equal 1
+
+
+######## Thixotropic parameters
+include ${thixo_input}
+
+
+######## Parameters for Lei2016
+
+variable rhoeq equal (1/${dh})^${dim}
+variable sigmao equal 2			#### Input surface tension
+#variable rb equal ${rhoeq}^(-1/${dim})	#### rb using rhoeq 
+variable rb equal ${h}/3.5			#### rb using h 
+variable ra equal ${rb}/2
+
+#### F_int Models 1 to 3 from Tartakovsky_2016
+
+variable F equal 3				## F_int model number (1 to 4) 
+
+#### F_int_1 definition (2D & 3D)
+if "(${dim}==2)&&(${F}==1)" then &
+"variable A equal 0" &
+"variable lam equal (8/81)*(${h}^4/${pi_number}^4)*((9/4)*${pi_number}^3-6*${pi_number}-4)" &
+"variable xi equal ${h}^3*(-8+9*${pi_number}^2)/(27*${pi_number}^2)" &
+elif ${dim}==3 &
+"variable A equal 0" &
+"variable lam equal (3/(4*${pi_number}^4))*(2^7-3^2+2^4*${pi_number}^2+3^4*${pi_number}^4)*(${h}/3)^5" &
+"variable xi equal (16/81)*(${h}^4/${pi_number}^3)*((9*${pi_number}^3/4)-6*${pi_number}-4"
+
+#### F_int_2 definition (2D & 3D)
+if "(${dim}==2)&&(${F}==2)" then &
+"variable A equal (${rb}/${ra})^2" &
+"variable lam equal (2/3)*(-${A}*${ra}^4+${rb}^4)" & 
+"variable xi equal (${pi_number}*(${pi_number}^(0.5))/(2*(2^0.5)))*(-${A}*${ra}^3+${rb}^3)" &
+elif ${dim}==3 &
+"variable A equal (${rb}/${ra})^3" &
+"variable lam equal (2*${pi_number})^(3/2)*(3/32)*(-${A}*${ra}^5+${rb}^5)" & 
+"variable xi equal (4*${pi_number}/3)*(-${A}*${ra}^4+${rb}^4)" &
+
+#### F_int_3 definition (2D & 3D)
+if "(${dim}==2)&&(${F}==3)" then &
+"variable A equal (${rb}/${ra})^3" & 
+"variable lam equal 0.5*sqrt(2*${pi_number})*(-${A}*${ra}^5+${rb}^5)" &
+"variable xi equal ${pi_number}*(-${A}*${ra}^4+${rb}^4)" &
+elif ${dim}==3 &
+"variable A equal (${rb}/${ra})^4" & 
+"variable lam equal ${pi_number}*(-${A}*${ra}^6+${rb}^6)" &
+"variable xi equal sqrt(2)*${pi_number}^(3/2)*(-${A}*${ra}^5+${rb}^5)"
+
+
+###### Strenght factor definition 
+
+variable s11 equal 1/((1-1e-3))*(${rhoeq}^(-2))*${sigmao}/${lam}		## Fluid phase
+include ${s_input}								## Disperse phase
+
+
+####### Background Pressure
+variable pb equal ${xi}*${rhoeq}^2*${s11}
+
+
+###### Particle creation -  Lattice defition or read data
+include ${atomsFile}
+
+
+#######END SID manager variables
+variable skin equal 0.2*$h
+variable therBinx equal round(${coreL}/(1.2*${dh}))
+variable therBiny equal round(${coreL}/(1.2*${dh}))
+variable        volCore equal ${coreL}*${coreL}*(3-${dim}+(${dim}-2)*${coreL})   #If is 2d gives the area of the square 
+
+###### 2D
+
+###### Include pair styles for the simulation
+
+neighbor        ${skin} bin
+neigh_modify	delay 0 every 1 check yes
+timestep        ${dt}
+
+include micro
+
+fix 2d all enforce2d
+fix pairSPH all sph
+
+variable box_area equal ${volCore}
+
+compute density all property/atom rho						
+compute        peratom all stress/atom NULL						
+
+fix	     6 wall meso/move linear 0 0 0 units lattice
+
+###### Save results	
+dump	1 all custom ${fqDump} dumps/dump.*.lammpstrj id type x y z vx vy vz fx fy fz mass c_density c_peratom[1] c_peratom[2] 			# data for ALL
+
+
+compute	tilt all temp/profile 1 1 0 xy ${therBinx} ${therBiny}
+### _______________________________________________________________________________________________________________________________________________
+
+thermo          ${fqTher}
+thermo_style	custom step temp press
+thermo_modify temp tilt
+
+run ${prodRun}

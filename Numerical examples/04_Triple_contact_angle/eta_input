@@ -1,0 +1,30 @@
+variable eta11 equal 1.0
+variable ksai11 equal 0.999*v_eta11*(2.0*v_dim-1.0)/v_dim
+
+variable eta22 equal 1.0
+variable ksai22 equal 0.999*v_eta22*(2.0*v_dim-1.0)/v_dim
+
+variable eta33 equal 1.0
+variable ksai33 equal 0.999*v_eta33*(2.0*v_dim-1.0)/v_dim
+
+variable eta44 equal 1.0
+variable ksai44 equal 0.999*v_eta44*(2.0*v_dim-1.0)/v_dim
+
+variable eta12 equal 2*(v_eta11*v_eta22)/(v_eta11+v_eta22)
+variable ksai12 equal 0.999*v_eta12*(2.0*v_dim-1.0)/v_dim
+
+variable eta13 equal 2*(v_eta11*v_eta33)/(v_eta11+v_eta33)
+variable ksai13 equal 0.999*v_eta13*(2.0*v_dim-1.0)/v_dim
+
+variable eta14 equal 2*(v_eta11*v_eta44)/(v_eta11+v_eta44)
+variable ksai14 equal 0.999*v_eta14*(2.0*v_dim-1.0)/v_dim
+
+variable eta23 equal 2*(v_eta22*v_eta33)/(v_eta22+v_eta33)
+variable ksai23 equal 0.999*v_eta23*(2.0*v_dim-1.0)/v_dim
+
+variable eta24 equal 2*(v_eta22*v_eta44)/(v_eta22+v_eta44)
+variable ksai24 equal 0.999*v_eta24*(2.0*v_dim-1.0)/v_dim
+
+variable eta34 equal 2*(v_eta33*v_eta44)/(v_eta33+v_eta44)
+variable ksai34 equal 0.999*v_eta34*(2.0*v_dim-1.0)/v_dim
+

@@ -1,0 +1,7 @@
+variable eta33 equal 1.0
+variable ksai33 equal 0.999*v_eta33*(2.0*v_dim-1.0)/v_dim
+
+variable eta13 equal 2*(v_eta11*v_eta33)/(v_eta11+v_eta33)
+variable ksai13 equal 0.999*v_eta13*(2.0*v_dim-1.0)/v_dim
+
+

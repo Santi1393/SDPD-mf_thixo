@@ -1,0 +1,12 @@
+############## Define pair style ################
+
+pair_style hybrid/overlay sph/rhosum 1 sdpd/taitwater/isothermal/mf $T ${pb} ${rhoeq} ${ra} ${rb} ${A} ${F} ${fluid_type} 28619
+
+pair_coeff	* * sph/rhosum ${hrho}
+pair_coeff	* *  sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta11} ${ksai11} ${wall_index11} ${a_thixo11} ${b_thixo11} ${alpha_thixo11} ${f0_thixo11} ${s11} 0.0 0 0
+
+
+## Disperse phase
+include ${pair_input}
+
+set		group all sph/rho ${rho0}

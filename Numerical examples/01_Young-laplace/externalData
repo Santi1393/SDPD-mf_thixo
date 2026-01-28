@@ -1,0 +1,5 @@
+###### read external data file
+
+read_data dataPoly8r03.lmp
+
+mass            * ${mass}
