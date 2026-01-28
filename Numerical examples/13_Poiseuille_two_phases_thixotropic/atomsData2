@@ -1,0 +1,52 @@
+###### lattice variables
+
+variable        xbas equal 1.
+variable	ybas equal 1.94416
+variable 	zbas equal 1.83297
+variable 	pi_number equal 3.14159265358979323846
+
+### Variables for the global box
+variable	coreLz equal ${dh} 					#thicknes box n of rows
+variable	boxL equal ${coreL}
+
+variable 	Ny equal ${coreL}/${dh}			# box Y lenght
+variable 	Nx equal ${coreL}/${dh}	 		# box X lenght
+variable 	Nz equal ${coreLz}/${dh}			# box z lenght
+
+# create geometry
+variable 	a equal  (${xbas}/${dh})^2.
+lattice		sq $a #${dh} #spacing .5 0.5 0.5
+
+
+region		box block 0 ${Nx} 0 ${Ny} 0 ${Nz} units lattice
+create_box	4 box
+create_atoms	1 box
+
+mass            * ${mass}
+
+##### BOUNDARIES ###############
+
+region	     10 block INF INF INF 50 INF INF units lattice
+group	     flow_lower region 10
+
+set	     group flow_lower type 1
+
+region	     11 block INF INF 50 INF INF INF units lattice
+group	     flow_upper region 11
+set	     group flow_upper type 2
+
+variable	BC_lower equal 9
+variable	BC_upper equal ${Ny}-10
+
+region	     1 block INF INF INF ${BC_lower} INF INF units lattice
+group	     lower region 1
+
+region	     2 block INF INF ${BC_upper} INF INF INF units lattice
+group	     upper region 2
+
+group	     boundary union lower upper
+group	     flow subtract all boundary
+
+set	     group lower type 3
+set	     group upper type 4
+

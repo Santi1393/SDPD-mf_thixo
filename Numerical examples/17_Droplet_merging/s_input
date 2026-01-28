@@ -1,0 +1,11 @@
+variable s33 equal v_s11
+variable s44 equal v_s11
+
+variable s12 equal v_s11/1e3
+variable s13 equal v_s11/1e10
+variable s14 equal v_s11/1e10
+
+variable s23 equal v_s11/1e3
+variable s24 equal v_s11/1e3
+
+variable s34 equal v_s11/1.2

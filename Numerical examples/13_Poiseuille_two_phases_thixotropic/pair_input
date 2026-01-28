@@ -1,0 +1,8 @@
+pair_coeff 1 2 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta12} ${ksai12} ${wall_index11} ${a_thixo12} ${b_thixo12} ${alpha_thixo12} ${f0_thixo12} ${s12} 0.0 0 0
+
+pair_coeff 1 3 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta11} ${ksai11} ${wall_index11} ${a_thixo13} ${b_thixo13} ${alpha_thixo13} ${f0_thixo13} ${s13} 0.0 1 0
+
+pair_coeff 2 2 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta22} ${ksai22} ${wall_index11} ${a_thixo22} ${b_thixo22} ${alpha_thixo22} ${f0_thixo22} ${s22} 0.0 0 0
+
+pair_coeff 2 4 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta22} ${ksai22} ${wall_index11} ${a_thixo24} ${b_thixo24} ${alpha_thixo24} ${f0_thixo24} ${s24} 0.0 0 0
+

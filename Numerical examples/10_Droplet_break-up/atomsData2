@@ -1,0 +1,85 @@
+###### lattice variables
+
+variable        xbas equal 1.
+variable	ybas equal 1.94416
+variable 	zbas equal 1.83297
+variable 	pi_number equal 3.14159265358979323846
+
+### Variables for the droplet
+variable rcyl equal ${dhN}
+variable xcyl equal 2*${diaNx}*${rcyl}
+variable ycyl equal 2*${diaNy}*${rcyl}
+variable area_droplet equal ${pi_number}*(${dhN}*${dh})^2
+
+### Variables for the square 
+variable square_len equal ${squareL}*${dh}
+
+### Variables for the global box
+#variable coreL equal 4*${diaNx}*${rcyl}    				####### Sphere=  2 (=positive and negative dir in x axis) * 2 (=radiiX2) * diaNumber_Times * radii
+#variable coreL equal 2*${lenNx}*${square_len}	 			####### Square=  2 (=positive and negative dir in x axis) * lengthtNumber_Times * SquareLength
+variable	coreLz equal ${dh} 					#thicknes box n of rows
+variable	boxL equal ${coreL}
+
+variable parF2 equal (${coreL}/${dh})^${dim}*${f2Frac}
+variable 	Ny equal (${coreL})/${dh}			# box Y lenght
+variable 	Nx equal 3*${coreL}/${dh}	 		# box X lenght
+variable 	Nz equal ${coreLz}/${dh}			# box z lenght
+
+variable par equal ${squareL}%2
+variable leng equal ${squareL}-1
+
+if "${par} == 0" then &
+    "variable square_pos_i equal ${Nx}/2-(${leng}/2-0.5)" &
+    "variable square_pos_j equal ${Nx}/2+(${leng}/2+0.5)" 
+    
+if "${par} == 1" then &
+    "variable square_pos_i equal ${Nx}/2-${leng}/2" &
+    "variable square_pos_j equal ${Nx}/2+${leng}/2" 
+
+variable square_pos_i equal ${Nx}/2
+variable square_pos_j equal ${Nx}/2
+
+# create geometry
+variable 	a equal  (${xbas}/${dh})^2.
+lattice		sq $a #${dh} #spacing .5 0.5 0.5
+
+region		box block 0 ${Nx} 0 ${Ny} 0 ${Nz} units lattice
+create_box	3 box
+create_atoms	1 box
+
+##### Drop ###############
+
+if "${randPos}==0" then &
+   "region	     drop sphere 240 80 0.0 14 units lattice"&
+   "set region drop type 2"
+
+if "${randPos}==1" then &
+  "set atom * type/fraction 2 ${f2Frac} 24345"
+
+if "${randPos}==2" then &
+   "region	     drop block ${square_pos_i} ${square_pos_j} ${square_pos_i} ${square_pos_j} 0 ${Nz} units box"&
+   "set region drop type 2"
+
+if "${randPos}==3" then &
+   "region	     drop block 0 ${Nx} ${Ny_medio} ${Ny} 0 ${Nz} units box"&
+   "set region drop type 2"
+   
+mass            * ${mass}
+
+##### BOUNDARIES ###############
+
+variable	BC_lower equal 4
+variable	BC_upper equal ${Ny}-5
+
+region	     1 block INF INF INF ${BC_lower} INF INF units lattice
+group	     lower region 1
+
+region	     2 block INF INF ${BC_upper} INF INF INF units lattice
+group	     upper region 2
+
+group	     boundary union lower upper
+group	     flow subtract all boundary
+
+set	     group boundary type 3
+
+

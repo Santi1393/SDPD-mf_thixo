@@ -1,0 +1,12 @@
+
+# define groups and regions
+
+###### CONSTRAINTS  ##################################
+
+#region	     C1 block INF INF ${midy} INF INF INF units box
+#set region C1 type 1
+#group upper type 1
+
+group inside region drop
+group outside subtract all inside
+

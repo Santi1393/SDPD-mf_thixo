@@ -1,0 +1,122 @@
+###### lattice variables
+
+variable        xbas equal 1.
+variable	ybas equal 1.94416
+variable 	zbas equal 1.83297
+variable 	pi_number equal 3.14159265358979323846
+
+### Variables for the global box
+variable	coreLz equal ${dh} 					#thicknes box n of rows
+variable	boxL equal ${coreL}
+
+variable 	Ny equal (${coreL})/${dh}			# box Y lenght
+variable 	Nx equal 2*${coreL}/${dh}	 		# box X lenght
+variable 	Nz equal ${coreLz}/${dh}			# box z lenght
+
+# create geometry
+variable 	a equal  (${xbas}/${dh})^2.
+lattice		sq $a #${dh} #spacing .5 0.5 0.5
+
+region		box block 0 400 0 140 0 ${Nz} units lattice
+create_box	4 box
+create_atoms	2 box
+  
+mass            * ${mass}
+
+### Region to remove
+region	     reg_1 block INF 80 INF 52 INF INF units lattice 
+region	     reg_2 block INF 80 88 INF INF INF units lattice 
+region	     reg_3 block 320 INF INF 52 INF INF units lattice 
+region	     reg_4 block 320 INF 88 INF INF INF units lattice 
+region	     c_1 cone x 0 0 0 52 215 319 units lattice
+region	     c_2 cone x 140 0 0 52 215 319 units lattice
+
+delete_atoms region reg_1
+delete_atoms region reg_2
+delete_atoms region reg_3
+delete_atoms region reg_4
+delete_atoms region c_1
+delete_atoms region c_2
+
+### Region fluid 
+region	     flu_1 block INF INF 58 82 INF INF units lattice
+group	     fluid_1 region flu_1
+region	     flu_2 block 86 315 5 134 INF INF units lattice
+group	     fluid_2 region flu_2
+
+group	     flow union fluid_1 fluid_2
+set	     group flow type 1
+
+### Region with the slope
+
+region	     c_3 cone x 5 0 0 52 212 315 units lattice
+group	     cone_3 region c_3
+set	     group cone_3 type 2
+
+region	     c_4 cone x 134 0 0 51 212 315 units lattice
+group	     cone_4 region c_4
+set	     group cone_4 type 2
+
+### Region with lower blocks
+region	     reg_5 block 202 211 30 58 INF INF units lattice 
+group	     region_5 region reg_5
+region	     reg_6 block 184 193 30 57 INF INF units lattice 
+group	     region_6 region reg_6
+region	     reg_7 block 166 175 30 56 INF INF units lattice 
+group	     region_7 region reg_7
+region	     reg_8 block 148 157 30 55 INF INF units lattice 
+group	     region_8 region reg_8
+region	     reg_9 block 130 139 30 54 INF INF units lattice 
+group	     region_9 region reg_9
+region	     reg_10 block 112 121 30 53 INF INF units lattice 
+group	     region_10 region reg_10
+region	     reg_11 block 94 103 30 52 INF INF units lattice 
+group	     region_11 region reg_11
+
+group	     blocks_low union region_5 region_6 region_7 region_8 region_9 region_10 region_11
+
+### Region with upper blocks
+region	     reg_12 block 202 211 82 110 INF INF units lattice 
+group	     region_12 region reg_12
+region	     reg_13 block 184 193 83 110 INF INF units lattice 
+group	     region_13 region reg_13
+region	     reg_14 block 166 175 84 110 INF INF units lattice 
+group	     region_14 region reg_14
+region	     reg_15 block 148 157 85 110 INF INF units lattice 
+group	     region_15 region reg_15
+region	     reg_16 block 130 139 86 110 INF INF units lattice 
+group	     region_16 region reg_16
+region	     reg_17 block 112 121 87 110 INF INF units lattice 
+group	     region_17 region reg_17
+region	     reg_18 block 94 103 88 110 INF INF units lattice 
+group	     region_18 region reg_18
+
+group	     blocks_upp union region_12 region_13 region_14 region_15 region_16 region_17 region_18
+
+set	     group blocks_low type 2
+set	     group blocks_upp type 2
+
+### Droplets
+
+region	     reg_20 sphere 375 70 0.0 12.1 units lattice
+group	     cir_1 region reg_20
+region	     reg_21 sphere 385 70 0.0 12.1 units lattice
+group	     cir_2 region reg_21
+region	     reg_22 block 375 385 58 82 0 ${Nz} units lattice
+group	     square region reg_22
+
+group	     cir union cir_1 cir_2 square
+set	     group cir type 3
+
+region	     reg_23 sphere 17 70 0.0 12.1 units lattice
+group	     cir_3 region reg_23
+region	     reg_24 sphere 47 70 0.0 12.1 units lattice
+group	     cir_4 region reg_24
+region	     reg_25 block 17 47 58 82 0 ${Nz} units lattice
+group	     square_2 region reg_25
+
+group esc union cir_3 cir_4 square_2
+set group esc type 4
+
+group	     walls type 2
+

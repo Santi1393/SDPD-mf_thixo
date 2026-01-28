@@ -1,0 +1,1050 @@
+variable eta33 equal 5.0
+variable ksai33 equal 0.999*v_eta33*(2.0*v_dim-1.0)/v_dim
+
+variable eta44 equal 5.0
+variable ksai44 equal 0.999*v_eta44*(2.0*v_dim-1.0)/v_dim
+
+variable eta55 equal 5.0
+variable ksai55 equal 0.999*v_eta55*(2.0*v_dim-1.0)/v_dim
+
+variable eta66 equal 5.0
+variable ksai66 equal 0.999*v_eta66*(2.0*v_dim-1.0)/v_dim
+
+variable eta77 equal 5.0
+variable ksai77 equal 0.999*v_eta77*(2.0*v_dim-1.0)/v_dim
+
+variable eta88 equal 5.0
+variable ksai88 equal 0.999*v_eta88*(2.0*v_dim-1.0)/v_dim
+
+variable eta99 equal 5.0
+variable ksai99 equal 0.999*v_eta99*(2.0*v_dim-1.0)/v_dim
+
+variable eta1010 equal 5.0
+variable ksai1010 equal 0.999*v_eta1010*(2.0*v_dim-1.0)/v_dim
+
+variable eta1111 equal 5.0
+variable ksai1111 equal 0.999*v_eta1111*(2.0*v_dim-1.0)/v_dim
+
+variable eta1212 equal 5.0
+variable ksai1212 equal 0.999*v_eta1212*(2.0*v_dim-1.0)/v_dim
+
+variable eta1313 equal 5.0
+variable ksai1313 equal 0.999*v_eta1313*(2.0*v_dim-1.0)/v_dim
+
+variable eta1414 equal 5.0
+variable ksai1414 equal 0.999*v_eta1414*(2.0*v_dim-1.0)/v_dim
+
+variable eta1515 equal 5.0
+variable ksai1515 equal 0.999*v_eta1515*(2.0*v_dim-1.0)/v_dim
+
+variable eta1616 equal 5.0
+variable ksai1616 equal 0.999*v_eta1616*(2.0*v_dim-1.0)/v_dim
+
+variable eta1717 equal 5.0
+variable ksai1717 equal 0.999*v_eta1717*(2.0*v_dim-1.0)/v_dim
+
+variable eta1818 equal 5.0
+variable ksai1818 equal 0.999*v_eta1818*(2.0*v_dim-1.0)/v_dim
+
+variable eta1919 equal 5.0
+variable ksai1919 equal 0.999*v_eta1919*(2.0*v_dim-1.0)/v_dim
+
+variable eta2020 equal 5.0
+variable ksai2020 equal 0.999*v_eta2020*(2.0*v_dim-1.0)/v_dim
+
+variable eta2121 equal 5.0
+variable ksai2121 equal 0.999*v_eta2121*(2.0*v_dim-1.0)/v_dim
+
+variable eta2222 equal 5.0
+variable ksai2222 equal 0.999*v_eta2222*(2.0*v_dim-1.0)/v_dim
+
+variable eta2323 equal 5.0
+variable ksai2323 equal 0.999*v_eta2323*(2.0*v_dim-1.0)/v_dim
+
+variable eta2424 equal 5.0
+variable ksai2424 equal 0.999*v_eta2424*(2.0*v_dim-1.0)/v_dim
+
+variable eta2525 equal 5.0
+variable ksai2525 equal 0.999*v_eta2525*(2.0*v_dim-1.0)/v_dim
+
+variable eta2626 equal 5.0
+variable ksai2626 equal 0.999*v_eta2626*(2.0*v_dim-1.0)/v_dim
+
+variable eta2727 equal 5.0
+variable ksai2727 equal 0.999*v_eta2727*(2.0*v_dim-1.0)/v_dim
+
+variable eta13 equal 2*(v_eta11*v_eta33)/(v_eta11+v_eta33)
+variable ksai13 equal 0.999*v_eta13*(2.0*v_dim-1.0)/v_dim
+
+variable eta14 equal 2*(v_eta11*v_eta44)/(v_eta11+v_eta44)
+variable ksai14 equal 0.999*v_eta14*(2.0*v_dim-1.0)/v_dim
+
+variable eta15 equal 2*(v_eta11*v_eta55)/(v_eta11+v_eta55)
+variable ksai15 equal 0.999*v_eta15*(2.0*v_dim-1.0)/v_dim
+
+variable eta16 equal 2*(v_eta11*v_eta66)/(v_eta11+v_eta66)
+variable ksai16 equal 0.999*v_eta16*(2.0*v_dim-1.0)/v_dim
+
+variable eta17 equal 2*(v_eta11*v_eta77)/(v_eta11+v_eta77)
+variable ksai17 equal 0.999*v_eta17*(2.0*v_dim-1.0)/v_dim
+
+variable eta18 equal 2*(v_eta11*v_eta88)/(v_eta11+v_eta88)
+variable ksai18 equal 0.999*v_eta18*(2.0*v_dim-1.0)/v_dim
+
+variable eta19 equal 2*(v_eta11*v_eta99)/(v_eta11+v_eta99)
+variable ksai19 equal 0.999*v_eta19*(2.0*v_dim-1.0)/v_dim
+
+variable eta110 equal 2*(v_eta11*v_eta1010)/(v_eta11+v_eta1010)
+variable ksai110 equal 0.999*v_eta110*(2.0*v_dim-1.0)/v_dim
+
+variable eta111 equal 2*(v_eta11*v_eta1111)/(v_eta11+v_eta1111)
+variable ksai111 equal 0.999*v_eta111*(2.0*v_dim-1.0)/v_dim
+
+variable eta112 equal 2*(v_eta11*v_eta1212)/(v_eta11+v_eta1212)
+variable ksai112 equal 0.999*v_eta112*(2.0*v_dim-1.0)/v_dim
+
+variable eta113 equal 2*(v_eta11*v_eta1313)/(v_eta11+v_eta1313)
+variable ksai113 equal 0.999*v_eta113*(2.0*v_dim-1.0)/v_dim
+
+variable eta114 equal 2*(v_eta11*v_eta1414)/(v_eta11+v_eta1414)
+variable ksai114 equal 0.999*v_eta114*(2.0*v_dim-1.0)/v_dim
+
+variable eta115 equal 2*(v_eta11*v_eta1515)/(v_eta11+v_eta1515)
+variable ksai115 equal 0.999*v_eta115*(2.0*v_dim-1.0)/v_dim
+
+variable eta116 equal 2*(v_eta11*v_eta1616)/(v_eta11+v_eta1616)
+variable ksai116 equal 0.999*v_eta116*(2.0*v_dim-1.0)/v_dim
+
+variable eta117 equal 2*(v_eta11*v_eta1717)/(v_eta11+v_eta1717)
+variable ksai117 equal 0.999*v_eta117*(2.0*v_dim-1.0)/v_dim
+
+variable eta118 equal 2*(v_eta11*v_eta1818)/(v_eta11+v_eta1818)
+variable ksai118 equal 0.999*v_eta118*(2.0*v_dim-1.0)/v_dim
+
+variable eta119 equal 2*(v_eta11*v_eta1919)/(v_eta11+v_eta1919)
+variable ksai119 equal 0.999*v_eta119*(2.0*v_dim-1.0)/v_dim
+
+variable eta120 equal 2*(v_eta11*v_eta2020)/(v_eta11+v_eta2020)
+variable ksai120 equal 0.999*v_eta120*(2.0*v_dim-1.0)/v_dim
+
+variable eta121 equal 2*(v_eta11*v_eta2121)/(v_eta11+v_eta2121)
+variable ksai121 equal 0.999*v_eta121*(2.0*v_dim-1.0)/v_dim
+
+variable eta122 equal 2*(v_eta11*v_eta2222)/(v_eta11+v_eta2222)
+variable ksai122 equal 0.999*v_eta122*(2.0*v_dim-1.0)/v_dim
+
+variable eta123 equal 2*(v_eta11*v_eta2323)/(v_eta11+v_eta2323)
+variable ksai123 equal 0.999*v_eta123*(2.0*v_dim-1.0)/v_dim
+
+variable eta124 equal 2*(v_eta11*v_eta2424)/(v_eta11+v_eta2424)
+variable ksai124 equal 0.999*v_eta124*(2.0*v_dim-1.0)/v_dim
+
+variable eta125 equal 2*(v_eta11*v_eta2525)/(v_eta11+v_eta2525)
+variable ksai125 equal 0.999*v_eta125*(2.0*v_dim-1.0)/v_dim
+
+variable eta126 equal 2*(v_eta11*v_eta2626)/(v_eta11+v_eta2626)
+variable ksai126 equal 0.999*v_eta126*(2.0*v_dim-1.0)/v_dim
+
+variable eta127 equal 2*(v_eta11*v_eta2727)/(v_eta11+v_eta2727)
+variable ksai127 equal 0.999*v_eta127*(2.0*v_dim-1.0)/v_dim
+
+variable eta34 equal 2*(v_eta33*v_eta44)/(v_eta33+v_eta44)
+variable ksai34 equal 0.999*v_eta34*(2.0*v_dim-1.0)/v_dim
+
+variable eta35 equal 2*(v_eta33*v_eta55)/(v_eta33+v_eta55)
+variable ksai35 equal 0.999*v_eta35*(2.0*v_dim-1.0)/v_dim
+
+variable eta36 equal 2*(v_eta33*v_eta66)/(v_eta33+v_eta66)
+variable ksai36 equal 0.999*v_eta36*(2.0*v_dim-1.0)/v_dim
+
+variable eta37 equal 2*(v_eta33*v_eta77)/(v_eta33+v_eta77)
+variable ksai37 equal 0.999*v_eta37*(2.0*v_dim-1.0)/v_dim
+
+variable eta38 equal 2*(v_eta33*v_eta88)/(v_eta33+v_eta88)
+variable ksai38 equal 0.999*v_eta38*(2.0*v_dim-1.0)/v_dim
+
+variable eta39 equal 2*(v_eta33*v_eta99)/(v_eta33+v_eta99)
+variable ksai39 equal 0.999*v_eta39*(2.0*v_dim-1.0)/v_dim
+
+variable eta310 equal 2*(v_eta33*v_eta1010)/(v_eta33+v_eta1010)
+variable ksai310 equal 0.999*v_eta310*(2.0*v_dim-1.0)/v_dim
+
+variable eta311 equal 2*(v_eta33*v_eta1111)/(v_eta33+v_eta1111)
+variable ksai311 equal 0.999*v_eta311*(2.0*v_dim-1.0)/v_dim
+
+variable eta312 equal 2*(v_eta33*v_eta1212)/(v_eta33+v_eta1212)
+variable ksai312 equal 0.999*v_eta312*(2.0*v_dim-1.0)/v_dim
+
+variable eta313 equal 2*(v_eta33*v_eta1313)/(v_eta33+v_eta1313)
+variable ksai313 equal 0.999*v_eta313*(2.0*v_dim-1.0)/v_dim
+
+variable eta314 equal 2*(v_eta33*v_eta1414)/(v_eta33+v_eta1414)
+variable ksai314 equal 0.999*v_eta314*(2.0*v_dim-1.0)/v_dim
+
+variable eta315 equal 2*(v_eta33*v_eta1515)/(v_eta33+v_eta1515)
+variable ksai315 equal 0.999*v_eta315*(2.0*v_dim-1.0)/v_dim
+
+variable eta316 equal 2*(v_eta33*v_eta1616)/(v_eta33+v_eta1616)
+variable ksai316 equal 0.999*v_eta316*(2.0*v_dim-1.0)/v_dim
+
+variable eta317 equal 2*(v_eta33*v_eta1717)/(v_eta33+v_eta1717)
+variable ksai317 equal 0.999*v_eta317*(2.0*v_dim-1.0)/v_dim
+
+variable eta318 equal 2*(v_eta33*v_eta1818)/(v_eta33+v_eta1818)
+variable ksai318 equal 0.999*v_eta318*(2.0*v_dim-1.0)/v_dim
+
+variable eta319 equal 2*(v_eta33*v_eta1919)/(v_eta33+v_eta1919)
+variable ksai319 equal 0.999*v_eta319*(2.0*v_dim-1.0)/v_dim
+
+variable eta320 equal 2*(v_eta33*v_eta2020)/(v_eta33+v_eta2020)
+variable ksai320 equal 0.999*v_eta320*(2.0*v_dim-1.0)/v_dim
+
+variable eta321 equal 2*(v_eta33*v_eta2121)/(v_eta33+v_eta2121)
+variable ksai321 equal 0.999*v_eta321*(2.0*v_dim-1.0)/v_dim
+
+variable eta322 equal 2*(v_eta33*v_eta2222)/(v_eta33+v_eta2222)
+variable ksai322 equal 0.999*v_eta322*(2.0*v_dim-1.0)/v_dim
+
+variable eta323 equal 2*(v_eta33*v_eta2323)/(v_eta33+v_eta2323)
+variable ksai323 equal 0.999*v_eta323*(2.0*v_dim-1.0)/v_dim
+
+variable eta324 equal 2*(v_eta33*v_eta2424)/(v_eta33+v_eta2424)
+variable ksai324 equal 0.999*v_eta324*(2.0*v_dim-1.0)/v_dim
+
+variable eta325 equal 2*(v_eta33*v_eta2525)/(v_eta33+v_eta2525)
+variable ksai325 equal 0.999*v_eta325*(2.0*v_dim-1.0)/v_dim
+
+variable eta326 equal 2*(v_eta33*v_eta2626)/(v_eta33+v_eta2626)
+variable ksai326 equal 0.999*v_eta326*(2.0*v_dim-1.0)/v_dim
+
+variable eta327 equal 2*(v_eta33*v_eta2727)/(v_eta33+v_eta2727)
+variable ksai327 equal 0.999*v_eta327*(2.0*v_dim-1.0)/v_dim
+
+variable eta45 equal 2*(v_eta44*v_eta55)/(v_eta44+v_eta55)
+variable ksai45 equal 0.999*v_eta45*(2.0*v_dim-1.0)/v_dim
+
+variable eta46 equal 2*(v_eta44*v_eta66)/(v_eta44+v_eta66)
+variable ksai46 equal 0.999*v_eta46*(2.0*v_dim-1.0)/v_dim
+
+variable eta47 equal 2*(v_eta44*v_eta77)/(v_eta44+v_eta77)
+variable ksai47 equal 0.999*v_eta47*(2.0*v_dim-1.0)/v_dim
+
+variable eta48 equal 2*(v_eta44*v_eta88)/(v_eta44+v_eta88)
+variable ksai48 equal 0.999*v_eta48*(2.0*v_dim-1.0)/v_dim
+
+variable eta49 equal 2*(v_eta44*v_eta99)/(v_eta44+v_eta99)
+variable ksai49 equal 0.999*v_eta49*(2.0*v_dim-1.0)/v_dim
+
+variable eta410 equal 2*(v_eta44*v_eta1010)/(v_eta44+v_eta1010)
+variable ksai410 equal 0.999*v_eta410*(2.0*v_dim-1.0)/v_dim
+
+variable eta411 equal 2*(v_eta44*v_eta1111)/(v_eta44+v_eta1111)
+variable ksai411 equal 0.999*v_eta411*(2.0*v_dim-1.0)/v_dim
+
+variable eta412 equal 2*(v_eta44*v_eta1212)/(v_eta44+v_eta1212)
+variable ksai412 equal 0.999*v_eta412*(2.0*v_dim-1.0)/v_dim
+
+variable eta413 equal 2*(v_eta44*v_eta1313)/(v_eta44+v_eta1313)
+variable ksai413 equal 0.999*v_eta413*(2.0*v_dim-1.0)/v_dim
+
+variable eta414 equal 2*(v_eta44*v_eta1414)/(v_eta44+v_eta1414)
+variable ksai414 equal 0.999*v_eta414*(2.0*v_dim-1.0)/v_dim
+
+variable eta415 equal 2*(v_eta44*v_eta1515)/(v_eta44+v_eta1515)
+variable ksai415 equal 0.999*v_eta415*(2.0*v_dim-1.0)/v_dim
+
+variable eta416 equal 2*(v_eta44*v_eta1616)/(v_eta44+v_eta1616)
+variable ksai416 equal 0.999*v_eta416*(2.0*v_dim-1.0)/v_dim
+
+variable eta417 equal 2*(v_eta44*v_eta1717)/(v_eta44+v_eta1717)
+variable ksai417 equal 0.999*v_eta417*(2.0*v_dim-1.0)/v_dim
+
+variable eta418 equal 2*(v_eta44*v_eta1818)/(v_eta44+v_eta1818)
+variable ksai418 equal 0.999*v_eta418*(2.0*v_dim-1.0)/v_dim
+
+variable eta419 equal 2*(v_eta44*v_eta1919)/(v_eta44+v_eta1919)
+variable ksai419 equal 0.999*v_eta419*(2.0*v_dim-1.0)/v_dim
+
+variable eta420 equal 2*(v_eta44*v_eta2020)/(v_eta44+v_eta2020)
+variable ksai420 equal 0.999*v_eta420*(2.0*v_dim-1.0)/v_dim
+
+variable eta421 equal 2*(v_eta44*v_eta2121)/(v_eta44+v_eta2121)
+variable ksai421 equal 0.999*v_eta421*(2.0*v_dim-1.0)/v_dim
+
+variable eta422 equal 2*(v_eta44*v_eta2222)/(v_eta44+v_eta2222)
+variable ksai422 equal 0.999*v_eta422*(2.0*v_dim-1.0)/v_dim
+
+variable eta423 equal 2*(v_eta44*v_eta2323)/(v_eta44+v_eta2323)
+variable ksai423 equal 0.999*v_eta423*(2.0*v_dim-1.0)/v_dim
+
+variable eta424 equal 2*(v_eta44*v_eta2424)/(v_eta44+v_eta2424)
+variable ksai424 equal 0.999*v_eta424*(2.0*v_dim-1.0)/v_dim
+
+variable eta425 equal 2*(v_eta44*v_eta2525)/(v_eta44+v_eta2525)
+variable ksai425 equal 0.999*v_eta425*(2.0*v_dim-1.0)/v_dim
+
+variable eta426 equal 2*(v_eta44*v_eta2626)/(v_eta44+v_eta2626)
+variable ksai426 equal 0.999*v_eta426*(2.0*v_dim-1.0)/v_dim
+
+variable eta427 equal 2*(v_eta44*v_eta2727)/(v_eta44+v_eta2727)
+variable ksai427 equal 0.999*v_eta427*(2.0*v_dim-1.0)/v_dim
+
+variable eta56 equal 2*(v_eta55*v_eta66)/(v_eta55+v_eta66)
+variable ksai56 equal 0.999*v_eta56*(2.0*v_dim-1.0)/v_dim
+
+variable eta57 equal 2*(v_eta55*v_eta77)/(v_eta55+v_eta77)
+variable ksai57 equal 0.999*v_eta57*(2.0*v_dim-1.0)/v_dim
+
+variable eta58 equal 2*(v_eta55*v_eta88)/(v_eta55+v_eta88)
+variable ksai58 equal 0.999*v_eta58*(2.0*v_dim-1.0)/v_dim
+
+variable eta59 equal 2*(v_eta55*v_eta99)/(v_eta55+v_eta99)
+variable ksai59 equal 0.999*v_eta59*(2.0*v_dim-1.0)/v_dim
+
+variable eta510 equal 2*(v_eta55*v_eta1010)/(v_eta55+v_eta1010)
+variable ksai510 equal 0.999*v_eta510*(2.0*v_dim-1.0)/v_dim
+
+variable eta511 equal 2*(v_eta55*v_eta1111)/(v_eta55+v_eta1111)
+variable ksai511 equal 0.999*v_eta511*(2.0*v_dim-1.0)/v_dim
+
+variable eta512 equal 2*(v_eta55*v_eta1212)/(v_eta55+v_eta1212)
+variable ksai512 equal 0.999*v_eta512*(2.0*v_dim-1.0)/v_dim
+
+variable eta513 equal 2*(v_eta55*v_eta1313)/(v_eta55+v_eta1313)
+variable ksai513 equal 0.999*v_eta513*(2.0*v_dim-1.0)/v_dim
+
+variable eta514 equal 2*(v_eta55*v_eta1414)/(v_eta55+v_eta1414)
+variable ksai514 equal 0.999*v_eta514*(2.0*v_dim-1.0)/v_dim
+
+variable eta515 equal 2*(v_eta55*v_eta1515)/(v_eta55+v_eta1515)
+variable ksai515 equal 0.999*v_eta515*(2.0*v_dim-1.0)/v_dim
+
+variable eta516 equal 2*(v_eta55*v_eta1616)/(v_eta55+v_eta1616)
+variable ksai516 equal 0.999*v_eta516*(2.0*v_dim-1.0)/v_dim
+
+variable eta517 equal 2*(v_eta55*v_eta1717)/(v_eta55+v_eta1717)
+variable ksai517 equal 0.999*v_eta517*(2.0*v_dim-1.0)/v_dim
+
+variable eta518 equal 2*(v_eta55*v_eta1818)/(v_eta55+v_eta1818)
+variable ksai518 equal 0.999*v_eta518*(2.0*v_dim-1.0)/v_dim
+
+variable eta519 equal 2*(v_eta55*v_eta1919)/(v_eta55+v_eta1919)
+variable ksai519 equal 0.999*v_eta519*(2.0*v_dim-1.0)/v_dim
+
+variable eta520 equal 2*(v_eta55*v_eta2020)/(v_eta55+v_eta2020)
+variable ksai520 equal 0.999*v_eta520*(2.0*v_dim-1.0)/v_dim
+
+variable eta521 equal 2*(v_eta55*v_eta2121)/(v_eta55+v_eta2121)
+variable ksai521 equal 0.999*v_eta521*(2.0*v_dim-1.0)/v_dim
+
+variable eta522 equal 2*(v_eta55*v_eta2222)/(v_eta55+v_eta2222)
+variable ksai522 equal 0.999*v_eta522*(2.0*v_dim-1.0)/v_dim
+
+variable eta523 equal 2*(v_eta55*v_eta2323)/(v_eta55+v_eta2323)
+variable ksai523 equal 0.999*v_eta523*(2.0*v_dim-1.0)/v_dim
+
+variable eta524 equal 2*(v_eta55*v_eta2424)/(v_eta55+v_eta2424)
+variable ksai524 equal 0.999*v_eta524*(2.0*v_dim-1.0)/v_dim
+
+variable eta525 equal 2*(v_eta55*v_eta2525)/(v_eta55+v_eta2525)
+variable ksai525 equal 0.999*v_eta525*(2.0*v_dim-1.0)/v_dim
+
+variable eta526 equal 2*(v_eta55*v_eta2626)/(v_eta55+v_eta2626)
+variable ksai526 equal 0.999*v_eta526*(2.0*v_dim-1.0)/v_dim
+
+variable eta527 equal 2*(v_eta55*v_eta2727)/(v_eta55+v_eta2727)
+variable ksai527 equal 0.999*v_eta527*(2.0*v_dim-1.0)/v_dim
+
+variable eta67 equal 2*(v_eta66*v_eta77)/(v_eta66+v_eta77)
+variable ksai67 equal 0.999*v_eta67*(2.0*v_dim-1.0)/v_dim
+
+variable eta68 equal 2*(v_eta66*v_eta88)/(v_eta66+v_eta88)
+variable ksai68 equal 0.999*v_eta68*(2.0*v_dim-1.0)/v_dim
+
+variable eta69 equal 2*(v_eta66*v_eta99)/(v_eta66+v_eta99)
+variable ksai69 equal 0.999*v_eta69*(2.0*v_dim-1.0)/v_dim
+
+variable eta610 equal 2*(v_eta66*v_eta1010)/(v_eta66+v_eta1010)
+variable ksai610 equal 0.999*v_eta610*(2.0*v_dim-1.0)/v_dim
+
+variable eta611 equal 2*(v_eta66*v_eta1111)/(v_eta66+v_eta1111)
+variable ksai611 equal 0.999*v_eta611*(2.0*v_dim-1.0)/v_dim
+
+variable eta612 equal 2*(v_eta66*v_eta1212)/(v_eta66+v_eta1212)
+variable ksai612 equal 0.999*v_eta612*(2.0*v_dim-1.0)/v_dim
+
+variable eta613 equal 2*(v_eta66*v_eta1313)/(v_eta66+v_eta1313)
+variable ksai613 equal 0.999*v_eta613*(2.0*v_dim-1.0)/v_dim
+
+variable eta614 equal 2*(v_eta66*v_eta1414)/(v_eta66+v_eta1414)
+variable ksai614 equal 0.999*v_eta614*(2.0*v_dim-1.0)/v_dim
+
+variable eta615 equal 2*(v_eta66*v_eta1515)/(v_eta66+v_eta1515)
+variable ksai615 equal 0.999*v_eta615*(2.0*v_dim-1.0)/v_dim
+
+variable eta616 equal 2*(v_eta66*v_eta1616)/(v_eta66+v_eta1616)
+variable ksai616 equal 0.999*v_eta616*(2.0*v_dim-1.0)/v_dim
+
+variable eta617 equal 2*(v_eta66*v_eta1717)/(v_eta66+v_eta1717)
+variable ksai617 equal 0.999*v_eta617*(2.0*v_dim-1.0)/v_dim
+
+variable eta618 equal 2*(v_eta66*v_eta1818)/(v_eta66+v_eta1818)
+variable ksai618 equal 0.999*v_eta618*(2.0*v_dim-1.0)/v_dim
+
+variable eta619 equal 2*(v_eta66*v_eta1919)/(v_eta66+v_eta1919)
+variable ksai619 equal 0.999*v_eta619*(2.0*v_dim-1.0)/v_dim
+
+variable eta620 equal 2*(v_eta66*v_eta2020)/(v_eta66+v_eta2020)
+variable ksai620 equal 0.999*v_eta620*(2.0*v_dim-1.0)/v_dim
+
+variable eta621 equal 2*(v_eta66*v_eta2121)/(v_eta66+v_eta2121)
+variable ksai621 equal 0.999*v_eta621*(2.0*v_dim-1.0)/v_dim
+
+variable eta622 equal 2*(v_eta66*v_eta2222)/(v_eta66+v_eta2222)
+variable ksai622 equal 0.999*v_eta622*(2.0*v_dim-1.0)/v_dim
+
+variable eta623 equal 2*(v_eta66*v_eta2323)/(v_eta66+v_eta2323)
+variable ksai623 equal 0.999*v_eta623*(2.0*v_dim-1.0)/v_dim
+
+variable eta624 equal 2*(v_eta66*v_eta2424)/(v_eta66+v_eta2424)
+variable ksai624 equal 0.999*v_eta624*(2.0*v_dim-1.0)/v_dim
+
+variable eta625 equal 2*(v_eta66*v_eta2525)/(v_eta66+v_eta2525)
+variable ksai625 equal 0.999*v_eta625*(2.0*v_dim-1.0)/v_dim
+
+variable eta626 equal 2*(v_eta66*v_eta2626)/(v_eta66+v_eta2626)
+variable ksai626 equal 0.999*v_eta626*(2.0*v_dim-1.0)/v_dim
+
+variable eta627 equal 2*(v_eta66*v_eta2727)/(v_eta66+v_eta2727)
+variable ksai627 equal 0.999*v_eta627*(2.0*v_dim-1.0)/v_dim
+
+variable eta78 equal 2*(v_eta77*v_eta88)/(v_eta77+v_eta88)
+variable ksai78 equal 0.999*v_eta78*(2.0*v_dim-1.0)/v_dim
+
+variable eta79 equal 2*(v_eta77*v_eta99)/(v_eta77+v_eta99)
+variable ksai79 equal 0.999*v_eta79*(2.0*v_dim-1.0)/v_dim
+
+variable eta710 equal 2*(v_eta77*v_eta1010)/(v_eta77+v_eta1010)
+variable ksai710 equal 0.999*v_eta710*(2.0*v_dim-1.0)/v_dim
+
+variable eta711 equal 2*(v_eta77*v_eta1111)/(v_eta77+v_eta1111)
+variable ksai711 equal 0.999*v_eta711*(2.0*v_dim-1.0)/v_dim
+
+variable eta712 equal 2*(v_eta77*v_eta1212)/(v_eta77+v_eta1212)
+variable ksai712 equal 0.999*v_eta712*(2.0*v_dim-1.0)/v_dim
+
+variable eta713 equal 2*(v_eta77*v_eta1313)/(v_eta77+v_eta1313)
+variable ksai713 equal 0.999*v_eta713*(2.0*v_dim-1.0)/v_dim
+
+variable eta714 equal 2*(v_eta77*v_eta1414)/(v_eta77+v_eta1414)
+variable ksai714 equal 0.999*v_eta714*(2.0*v_dim-1.0)/v_dim
+
+variable eta715 equal 2*(v_eta77*v_eta1515)/(v_eta77+v_eta1515)
+variable ksai715 equal 0.999*v_eta715*(2.0*v_dim-1.0)/v_dim
+
+variable eta716 equal 2*(v_eta77*v_eta1616)/(v_eta77+v_eta1616)
+variable ksai716 equal 0.999*v_eta716*(2.0*v_dim-1.0)/v_dim
+
+variable eta717 equal 2*(v_eta77*v_eta1717)/(v_eta77+v_eta1717)
+variable ksai717 equal 0.999*v_eta717*(2.0*v_dim-1.0)/v_dim
+
+variable eta718 equal 2*(v_eta77*v_eta1818)/(v_eta77+v_eta1818)
+variable ksai718 equal 0.999*v_eta718*(2.0*v_dim-1.0)/v_dim
+
+variable eta719 equal 2*(v_eta77*v_eta1919)/(v_eta77+v_eta1919)
+variable ksai719 equal 0.999*v_eta719*(2.0*v_dim-1.0)/v_dim
+
+variable eta720 equal 2*(v_eta77*v_eta2020)/(v_eta77+v_eta2020)
+variable ksai720 equal 0.999*v_eta720*(2.0*v_dim-1.0)/v_dim
+
+variable eta721 equal 2*(v_eta77*v_eta2121)/(v_eta77+v_eta2121)
+variable ksai721 equal 0.999*v_eta721*(2.0*v_dim-1.0)/v_dim
+
+variable eta722 equal 2*(v_eta77*v_eta2222)/(v_eta77+v_eta2222)
+variable ksai722 equal 0.999*v_eta722*(2.0*v_dim-1.0)/v_dim
+
+variable eta723 equal 2*(v_eta77*v_eta2323)/(v_eta77+v_eta2323)
+variable ksai723 equal 0.999*v_eta723*(2.0*v_dim-1.0)/v_dim
+
+variable eta724 equal 2*(v_eta77*v_eta2424)/(v_eta77+v_eta2424)
+variable ksai724 equal 0.999*v_eta724*(2.0*v_dim-1.0)/v_dim
+
+variable eta725 equal 2*(v_eta77*v_eta2525)/(v_eta77+v_eta2525)
+variable ksai725 equal 0.999*v_eta725*(2.0*v_dim-1.0)/v_dim
+
+variable eta726 equal 2*(v_eta77*v_eta2626)/(v_eta77+v_eta2626)
+variable ksai726 equal 0.999*v_eta726*(2.0*v_dim-1.0)/v_dim
+
+variable eta727 equal 2*(v_eta77*v_eta2727)/(v_eta77+v_eta2727)
+variable ksai727 equal 0.999*v_eta727*(2.0*v_dim-1.0)/v_dim
+
+variable eta89 equal 2*(v_eta88*v_eta99)/(v_eta88+v_eta99)
+variable ksai89 equal 0.999*v_eta89*(2.0*v_dim-1.0)/v_dim
+
+variable eta810 equal 2*(v_eta88*v_eta1010)/(v_eta88+v_eta1010)
+variable ksai810 equal 0.999*v_eta810*(2.0*v_dim-1.0)/v_dim
+
+variable eta811 equal 2*(v_eta88*v_eta1111)/(v_eta88+v_eta1111)
+variable ksai811 equal 0.999*v_eta811*(2.0*v_dim-1.0)/v_dim
+
+variable eta812 equal 2*(v_eta88*v_eta1212)/(v_eta88+v_eta1212)
+variable ksai812 equal 0.999*v_eta812*(2.0*v_dim-1.0)/v_dim
+
+variable eta813 equal 2*(v_eta88*v_eta1313)/(v_eta88+v_eta1313)
+variable ksai813 equal 0.999*v_eta813*(2.0*v_dim-1.0)/v_dim
+
+variable eta814 equal 2*(v_eta88*v_eta1414)/(v_eta88+v_eta1414)
+variable ksai814 equal 0.999*v_eta814*(2.0*v_dim-1.0)/v_dim
+
+variable eta815 equal 2*(v_eta88*v_eta1515)/(v_eta88+v_eta1515)
+variable ksai815 equal 0.999*v_eta815*(2.0*v_dim-1.0)/v_dim
+
+variable eta816 equal 2*(v_eta88*v_eta1616)/(v_eta88+v_eta1616)
+variable ksai816 equal 0.999*v_eta816*(2.0*v_dim-1.0)/v_dim
+
+variable eta817 equal 2*(v_eta88*v_eta1717)/(v_eta88+v_eta1717)
+variable ksai817 equal 0.999*v_eta817*(2.0*v_dim-1.0)/v_dim
+
+variable eta818 equal 2*(v_eta88*v_eta1818)/(v_eta88+v_eta1818)
+variable ksai818 equal 0.999*v_eta818*(2.0*v_dim-1.0)/v_dim
+
+variable eta819 equal 2*(v_eta88*v_eta1919)/(v_eta88+v_eta1919)
+variable ksai819 equal 0.999*v_eta819*(2.0*v_dim-1.0)/v_dim
+
+variable eta820 equal 2*(v_eta88*v_eta2020)/(v_eta88+v_eta2020)
+variable ksai820 equal 0.999*v_eta820*(2.0*v_dim-1.0)/v_dim
+
+variable eta821 equal 2*(v_eta88*v_eta2121)/(v_eta88+v_eta2121)
+variable ksai821 equal 0.999*v_eta821*(2.0*v_dim-1.0)/v_dim
+
+variable eta822 equal 2*(v_eta88*v_eta2222)/(v_eta88+v_eta2222)
+variable ksai822 equal 0.999*v_eta822*(2.0*v_dim-1.0)/v_dim
+
+variable eta823 equal 2*(v_eta88*v_eta2323)/(v_eta88+v_eta2323)
+variable ksai823 equal 0.999*v_eta823*(2.0*v_dim-1.0)/v_dim
+
+variable eta824 equal 2*(v_eta88*v_eta2424)/(v_eta88+v_eta2424)
+variable ksai824 equal 0.999*v_eta824*(2.0*v_dim-1.0)/v_dim
+
+variable eta825 equal 2*(v_eta88*v_eta2525)/(v_eta88+v_eta2525)
+variable ksai825 equal 0.999*v_eta825*(2.0*v_dim-1.0)/v_dim
+
+variable eta826 equal 2*(v_eta88*v_eta2626)/(v_eta88+v_eta2626)
+variable ksai826 equal 0.999*v_eta826*(2.0*v_dim-1.0)/v_dim
+
+variable eta827 equal 2*(v_eta88*v_eta2727)/(v_eta88+v_eta2727)
+variable ksai827 equal 0.999*v_eta827*(2.0*v_dim-1.0)/v_dim
+
+variable eta910 equal 2*(v_eta99*v_eta1010)/(v_eta99+v_eta1010)
+variable ksai910 equal 0.999*v_eta910*(2.0*v_dim-1.0)/v_dim
+
+variable eta911 equal 2*(v_eta99*v_eta1111)/(v_eta99+v_eta1111)
+variable ksai911 equal 0.999*v_eta911*(2.0*v_dim-1.0)/v_dim
+
+variable eta912 equal 2*(v_eta99*v_eta1212)/(v_eta99+v_eta1212)
+variable ksai912 equal 0.999*v_eta912*(2.0*v_dim-1.0)/v_dim
+
+variable eta913 equal 2*(v_eta99*v_eta1313)/(v_eta99+v_eta1313)
+variable ksai913 equal 0.999*v_eta913*(2.0*v_dim-1.0)/v_dim
+
+variable eta914 equal 2*(v_eta99*v_eta1414)/(v_eta99+v_eta1414)
+variable ksai914 equal 0.999*v_eta914*(2.0*v_dim-1.0)/v_dim
+
+variable eta915 equal 2*(v_eta99*v_eta1515)/(v_eta99+v_eta1515)
+variable ksai915 equal 0.999*v_eta915*(2.0*v_dim-1.0)/v_dim
+
+variable eta916 equal 2*(v_eta99*v_eta1616)/(v_eta99+v_eta1616)
+variable ksai916 equal 0.999*v_eta916*(2.0*v_dim-1.0)/v_dim
+
+variable eta917 equal 2*(v_eta99*v_eta1717)/(v_eta99+v_eta1717)
+variable ksai917 equal 0.999*v_eta917*(2.0*v_dim-1.0)/v_dim
+
+variable eta918 equal 2*(v_eta99*v_eta1818)/(v_eta99+v_eta1818)
+variable ksai918 equal 0.999*v_eta918*(2.0*v_dim-1.0)/v_dim
+
+variable eta919 equal 2*(v_eta99*v_eta1919)/(v_eta99+v_eta1919)
+variable ksai919 equal 0.999*v_eta919*(2.0*v_dim-1.0)/v_dim
+
+variable eta920 equal 2*(v_eta99*v_eta2020)/(v_eta99+v_eta2020)
+variable ksai920 equal 0.999*v_eta920*(2.0*v_dim-1.0)/v_dim
+
+variable eta921 equal 2*(v_eta99*v_eta2121)/(v_eta99+v_eta2121)
+variable ksai921 equal 0.999*v_eta921*(2.0*v_dim-1.0)/v_dim
+
+variable eta922 equal 2*(v_eta99*v_eta2222)/(v_eta99+v_eta2222)
+variable ksai922 equal 0.999*v_eta922*(2.0*v_dim-1.0)/v_dim
+
+variable eta923 equal 2*(v_eta99*v_eta2323)/(v_eta99+v_eta2323)
+variable ksai923 equal 0.999*v_eta923*(2.0*v_dim-1.0)/v_dim
+
+variable eta924 equal 2*(v_eta99*v_eta2424)/(v_eta99+v_eta2424)
+variable ksai924 equal 0.999*v_eta924*(2.0*v_dim-1.0)/v_dim
+
+variable eta925 equal 2*(v_eta99*v_eta2525)/(v_eta99+v_eta2525)
+variable ksai925 equal 0.999*v_eta925*(2.0*v_dim-1.0)/v_dim
+
+variable eta926 equal 2*(v_eta99*v_eta2626)/(v_eta99+v_eta2626)
+variable ksai926 equal 0.999*v_eta926*(2.0*v_dim-1.0)/v_dim
+
+variable eta927 equal 2*(v_eta99*v_eta2727)/(v_eta99+v_eta2727)
+variable ksai927 equal 0.999*v_eta927*(2.0*v_dim-1.0)/v_dim
+
+variable eta1011 equal 2*(v_eta1010*v_eta1111)/(v_eta1010+v_eta1111)
+variable ksai1011 equal 0.999*v_eta1011*(2.0*v_dim-1.0)/v_dim
+
+variable eta1012 equal 2*(v_eta1010*v_eta1212)/(v_eta1010+v_eta1212)
+variable ksai1012 equal 0.999*v_eta1012*(2.0*v_dim-1.0)/v_dim
+
+variable eta1013 equal 2*(v_eta1010*v_eta1313)/(v_eta1010+v_eta1313)
+variable ksai1013 equal 0.999*v_eta1013*(2.0*v_dim-1.0)/v_dim
+
+variable eta1014 equal 2*(v_eta1010*v_eta1414)/(v_eta1010+v_eta1414)
+variable ksai1014 equal 0.999*v_eta1014*(2.0*v_dim-1.0)/v_dim
+
+variable eta1015 equal 2*(v_eta1010*v_eta1515)/(v_eta1010+v_eta1515)
+variable ksai1015 equal 0.999*v_eta1015*(2.0*v_dim-1.0)/v_dim
+
+variable eta1016 equal 2*(v_eta1010*v_eta1616)/(v_eta1010+v_eta1616)
+variable ksai1016 equal 0.999*v_eta1016*(2.0*v_dim-1.0)/v_dim
+
+variable eta1017 equal 2*(v_eta1010*v_eta1717)/(v_eta1010+v_eta1717)
+variable ksai1017 equal 0.999*v_eta1017*(2.0*v_dim-1.0)/v_dim
+
+variable eta1018 equal 2*(v_eta1010*v_eta1818)/(v_eta1010+v_eta1818)
+variable ksai1018 equal 0.999*v_eta1018*(2.0*v_dim-1.0)/v_dim
+
+variable eta1019 equal 2*(v_eta1010*v_eta1919)/(v_eta1010+v_eta1919)
+variable ksai1019 equal 0.999*v_eta1019*(2.0*v_dim-1.0)/v_dim
+
+variable eta1020 equal 2*(v_eta1010*v_eta2020)/(v_eta1010+v_eta2020)
+variable ksai1020 equal 0.999*v_eta1020*(2.0*v_dim-1.0)/v_dim
+
+variable eta1021 equal 2*(v_eta1010*v_eta2121)/(v_eta1010+v_eta2121)
+variable ksai1021 equal 0.999*v_eta1021*(2.0*v_dim-1.0)/v_dim
+
+variable eta1022 equal 2*(v_eta1010*v_eta2222)/(v_eta1010+v_eta2222)
+variable ksai1022 equal 0.999*v_eta1022*(2.0*v_dim-1.0)/v_dim
+
+variable eta1023 equal 2*(v_eta1010*v_eta2323)/(v_eta1010+v_eta2323)
+variable ksai1023 equal 0.999*v_eta1023*(2.0*v_dim-1.0)/v_dim
+
+variable eta1024 equal 2*(v_eta1010*v_eta2424)/(v_eta1010+v_eta2424)
+variable ksai1024 equal 0.999*v_eta1024*(2.0*v_dim-1.0)/v_dim
+
+variable eta1025 equal 2*(v_eta1010*v_eta2525)/(v_eta1010+v_eta2525)
+variable ksai1025 equal 0.999*v_eta1025*(2.0*v_dim-1.0)/v_dim
+
+variable eta1026 equal 2*(v_eta1010*v_eta2626)/(v_eta1010+v_eta2626)
+variable ksai1026 equal 0.999*v_eta1026*(2.0*v_dim-1.0)/v_dim
+
+variable eta1027 equal 2*(v_eta1010*v_eta2727)/(v_eta1010+v_eta2727)
+variable ksai1027 equal 0.999*v_eta1027*(2.0*v_dim-1.0)/v_dim
+
+variable eta1112 equal 2*(v_eta1111*v_eta1212)/(v_eta1111+v_eta1212)
+variable ksai1112 equal 0.999*v_eta1112*(2.0*v_dim-1.0)/v_dim
+
+variable eta1113 equal 2*(v_eta1111*v_eta1313)/(v_eta1111+v_eta1313)
+variable ksai1113 equal 0.999*v_eta1113*(2.0*v_dim-1.0)/v_dim
+
+variable eta1114 equal 2*(v_eta1111*v_eta1414)/(v_eta1111+v_eta1414)
+variable ksai1114 equal 0.999*v_eta1114*(2.0*v_dim-1.0)/v_dim
+
+variable eta1115 equal 2*(v_eta1111*v_eta1515)/(v_eta1111+v_eta1515)
+variable ksai1115 equal 0.999*v_eta1115*(2.0*v_dim-1.0)/v_dim
+
+variable eta1116 equal 2*(v_eta1111*v_eta1616)/(v_eta1111+v_eta1616)
+variable ksai1116 equal 0.999*v_eta1116*(2.0*v_dim-1.0)/v_dim
+
+variable eta1117 equal 2*(v_eta1111*v_eta1717)/(v_eta1111+v_eta1717)
+variable ksai1117 equal 0.999*v_eta1117*(2.0*v_dim-1.0)/v_dim
+
+variable eta1118 equal 2*(v_eta1111*v_eta1818)/(v_eta1111+v_eta1818)
+variable ksai1118 equal 0.999*v_eta1118*(2.0*v_dim-1.0)/v_dim
+
+variable eta1119 equal 2*(v_eta1111*v_eta1919)/(v_eta1111+v_eta1919)
+variable ksai1119 equal 0.999*v_eta1119*(2.0*v_dim-1.0)/v_dim
+
+variable eta1120 equal 2*(v_eta1111*v_eta2020)/(v_eta1111+v_eta2020)
+variable ksai1120 equal 0.999*v_eta1120*(2.0*v_dim-1.0)/v_dim
+
+variable eta1121 equal 2*(v_eta1111*v_eta2121)/(v_eta1111+v_eta2121)
+variable ksai1121 equal 0.999*v_eta1121*(2.0*v_dim-1.0)/v_dim
+
+variable eta1122 equal 2*(v_eta1111*v_eta2222)/(v_eta1111+v_eta2222)
+variable ksai1122 equal 0.999*v_eta1122*(2.0*v_dim-1.0)/v_dim
+
+variable eta1123 equal 2*(v_eta1111*v_eta2323)/(v_eta1111+v_eta2323)
+variable ksai1123 equal 0.999*v_eta1123*(2.0*v_dim-1.0)/v_dim
+
+variable eta1124 equal 2*(v_eta1111*v_eta2424)/(v_eta1111+v_eta2424)
+variable ksai1124 equal 0.999*v_eta1124*(2.0*v_dim-1.0)/v_dim
+
+variable eta1125 equal 2*(v_eta1111*v_eta2525)/(v_eta1111+v_eta2525)
+variable ksai1125 equal 0.999*v_eta1125*(2.0*v_dim-1.0)/v_dim
+
+variable eta1126 equal 2*(v_eta1111*v_eta2626)/(v_eta1111+v_eta2626)
+variable ksai1126 equal 0.999*v_eta1126*(2.0*v_dim-1.0)/v_dim
+
+variable eta1127 equal 2*(v_eta1111*v_eta2727)/(v_eta1111+v_eta2727)
+variable ksai1127 equal 0.999*v_eta1127*(2.0*v_dim-1.0)/v_dim
+
+variable eta1213 equal 2*(v_eta1212*v_eta1313)/(v_eta1212+v_eta1313)
+variable ksai1213 equal 0.999*v_eta1213*(2.0*v_dim-1.0)/v_dim
+
+variable eta1214 equal 2*(v_eta1212*v_eta1414)/(v_eta1212+v_eta1414)
+variable ksai1214 equal 0.999*v_eta1214*(2.0*v_dim-1.0)/v_dim
+
+variable eta1215 equal 2*(v_eta1212*v_eta1515)/(v_eta1212+v_eta1515)
+variable ksai1215 equal 0.999*v_eta1215*(2.0*v_dim-1.0)/v_dim
+
+variable eta1216 equal 2*(v_eta1212*v_eta1616)/(v_eta1212+v_eta1616)
+variable ksai1216 equal 0.999*v_eta1216*(2.0*v_dim-1.0)/v_dim
+
+variable eta1217 equal 2*(v_eta1212*v_eta1717)/(v_eta1212+v_eta1717)
+variable ksai1217 equal 0.999*v_eta1217*(2.0*v_dim-1.0)/v_dim
+
+variable eta1218 equal 2*(v_eta1212*v_eta1818)/(v_eta1212+v_eta1818)
+variable ksai1218 equal 0.999*v_eta1218*(2.0*v_dim-1.0)/v_dim
+
+variable eta1219 equal 2*(v_eta1212*v_eta1919)/(v_eta1212+v_eta1919)
+variable ksai1219 equal 0.999*v_eta1219*(2.0*v_dim-1.0)/v_dim
+
+variable eta1220 equal 2*(v_eta1212*v_eta2020)/(v_eta1212+v_eta2020)
+variable ksai1220 equal 0.999*v_eta1220*(2.0*v_dim-1.0)/v_dim
+
+variable eta1221 equal 2*(v_eta1212*v_eta2121)/(v_eta1212+v_eta2121)
+variable ksai1221 equal 0.999*v_eta1221*(2.0*v_dim-1.0)/v_dim
+
+variable eta1222 equal 2*(v_eta1212*v_eta2222)/(v_eta1212+v_eta2222)
+variable ksai1222 equal 0.999*v_eta1222*(2.0*v_dim-1.0)/v_dim
+
+variable eta1223 equal 2*(v_eta1212*v_eta2323)/(v_eta1212+v_eta2323)
+variable ksai1223 equal 0.999*v_eta1223*(2.0*v_dim-1.0)/v_dim
+
+variable eta1224 equal 2*(v_eta1212*v_eta2424)/(v_eta1212+v_eta2424)
+variable ksai1224 equal 0.999*v_eta1224*(2.0*v_dim-1.0)/v_dim
+
+variable eta1225 equal 2*(v_eta1212*v_eta2525)/(v_eta1212+v_eta2525)
+variable ksai1225 equal 0.999*v_eta1225*(2.0*v_dim-1.0)/v_dim
+
+variable eta1226 equal 2*(v_eta1212*v_eta2626)/(v_eta1212+v_eta2626)
+variable ksai1226 equal 0.999*v_eta1226*(2.0*v_dim-1.0)/v_dim
+
+variable eta1227 equal 2*(v_eta1212*v_eta2727)/(v_eta1212+v_eta2727)
+variable ksai1227 equal 0.999*v_eta1227*(2.0*v_dim-1.0)/v_dim
+
+variable eta1314 equal 2*(v_eta1313*v_eta1414)/(v_eta1313+v_eta1414)
+variable ksai1314 equal 0.999*v_eta1314*(2.0*v_dim-1.0)/v_dim
+
+variable eta1315 equal 2*(v_eta1313*v_eta1515)/(v_eta1313+v_eta1515)
+variable ksai1315 equal 0.999*v_eta1315*(2.0*v_dim-1.0)/v_dim
+
+variable eta1316 equal 2*(v_eta1313*v_eta1616)/(v_eta1313+v_eta1616)
+variable ksai1316 equal 0.999*v_eta1316*(2.0*v_dim-1.0)/v_dim
+
+variable eta1317 equal 2*(v_eta1313*v_eta1717)/(v_eta1313+v_eta1717)
+variable ksai1317 equal 0.999*v_eta1317*(2.0*v_dim-1.0)/v_dim
+
+variable eta1318 equal 2*(v_eta1313*v_eta1818)/(v_eta1313+v_eta1818)
+variable ksai1318 equal 0.999*v_eta1318*(2.0*v_dim-1.0)/v_dim
+
+variable eta1319 equal 2*(v_eta1313*v_eta1919)/(v_eta1313+v_eta1919)
+variable ksai1319 equal 0.999*v_eta1319*(2.0*v_dim-1.0)/v_dim
+
+variable eta1320 equal 2*(v_eta1313*v_eta2020)/(v_eta1313+v_eta2020)
+variable ksai1320 equal 0.999*v_eta1320*(2.0*v_dim-1.0)/v_dim
+
+variable eta1321 equal 2*(v_eta1313*v_eta2121)/(v_eta1313+v_eta2121)
+variable ksai1321 equal 0.999*v_eta1321*(2.0*v_dim-1.0)/v_dim
+
+variable eta1322 equal 2*(v_eta1313*v_eta2222)/(v_eta1313+v_eta2222)
+variable ksai1322 equal 0.999*v_eta1322*(2.0*v_dim-1.0)/v_dim
+
+variable eta1323 equal 2*(v_eta1313*v_eta2323)/(v_eta1313+v_eta2323)
+variable ksai1323 equal 0.999*v_eta1323*(2.0*v_dim-1.0)/v_dim
+
+variable eta1324 equal 2*(v_eta1313*v_eta2424)/(v_eta1313+v_eta2424)
+variable ksai1324 equal 0.999*v_eta1324*(2.0*v_dim-1.0)/v_dim
+
+variable eta1325 equal 2*(v_eta1313*v_eta2525)/(v_eta1313+v_eta2525)
+variable ksai1325 equal 0.999*v_eta1325*(2.0*v_dim-1.0)/v_dim
+
+variable eta1326 equal 2*(v_eta1313*v_eta2626)/(v_eta1313+v_eta2626)
+variable ksai1326 equal 0.999*v_eta1326*(2.0*v_dim-1.0)/v_dim
+
+variable eta1327 equal 2*(v_eta1313*v_eta2727)/(v_eta1313+v_eta2727)
+variable ksai1327 equal 0.999*v_eta1327*(2.0*v_dim-1.0)/v_dim
+
+variable eta1415 equal 2*(v_eta1414*v_eta1515)/(v_eta1414+v_eta1515)
+variable ksai1415 equal 0.999*v_eta1415*(2.0*v_dim-1.0)/v_dim
+
+variable eta1416 equal 2*(v_eta1414*v_eta1616)/(v_eta1414+v_eta1616)
+variable ksai1416 equal 0.999*v_eta1416*(2.0*v_dim-1.0)/v_dim
+
+variable eta1417 equal 2*(v_eta1414*v_eta1717)/(v_eta1414+v_eta1717)
+variable ksai1417 equal 0.999*v_eta1417*(2.0*v_dim-1.0)/v_dim
+
+variable eta1418 equal 2*(v_eta1414*v_eta1818)/(v_eta1414+v_eta1818)
+variable ksai1418 equal 0.999*v_eta1418*(2.0*v_dim-1.0)/v_dim
+
+variable eta1419 equal 2*(v_eta1414*v_eta1919)/(v_eta1414+v_eta1919)
+variable ksai1419 equal 0.999*v_eta1419*(2.0*v_dim-1.0)/v_dim
+
+variable eta1420 equal 2*(v_eta1414*v_eta2020)/(v_eta1414+v_eta2020)
+variable ksai1420 equal 0.999*v_eta1420*(2.0*v_dim-1.0)/v_dim
+
+variable eta1421 equal 2*(v_eta1414*v_eta2121)/(v_eta1414+v_eta2121)
+variable ksai1421 equal 0.999*v_eta1421*(2.0*v_dim-1.0)/v_dim
+
+variable eta1422 equal 2*(v_eta1414*v_eta2222)/(v_eta1414+v_eta2222)
+variable ksai1422 equal 0.999*v_eta1422*(2.0*v_dim-1.0)/v_dim
+
+variable eta1423 equal 2*(v_eta1414*v_eta2323)/(v_eta1414+v_eta2323)
+variable ksai1423 equal 0.999*v_eta1423*(2.0*v_dim-1.0)/v_dim
+
+variable eta1424 equal 2*(v_eta1414*v_eta2424)/(v_eta1414+v_eta2424)
+variable ksai1424 equal 0.999*v_eta1424*(2.0*v_dim-1.0)/v_dim
+
+variable eta1425 equal 2*(v_eta1414*v_eta2525)/(v_eta1414+v_eta2525)
+variable ksai1425 equal 0.999*v_eta1425*(2.0*v_dim-1.0)/v_dim
+
+variable eta1426 equal 2*(v_eta1414*v_eta2626)/(v_eta1414+v_eta2626)
+variable ksai1426 equal 0.999*v_eta1426*(2.0*v_dim-1.0)/v_dim
+
+variable eta1427 equal 2*(v_eta1414*v_eta2727)/(v_eta1414+v_eta2727)
+variable ksai1427 equal 0.999*v_eta1427*(2.0*v_dim-1.0)/v_dim
+
+variable eta1516 equal 2*(v_eta1515*v_eta1616)/(v_eta1515+v_eta1616)
+variable ksai1516 equal 0.999*v_eta1516*(2.0*v_dim-1.0)/v_dim
+
+variable eta1517 equal 2*(v_eta1515*v_eta1717)/(v_eta1515+v_eta1717)
+variable ksai1517 equal 0.999*v_eta1517*(2.0*v_dim-1.0)/v_dim
+
+variable eta1518 equal 2*(v_eta1515*v_eta1818)/(v_eta1515+v_eta1818)
+variable ksai1518 equal 0.999*v_eta1518*(2.0*v_dim-1.0)/v_dim
+
+variable eta1519 equal 2*(v_eta1515*v_eta1919)/(v_eta1515+v_eta1919)
+variable ksai1519 equal 0.999*v_eta1519*(2.0*v_dim-1.0)/v_dim
+
+variable eta1520 equal 2*(v_eta1515*v_eta2020)/(v_eta1515+v_eta2020)
+variable ksai1520 equal 0.999*v_eta1520*(2.0*v_dim-1.0)/v_dim
+
+variable eta1521 equal 2*(v_eta1515*v_eta2121)/(v_eta1515+v_eta2121)
+variable ksai1521 equal 0.999*v_eta1521*(2.0*v_dim-1.0)/v_dim
+
+variable eta1522 equal 2*(v_eta1515*v_eta2222)/(v_eta1515+v_eta2222)
+variable ksai1522 equal 0.999*v_eta1522*(2.0*v_dim-1.0)/v_dim
+
+variable eta1523 equal 2*(v_eta1515*v_eta2323)/(v_eta1515+v_eta2323)
+variable ksai1523 equal 0.999*v_eta1523*(2.0*v_dim-1.0)/v_dim
+
+variable eta1524 equal 2*(v_eta1515*v_eta2424)/(v_eta1515+v_eta2424)
+variable ksai1524 equal 0.999*v_eta1524*(2.0*v_dim-1.0)/v_dim
+
+variable eta1525 equal 2*(v_eta1515*v_eta2525)/(v_eta1515+v_eta2525)
+variable ksai1525 equal 0.999*v_eta1525*(2.0*v_dim-1.0)/v_dim
+
+variable eta1526 equal 2*(v_eta1515*v_eta2626)/(v_eta1515+v_eta2626)
+variable ksai1526 equal 0.999*v_eta1526*(2.0*v_dim-1.0)/v_dim
+
+variable eta1527 equal 2*(v_eta1515*v_eta2727)/(v_eta1515+v_eta2727)
+variable ksai1527 equal 0.999*v_eta1527*(2.0*v_dim-1.0)/v_dim
+
+variable eta1617 equal 2*(v_eta1616*v_eta1717)/(v_eta1616+v_eta1717)
+variable ksai1617 equal 0.999*v_eta1617*(2.0*v_dim-1.0)/v_dim
+
+variable eta1618 equal 2*(v_eta1616*v_eta1818)/(v_eta1616+v_eta1818)
+variable ksai1618 equal 0.999*v_eta1618*(2.0*v_dim-1.0)/v_dim
+
+variable eta1619 equal 2*(v_eta1616*v_eta1919)/(v_eta1616+v_eta1919)
+variable ksai1619 equal 0.999*v_eta1619*(2.0*v_dim-1.0)/v_dim
+
+variable eta1620 equal 2*(v_eta1616*v_eta2020)/(v_eta1616+v_eta2020)
+variable ksai1620 equal 0.999*v_eta1620*(2.0*v_dim-1.0)/v_dim
+
+variable eta1621 equal 2*(v_eta1616*v_eta2121)/(v_eta1616+v_eta2121)
+variable ksai1621 equal 0.999*v_eta1621*(2.0*v_dim-1.0)/v_dim
+
+variable eta1622 equal 2*(v_eta1616*v_eta2222)/(v_eta1616+v_eta2222)
+variable ksai1622 equal 0.999*v_eta1622*(2.0*v_dim-1.0)/v_dim
+
+variable eta1623 equal 2*(v_eta1616*v_eta2323)/(v_eta1616+v_eta2323)
+variable ksai1623 equal 0.999*v_eta1623*(2.0*v_dim-1.0)/v_dim
+
+variable eta1624 equal 2*(v_eta1616*v_eta2424)/(v_eta1616+v_eta2424)
+variable ksai1624 equal 0.999*v_eta1624*(2.0*v_dim-1.0)/v_dim
+
+variable eta1625 equal 2*(v_eta1616*v_eta2525)/(v_eta1616+v_eta2525)
+variable ksai1625 equal 0.999*v_eta1625*(2.0*v_dim-1.0)/v_dim
+
+variable eta1626 equal 2*(v_eta1616*v_eta2626)/(v_eta1616+v_eta2626)
+variable ksai1626 equal 0.999*v_eta1626*(2.0*v_dim-1.0)/v_dim
+
+variable eta1627 equal 2*(v_eta1616*v_eta2727)/(v_eta1616+v_eta2727)
+variable ksai1627 equal 0.999*v_eta1627*(2.0*v_dim-1.0)/v_dim
+
+variable eta1718 equal 2*(v_eta1717*v_eta1818)/(v_eta1717+v_eta1818)
+variable ksai1718 equal 0.999*v_eta1718*(2.0*v_dim-1.0)/v_dim
+
+variable eta1719 equal 2*(v_eta1717*v_eta1919)/(v_eta1717+v_eta1919)
+variable ksai1719 equal 0.999*v_eta1719*(2.0*v_dim-1.0)/v_dim
+
+variable eta1720 equal 2*(v_eta1717*v_eta2020)/(v_eta1717+v_eta2020)
+variable ksai1720 equal 0.999*v_eta1720*(2.0*v_dim-1.0)/v_dim
+
+variable eta1721 equal 2*(v_eta1717*v_eta2121)/(v_eta1717+v_eta2121)
+variable ksai1721 equal 0.999*v_eta1721*(2.0*v_dim-1.0)/v_dim
+
+variable eta1722 equal 2*(v_eta1717*v_eta2222)/(v_eta1717+v_eta2222)
+variable ksai1722 equal 0.999*v_eta1722*(2.0*v_dim-1.0)/v_dim
+
+variable eta1723 equal 2*(v_eta1717*v_eta2323)/(v_eta1717+v_eta2323)
+variable ksai1723 equal 0.999*v_eta1723*(2.0*v_dim-1.0)/v_dim
+
+variable eta1724 equal 2*(v_eta1717*v_eta2424)/(v_eta1717+v_eta2424)
+variable ksai1724 equal 0.999*v_eta1724*(2.0*v_dim-1.0)/v_dim
+
+variable eta1725 equal 2*(v_eta1717*v_eta2525)/(v_eta1717+v_eta2525)
+variable ksai1725 equal 0.999*v_eta1725*(2.0*v_dim-1.0)/v_dim
+
+variable eta1726 equal 2*(v_eta1717*v_eta2626)/(v_eta1717+v_eta2626)
+variable ksai1726 equal 0.999*v_eta1726*(2.0*v_dim-1.0)/v_dim
+
+variable eta1727 equal 2*(v_eta1717*v_eta2727)/(v_eta1717+v_eta2727)
+variable ksai1727 equal 0.999*v_eta1727*(2.0*v_dim-1.0)/v_dim
+
+variable eta1819 equal 2*(v_eta1818*v_eta1919)/(v_eta1818+v_eta1919)
+variable ksai1819 equal 0.999*v_eta1819*(2.0*v_dim-1.0)/v_dim
+
+variable eta1820 equal 2*(v_eta1818*v_eta2020)/(v_eta1818+v_eta2020)
+variable ksai1820 equal 0.999*v_eta1820*(2.0*v_dim-1.0)/v_dim
+
+variable eta1821 equal 2*(v_eta1818*v_eta2121)/(v_eta1818+v_eta2121)
+variable ksai1821 equal 0.999*v_eta1821*(2.0*v_dim-1.0)/v_dim
+
+variable eta1822 equal 2*(v_eta1818*v_eta2222)/(v_eta1818+v_eta2222)
+variable ksai1822 equal 0.999*v_eta1822*(2.0*v_dim-1.0)/v_dim
+
+variable eta1823 equal 2*(v_eta1818*v_eta2323)/(v_eta1818+v_eta2323)
+variable ksai1823 equal 0.999*v_eta1823*(2.0*v_dim-1.0)/v_dim
+
+variable eta1824 equal 2*(v_eta1818*v_eta2424)/(v_eta1818+v_eta2424)
+variable ksai1824 equal 0.999*v_eta1824*(2.0*v_dim-1.0)/v_dim
+
+variable eta1825 equal 2*(v_eta1818*v_eta2525)/(v_eta1818+v_eta2525)
+variable ksai1825 equal 0.999*v_eta1825*(2.0*v_dim-1.0)/v_dim
+
+variable eta1826 equal 2*(v_eta1818*v_eta2626)/(v_eta1818+v_eta2626)
+variable ksai1826 equal 0.999*v_eta1826*(2.0*v_dim-1.0)/v_dim
+
+variable eta1827 equal 2*(v_eta1818*v_eta2727)/(v_eta1818+v_eta2727)
+variable ksai1827 equal 0.999*v_eta1827*(2.0*v_dim-1.0)/v_dim
+
+variable eta1920 equal 2*(v_eta1919*v_eta2020)/(v_eta1919+v_eta2020)
+variable ksai1920 equal 0.999*v_eta1920*(2.0*v_dim-1.0)/v_dim
+
+variable eta1921 equal 2*(v_eta1919*v_eta2121)/(v_eta1919+v_eta2121)
+variable ksai1921 equal 0.999*v_eta1921*(2.0*v_dim-1.0)/v_dim
+
+variable eta1922 equal 2*(v_eta1919*v_eta2222)/(v_eta1919+v_eta2222)
+variable ksai1922 equal 0.999*v_eta1922*(2.0*v_dim-1.0)/v_dim
+
+variable eta1923 equal 2*(v_eta1919*v_eta2323)/(v_eta1919+v_eta2323)
+variable ksai1923 equal 0.999*v_eta1923*(2.0*v_dim-1.0)/v_dim
+
+variable eta1924 equal 2*(v_eta1919*v_eta2424)/(v_eta1919+v_eta2424)
+variable ksai1924 equal 0.999*v_eta1924*(2.0*v_dim-1.0)/v_dim
+
+variable eta1925 equal 2*(v_eta1919*v_eta2525)/(v_eta1919+v_eta2525)
+variable ksai1925 equal 0.999*v_eta1925*(2.0*v_dim-1.0)/v_dim
+
+variable eta1926 equal 2*(v_eta1919*v_eta2626)/(v_eta1919+v_eta2626)
+variable ksai1926 equal 0.999*v_eta1926*(2.0*v_dim-1.0)/v_dim
+
+variable eta1927 equal 2*(v_eta1919*v_eta2727)/(v_eta1919+v_eta2727)
+variable ksai1927 equal 0.999*v_eta1927*(2.0*v_dim-1.0)/v_dim
+
+variable eta2021 equal 2*(v_eta2020*v_eta2121)/(v_eta2020+v_eta2121)
+variable ksai2021 equal 0.999*v_eta2021*(2.0*v_dim-1.0)/v_dim
+
+variable eta2022 equal 2*(v_eta2020*v_eta2222)/(v_eta2020+v_eta2222)
+variable ksai2022 equal 0.999*v_eta2022*(2.0*v_dim-1.0)/v_dim
+
+variable eta2023 equal 2*(v_eta2020*v_eta2323)/(v_eta2020+v_eta2323)
+variable ksai2023 equal 0.999*v_eta2023*(2.0*v_dim-1.0)/v_dim
+
+variable eta2024 equal 2*(v_eta2020*v_eta2424)/(v_eta2020+v_eta2424)
+variable ksai2024 equal 0.999*v_eta2024*(2.0*v_dim-1.0)/v_dim
+
+variable eta2025 equal 2*(v_eta2020*v_eta2525)/(v_eta2020+v_eta2525)
+variable ksai2025 equal 0.999*v_eta2025*(2.0*v_dim-1.0)/v_dim
+
+variable eta2026 equal 2*(v_eta2020*v_eta2626)/(v_eta2020+v_eta2626)
+variable ksai2026 equal 0.999*v_eta2026*(2.0*v_dim-1.0)/v_dim
+
+variable eta2027 equal 2*(v_eta2020*v_eta2727)/(v_eta2020+v_eta2727)
+variable ksai2027 equal 0.999*v_eta2027*(2.0*v_dim-1.0)/v_dim
+
+variable eta2122 equal 2*(v_eta2121*v_eta2222)/(v_eta2121+v_eta2222)
+variable ksai2122 equal 0.999*v_eta2122*(2.0*v_dim-1.0)/v_dim
+
+variable eta2123 equal 2*(v_eta2121*v_eta2323)/(v_eta2121+v_eta2323)
+variable ksai2123 equal 0.999*v_eta2123*(2.0*v_dim-1.0)/v_dim
+
+variable eta2124 equal 2*(v_eta2121*v_eta2424)/(v_eta2121+v_eta2424)
+variable ksai2124 equal 0.999*v_eta2124*(2.0*v_dim-1.0)/v_dim
+
+variable eta2125 equal 2*(v_eta2121*v_eta2525)/(v_eta2121+v_eta2525)
+variable ksai2125 equal 0.999*v_eta2125*(2.0*v_dim-1.0)/v_dim
+
+variable eta2126 equal 2*(v_eta2121*v_eta2626)/(v_eta2121+v_eta2626)
+variable ksai2126 equal 0.999*v_eta2126*(2.0*v_dim-1.0)/v_dim
+
+variable eta2127 equal 2*(v_eta2121*v_eta2727)/(v_eta2121+v_eta2727)
+variable ksai2127 equal 0.999*v_eta2127*(2.0*v_dim-1.0)/v_dim
+
+variable eta2223 equal 2*(v_eta2222*v_eta2323)/(v_eta2222+v_eta2323)
+variable ksai2223 equal 0.999*v_eta2223*(2.0*v_dim-1.0)/v_dim
+
+variable eta2224 equal 2*(v_eta2222*v_eta2424)/(v_eta2222+v_eta2424)
+variable ksai2224 equal 0.999*v_eta2224*(2.0*v_dim-1.0)/v_dim
+
+variable eta2225 equal 2*(v_eta2222*v_eta2525)/(v_eta2222+v_eta2525)
+variable ksai2225 equal 0.999*v_eta2225*(2.0*v_dim-1.0)/v_dim
+
+variable eta2226 equal 2*(v_eta2222*v_eta2626)/(v_eta2222+v_eta2626)
+variable ksai2226 equal 0.999*v_eta2226*(2.0*v_dim-1.0)/v_dim
+
+variable eta2227 equal 2*(v_eta2222*v_eta2727)/(v_eta2222+v_eta2727)
+variable ksai2227 equal 0.999*v_eta2227*(2.0*v_dim-1.0)/v_dim
+
+variable eta2324 equal 2*(v_eta2323*v_eta2424)/(v_eta2323+v_eta2424)
+variable ksai2324 equal 0.999*v_eta2324*(2.0*v_dim-1.0)/v_dim
+
+variable eta2325 equal 2*(v_eta2323*v_eta2525)/(v_eta2323+v_eta2525)
+variable ksai2325 equal 0.999*v_eta2325*(2.0*v_dim-1.0)/v_dim
+
+variable eta2326 equal 2*(v_eta2323*v_eta2626)/(v_eta2323+v_eta2626)
+variable ksai2326 equal 0.999*v_eta2326*(2.0*v_dim-1.0)/v_dim
+
+variable eta2327 equal 2*(v_eta2323*v_eta2727)/(v_eta2323+v_eta2727)
+variable ksai2327 equal 0.999*v_eta2327*(2.0*v_dim-1.0)/v_dim
+
+variable eta2425 equal 2*(v_eta2424*v_eta2525)/(v_eta2424+v_eta2525)
+variable ksai2425 equal 0.999*v_eta2425*(2.0*v_dim-1.0)/v_dim
+
+variable eta2426 equal 2*(v_eta2424*v_eta2626)/(v_eta2424+v_eta2626)
+variable ksai2426 equal 0.999*v_eta2426*(2.0*v_dim-1.0)/v_dim
+
+variable eta2427 equal 2*(v_eta2424*v_eta2727)/(v_eta2424+v_eta2727)
+variable ksai2427 equal 0.999*v_eta2427*(2.0*v_dim-1.0)/v_dim
+
+variable eta2526 equal 2*(v_eta2525*v_eta2626)/(v_eta2525+v_eta2626)
+variable ksai2526 equal 0.999*v_eta2526*(2.0*v_dim-1.0)/v_dim
+
+variable eta2527 equal 2*(v_eta2525*v_eta2727)/(v_eta2525+v_eta2727)
+variable ksai2527 equal 0.999*v_eta2527*(2.0*v_dim-1.0)/v_dim
+
+variable eta2627 equal 2*(v_eta2626*v_eta2727)/(v_eta2626+v_eta2727)
+variable ksai2627 equal 0.999*v_eta2627*(2.0*v_dim-1.0)/v_dim
+

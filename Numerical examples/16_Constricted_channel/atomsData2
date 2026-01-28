@@ -1,0 +1,109 @@
+###### lattice variables
+
+variable        xbas equal 1.
+variable	ybas equal 1.94416
+variable 	zbas equal 1.83297
+variable 	pi_number equal 3.14159265358979323846
+
+### Variables for the global box
+variable	coreLz equal ${dh} 					#thicknes box n of rows
+variable	boxL equal ${coreL}
+
+variable 	Ny equal ${coreL}/${dh}			# box Y lenght
+variable 	Nx equal 160	 		# box X lenght
+variable 	Nz equal ${coreLz}/${dh}			# box z lenght
+
+# create geometry
+variable 	a equal  (${xbas}/${dh})^2.
+lattice		sq $a #${dh} #spacing .5 0.5 0.5
+
+region		box block 0 ${Nx} 0 ${Ny} 0 ${Nz} units lattice
+create_box	5 box
+create_atoms	1 box
+
+mass            * ${mass}
+
+##### BOUNDARIES ###############
+
+region	     reg_1 block INF 34 INF 38 INF INF units lattice 
+region	     reg_2 block INF 34 62 INF INF INF units lattice 
+region	     reg_3 block INF INF INF 20 INF INF units lattice 
+region	     reg_4 block INF INF 80 INF INF INF units lattice 
+region	     reg_5 block 125 INF INF 38 INF INF units lattice 
+region	     reg_6 block 125 INF 62 INF INF INF units lattice 
+
+#region	     reg_7 cone x 102 0 0 42 66 136 units lattice
+#region	     reg_8 cone x 8 0 0 32 82 136 units lattice
+
+
+delete_atoms region reg_1
+delete_atoms region reg_2
+delete_atoms region reg_3
+delete_atoms region reg_4
+delete_atoms region reg_5
+delete_atoms region reg_6
+#delete_atoms region reg_7
+#delete_atoms region reg_8
+
+region	     8 sphere 15 50 0.0 6 units lattice
+group	     cir_1 region 8
+region	     9 sphere 30 50 0.0 6 units lattice
+group	     cir_2 region 9
+region	     10 block 15 30 44 56 0 ${Nz} units lattice
+group	     square region 10
+
+group cir union cir_1 cir_2 square
+set group cir type 3
+
+### LEFT zone
+
+region	     4 block INF 39 58 INF INF INF units lattice
+group	     upper region 4
+
+region	     5 block INF 39 INF 42 INF INF units lattice
+group	     lower region 5
+
+region	     6 block 0 39 43 44 INF INF units lattice
+group	     ped_1 region 6
+
+region	     7 block 0 39 56 57 INF INF units lattice
+group	     ped_2 region 7
+
+region	     11 block 39 120 75 INF INF INF units lattice
+group	     ped_5 region 11
+
+region	     12 block 39 120 INF 25 INF INF units lattice
+group	     ped_6 region 12
+
+
+
+### MIRROR
+
+#region 22 cone x 97 0 0 42 66 136 units lattice
+#group cono_5 region 22
+
+#region 23 cone x 3 0 0 42 66 136 units lattice
+#group cono_6 region 23
+
+region	     24 block 120 INF 58 INF INF INF units lattice
+group	     upper_2 region 24
+
+region	     25 block 120 INF INF 42 INF INF units lattice
+group	     lower_2 region 25
+
+region	     26 block 120 180 43 44 INF INF units lattice
+group	     ped_3 region 26
+
+region	     27 block 120 180 56 57 INF INF units lattice
+group	     ped_4 region 27
+
+
+## Blocks
+
+
+group cones union upper lower upper_2 lower_2 ped_1 ped_2 ped_3 ped_4 ped_5 ped_6 
+set group cones type 2
+
+
+group	     flow subtract all cones
+

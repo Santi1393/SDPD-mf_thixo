@@ -1,0 +1,74 @@
+###### lattice variables
+
+variable        xbas equal 1.
+variable	ybas equal 1.94416
+variable 	zbas equal 1.83297
+variable 	pi_number equal 3.14159265358979323846
+
+### Variables for the global box
+variable	coreLz equal ${dh} 					#thicknes box n of rows
+variable	boxL equal ${coreL}
+
+variable 	Ny equal ${coreL}/${dh}			# box Y lenght
+variable 	Nx equal ${coreL}/${dh}	 		# box X lenght
+variable 	Nz equal ${coreLz}/${dh}			# box z lenght
+
+
+# create geometry
+variable 	a equal  (${xbas}/${dh})^2.
+lattice		sq $a #${dh} #spacing .5 0.5 0.5
+
+
+### Doplet Array Definition
+
+variable droplet_radius equal 4 
+variable num_droplets_x equal 5
+variable num_droplets_y equal 5 
+variable droplet_types equal ${num_droplets_x}*${num_droplets_y}+2
+variable spacing equal 16 
+
+region		box block 0 ${Nx} 0 ${Ny} 0 ${Nz} units lattice
+create_box	${droplet_types} box
+create_atoms	1 box
+
+##### Drop ARRAY ############## 
+
+    variable i loop ${num_droplets_x}
+    label loop_x4
+
+    variable j loop ${num_droplets_y}
+    label loop_y4
+       print "bucle atom"
+       variable x equal (${i}-1)*${spacing}+17
+       variable y equal (${j}-1)*${spacing}+17
+       region droplet_${i}_${j} sphere ${x} ${y} 0.0 ${droplet_radius}
+       
+       variable d_type equal (${i}-1)*${num_droplets_y}+${j}+2
+       set region droplet_${i}_${j} type ${d_type}
+
+    next j
+    jump SELF loop_y4	
+  
+    next i
+    jump SELF loop_x4
+
+
+##### BOUNDARIES ###############
+
+variable	BC_lower equal 9
+variable	BC_upper equal ${Ny}-10
+
+region	     1 block INF INF INF ${BC_lower} INF INF units lattice
+group	     lower region 1
+
+region	     2 block INF INF ${BC_upper} INF INF INF units lattice
+group	     upper region 2
+
+group	     boundary union lower upper
+group	     flow subtract all boundary
+
+set	     group boundary type 2
+
+
+mass            * ${mass}
+

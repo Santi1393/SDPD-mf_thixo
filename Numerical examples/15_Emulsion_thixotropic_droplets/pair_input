@@ -1,0 +1,703 @@
+pair_coeff 3 3 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta33} ${ksai33} ${wall_index11} ${a_thixo33} ${b_thixo33} ${alpha_thixo33} ${f0_thixo33} ${s33} 0.0 0 0
+pair_coeff 4 4 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta44} ${ksai44} ${wall_index11} ${a_thixo44} ${b_thixo44} ${alpha_thixo44} ${f0_thixo44} ${s44} 0.0 0 0
+pair_coeff 5 5 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta55} ${ksai55} ${wall_index11} ${a_thixo55} ${b_thixo55} ${alpha_thixo55} ${f0_thixo55} ${s55} 0.0 0 0
+pair_coeff 6 6 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta66} ${ksai66} ${wall_index11} ${a_thixo66} ${b_thixo66} ${alpha_thixo66} ${f0_thixo66} ${s66} 0.0 0 0
+pair_coeff 7 7 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta77} ${ksai77} ${wall_index11} ${a_thixo77} ${b_thixo77} ${alpha_thixo77} ${f0_thixo77} ${s77} 0.0 0 0
+pair_coeff 8 8 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta88} ${ksai88} ${wall_index11} ${a_thixo88} ${b_thixo88} ${alpha_thixo88} ${f0_thixo88} ${s88} 0.0 0 0
+pair_coeff 9 9 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta99} ${ksai99} ${wall_index11} ${a_thixo99} ${b_thixo99} ${alpha_thixo99} ${f0_thixo99} ${s99} 0.0 0 0
+pair_coeff 10 10 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1010} ${ksai1010} ${wall_index11} ${a_thixo1010} ${b_thixo1010} ${alpha_thixo1010} ${f0_thixo1010} ${s1010} 0.0 0 0
+pair_coeff 11 11 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1111} ${ksai1111} ${wall_index11} ${a_thixo1111} ${b_thixo1111} ${alpha_thixo1111} ${f0_thixo1111} ${s1111} 0.0 0 0
+pair_coeff 12 12 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1212} ${ksai1212} ${wall_index11} ${a_thixo1212} ${b_thixo1212} ${alpha_thixo1212} ${f0_thixo1212} ${s1212} 0.0 0 0
+pair_coeff 13 13 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1313} ${ksai1313} ${wall_index11} ${a_thixo1313} ${b_thixo1313} ${alpha_thixo1313} ${f0_thixo1313} ${s1313} 0.0 0 0
+pair_coeff 14 14 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1414} ${ksai1414} ${wall_index11} ${a_thixo1414} ${b_thixo1414} ${alpha_thixo1414} ${f0_thixo1414} ${s1414} 0.0 0 0
+pair_coeff 15 15 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1515} ${ksai1515} ${wall_index11} ${a_thixo1515} ${b_thixo1515} ${alpha_thixo1515} ${f0_thixo1515} ${s1515} 0.0 0 0
+pair_coeff 16 16 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1616} ${ksai1616} ${wall_index11} ${a_thixo1616} ${b_thixo1616} ${alpha_thixo1616} ${f0_thixo1616} ${s1616} 0.0 0 0
+pair_coeff 17 17 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1717} ${ksai1717} ${wall_index11} ${a_thixo1717} ${b_thixo1717} ${alpha_thixo1717} ${f0_thixo1717} ${s1717} 0.0 0 0
+pair_coeff 18 18 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1818} ${ksai1818} ${wall_index11} ${a_thixo1818} ${b_thixo1818} ${alpha_thixo1818} ${f0_thixo1818} ${s1818} 0.0 0 0
+pair_coeff 19 19 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1919} ${ksai1919} ${wall_index11} ${a_thixo1919} ${b_thixo1919} ${alpha_thixo1919} ${f0_thixo1919} ${s1919} 0.0 0 0
+pair_coeff 20 20 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta2020} ${ksai2020} ${wall_index11} ${a_thixo2020} ${b_thixo2020} ${alpha_thixo2020} ${f0_thixo2020} ${s2020} 0.0 0 0
+pair_coeff 21 21 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta2121} ${ksai2121} ${wall_index11} ${a_thixo2121} ${b_thixo2121} ${alpha_thixo2121} ${f0_thixo2121} ${s2121} 0.0 0 0
+pair_coeff 22 22 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta2222} ${ksai2222} ${wall_index11} ${a_thixo2222} ${b_thixo2222} ${alpha_thixo2222} ${f0_thixo2222} ${s2222} 0.0 0 0
+pair_coeff 23 23 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta2323} ${ksai2323} ${wall_index11} ${a_thixo2323} ${b_thixo2323} ${alpha_thixo2323} ${f0_thixo2323} ${s2323} 0.0 0 0
+pair_coeff 24 24 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta2424} ${ksai2424} ${wall_index11} ${a_thixo2424} ${b_thixo2424} ${alpha_thixo2424} ${f0_thixo2424} ${s2424} 0.0 0 0
+pair_coeff 25 25 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta2525} ${ksai2525} ${wall_index11} ${a_thixo2525} ${b_thixo2525} ${alpha_thixo2525} ${f0_thixo2525} ${s2525} 0.0 0 0
+pair_coeff 26 26 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta2626} ${ksai2626} ${wall_index11} ${a_thixo2626} ${b_thixo2626} ${alpha_thixo2626} ${f0_thixo2626} ${s2626} 0.0 0 0
+pair_coeff 27 27 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta2727} ${ksai2727} ${wall_index11} ${a_thixo2727} ${b_thixo2727} ${alpha_thixo2727} ${f0_thixo2727} ${s2727} 0.0 0 0
+
+pair_coeff 1 3 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta13} ${ksai13} ${wall_index11} ${a_thixo13} ${b_thixo13} ${alpha_thixo13} ${f0_thixo13} ${s13} 0.0 0 0
+pair_coeff 1 4 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta14} ${ksai14} ${wall_index11} ${a_thixo14} ${b_thixo14} ${alpha_thixo14} ${f0_thixo14} ${s14} 0.0 0 0
+pair_coeff 1 5 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta15} ${ksai15} ${wall_index11} ${a_thixo15} ${b_thixo15} ${alpha_thixo15} ${f0_thixo15} ${s15} 0.0 0 0
+pair_coeff 1 6 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta16} ${ksai16} ${wall_index11} ${a_thixo16} ${b_thixo16} ${alpha_thixo16} ${f0_thixo16} ${s16} 0.0 0 0
+pair_coeff 1 7 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta17} ${ksai17} ${wall_index11} ${a_thixo17} ${b_thixo17} ${alpha_thixo17} ${f0_thixo17} ${s17} 0.0 0 0
+pair_coeff 1 8 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta18} ${ksai18} ${wall_index11} ${a_thixo18} ${b_thixo18} ${alpha_thixo18} ${f0_thixo18} ${s18} 0.0 0 0
+pair_coeff 1 9 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta19} ${ksai19} ${wall_index11} ${a_thixo19} ${b_thixo19} ${alpha_thixo19} ${f0_thixo19} ${s19} 0.0 0 0
+pair_coeff 1 10 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta110} ${ksai110} ${wall_index11} ${a_thixo110} ${b_thixo110} ${alpha_thixo110} ${f0_thixo110} ${s110} 0.0 0 0
+pair_coeff 1 11 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta111} ${ksai111} ${wall_index11} ${a_thixo111} ${b_thixo111} ${alpha_thixo111} ${f0_thixo111} ${s111} 0.0 0 0
+pair_coeff 1 12 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta112} ${ksai112} ${wall_index11} ${a_thixo112} ${b_thixo112} ${alpha_thixo112} ${f0_thixo112} ${s112} 0.0 0 0
+pair_coeff 1 13 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta113} ${ksai113} ${wall_index11} ${a_thixo113} ${b_thixo113} ${alpha_thixo113} ${f0_thixo113} ${s113} 0.0 0 0
+pair_coeff 1 14 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta114} ${ksai114} ${wall_index11} ${a_thixo114} ${b_thixo114} ${alpha_thixo114} ${f0_thixo114} ${s114} 0.0 0 0
+pair_coeff 1 15 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta115} ${ksai115} ${wall_index11} ${a_thixo115} ${b_thixo115} ${alpha_thixo115} ${f0_thixo115} ${s115} 0.0 0 0
+pair_coeff 1 16 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta116} ${ksai116} ${wall_index11} ${a_thixo116} ${b_thixo116} ${alpha_thixo116} ${f0_thixo116} ${s116} 0.0 0 0
+pair_coeff 1 17 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta117} ${ksai117} ${wall_index11} ${a_thixo117} ${b_thixo117} ${alpha_thixo117} ${f0_thixo117} ${s117} 0.0 0 0
+pair_coeff 1 18 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta118} ${ksai118} ${wall_index11} ${a_thixo118} ${b_thixo118} ${alpha_thixo118} ${f0_thixo118} ${s118} 0.0 0 0
+pair_coeff 1 19 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta119} ${ksai119} ${wall_index11} ${a_thixo119} ${b_thixo119} ${alpha_thixo119} ${f0_thixo119} ${s119} 0.0 0 0
+pair_coeff 1 20 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta120} ${ksai120} ${wall_index11} ${a_thixo120} ${b_thixo120} ${alpha_thixo120} ${f0_thixo120} ${s120} 0.0 0 0
+pair_coeff 1 21 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta121} ${ksai121} ${wall_index11} ${a_thixo121} ${b_thixo121} ${alpha_thixo121} ${f0_thixo121} ${s121} 0.0 0 0
+pair_coeff 1 22 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta122} ${ksai122} ${wall_index11} ${a_thixo122} ${b_thixo122} ${alpha_thixo122} ${f0_thixo122} ${s122} 0.0 0 0
+pair_coeff 1 23 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta123} ${ksai123} ${wall_index11} ${a_thixo123} ${b_thixo123} ${alpha_thixo123} ${f0_thixo123} ${s123} 0.0 0 0
+pair_coeff 1 24 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta124} ${ksai124} ${wall_index11} ${a_thixo124} ${b_thixo124} ${alpha_thixo124} ${f0_thixo124} ${s124} 0.0 0 0
+pair_coeff 1 25 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta125} ${ksai125} ${wall_index11} ${a_thixo125} ${b_thixo125} ${alpha_thixo125} ${f0_thixo125} ${s125} 0.0 0 0
+pair_coeff 1 26 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta126} ${ksai126} ${wall_index11} ${a_thixo126} ${b_thixo126} ${alpha_thixo126} ${f0_thixo126} ${s126} 0.0 0 0
+pair_coeff 1 27 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta127} ${ksai127} ${wall_index11} ${a_thixo127} ${b_thixo127} ${alpha_thixo127} ${f0_thixo127} ${s127} 0.0 0 0
+
+pair_coeff 2 3 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta13} ${ksai13} ${wall_index11} ${a_thixo13} ${b_thixo13} ${alpha_thixo13} ${f0_thixo13} ${s13} 0.0 0 0
+pair_coeff 2 4 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta14} ${ksai14} ${wall_index11} ${a_thixo14} ${b_thixo14} ${alpha_thixo14} ${f0_thixo14} ${s14} 0.0 0 0
+pair_coeff 2 5 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta15} ${ksai15} ${wall_index11} ${a_thixo15} ${b_thixo15} ${alpha_thixo15} ${f0_thixo15} ${s15} 0.0 0 0
+pair_coeff 2 6 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta16} ${ksai16} ${wall_index11} ${a_thixo16} ${b_thixo16} ${alpha_thixo16} ${f0_thixo16} ${s16} 0.0 0 0
+pair_coeff 2 7 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta17} ${ksai17} ${wall_index11} ${a_thixo17} ${b_thixo17} ${alpha_thixo17} ${f0_thixo17} ${s17} 0.0 0 0
+pair_coeff 2 8 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta18} ${ksai18} ${wall_index11} ${a_thixo18} ${b_thixo18} ${alpha_thixo18} ${f0_thixo18} ${s18} 0.0 0 0
+pair_coeff 2 9 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta19} ${ksai19} ${wall_index11} ${a_thixo19} ${b_thixo19} ${alpha_thixo19} ${f0_thixo19} ${s19} 0.0 0 0
+pair_coeff 2 10 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta110} ${ksai110} ${wall_index11} ${a_thixo110} ${b_thixo110} ${alpha_thixo110} ${f0_thixo110} ${s110} 0.0 0 0
+pair_coeff 2 11 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta111} ${ksai111} ${wall_index11} ${a_thixo111} ${b_thixo111} ${alpha_thixo111} ${f0_thixo111} ${s111} 0.0 0 0
+pair_coeff 2 12 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta112} ${ksai112} ${wall_index11} ${a_thixo112} ${b_thixo112} ${alpha_thixo112} ${f0_thixo112} ${s112} 0.0 0 0
+pair_coeff 2 13 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta113} ${ksai113} ${wall_index11} ${a_thixo113} ${b_thixo113} ${alpha_thixo113} ${f0_thixo113} ${s113} 0.0 0 0
+pair_coeff 2 14 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta114} ${ksai114} ${wall_index11} ${a_thixo114} ${b_thixo114} ${alpha_thixo114} ${f0_thixo114} ${s114} 0.0 0 0
+pair_coeff 2 15 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta115} ${ksai115} ${wall_index11} ${a_thixo115} ${b_thixo115} ${alpha_thixo115} ${f0_thixo115} ${s115} 0.0 0 0
+pair_coeff 2 16 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta116} ${ksai116} ${wall_index11} ${a_thixo116} ${b_thixo116} ${alpha_thixo116} ${f0_thixo116} ${s116} 0.0 0 0
+pair_coeff 2 17 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta117} ${ksai117} ${wall_index11} ${a_thixo117} ${b_thixo117} ${alpha_thixo117} ${f0_thixo117} ${s117} 0.0 0 0
+pair_coeff 2 18 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta118} ${ksai118} ${wall_index11} ${a_thixo118} ${b_thixo118} ${alpha_thixo118} ${f0_thixo118} ${s118} 0.0 0 0
+pair_coeff 2 19 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta119} ${ksai119} ${wall_index11} ${a_thixo119} ${b_thixo119} ${alpha_thixo119} ${f0_thixo119} ${s119} 0.0 0 0
+pair_coeff 2 20 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta120} ${ksai120} ${wall_index11} ${a_thixo120} ${b_thixo120} ${alpha_thixo120} ${f0_thixo120} ${s120} 0.0 0 0
+pair_coeff 2 21 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta121} ${ksai121} ${wall_index11} ${a_thixo121} ${b_thixo121} ${alpha_thixo121} ${f0_thixo121} ${s121} 0.0 0 0
+pair_coeff 2 22 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta122} ${ksai122} ${wall_index11} ${a_thixo122} ${b_thixo122} ${alpha_thixo122} ${f0_thixo122} ${s122} 0.0 0 0
+pair_coeff 2 23 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta123} ${ksai123} ${wall_index11} ${a_thixo123} ${b_thixo123} ${alpha_thixo123} ${f0_thixo123} ${s123} 0.0 0 0
+pair_coeff 2 24 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta124} ${ksai124} ${wall_index11} ${a_thixo124} ${b_thixo124} ${alpha_thixo124} ${f0_thixo124} ${s124} 0.0 0 0
+pair_coeff 2 25 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta125} ${ksai125} ${wall_index11} ${a_thixo125} ${b_thixo125} ${alpha_thixo125} ${f0_thixo125} ${s125} 0.0 0 0
+pair_coeff 2 26 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta126} ${ksai126} ${wall_index11} ${a_thixo126} ${b_thixo126} ${alpha_thixo126} ${f0_thixo126} ${s126} 0.0 0 0
+pair_coeff 2 27 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta127} ${ksai127} ${wall_index11} ${a_thixo127} ${b_thixo127} ${alpha_thixo127} ${f0_thixo127} ${s127} 0.0 0 0
+
+pair_coeff 3 4 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta34} ${ksai34} ${wall_index11} ${a_thixo34} ${b_thixo34} ${alpha_thixo34} ${f0_thixo34} ${s34} 0.0 0 0
+pair_coeff 3 5 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta35} ${ksai35} ${wall_index11} ${a_thixo35} ${b_thixo35} ${alpha_thixo35} ${f0_thixo35} ${s35} 0.0 0 0
+pair_coeff 3 6 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta36} ${ksai36} ${wall_index11} ${a_thixo36} ${b_thixo36} ${alpha_thixo36} ${f0_thixo36} ${s36} 0.0 0 0
+pair_coeff 3 7 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta37} ${ksai37} ${wall_index11} ${a_thixo37} ${b_thixo37} ${alpha_thixo37} ${f0_thixo37} ${s37} 0.0 0 0
+pair_coeff 3 8 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta38} ${ksai38} ${wall_index11} ${a_thixo38} ${b_thixo38} ${alpha_thixo38} ${f0_thixo38} ${s38} 0.0 0 0
+pair_coeff 3 9 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta39} ${ksai39} ${wall_index11} ${a_thixo39} ${b_thixo39} ${alpha_thixo39} ${f0_thixo39} ${s39} 0.0 0 0
+pair_coeff 3 10 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta310} ${ksai310} ${wall_index11} ${a_thixo310} ${b_thixo310} ${alpha_thixo310} ${f0_thixo310} ${s310} 0.0 0 0
+pair_coeff 3 11 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta311} ${ksai311} ${wall_index11} ${a_thixo311} ${b_thixo311} ${alpha_thixo311} ${f0_thixo311} ${s311} 0.0 0 0
+pair_coeff 3 12 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta312} ${ksai312} ${wall_index11} ${a_thixo312} ${b_thixo312} ${alpha_thixo312} ${f0_thixo312} ${s312} 0.0 0 0
+pair_coeff 3 13 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta313} ${ksai313} ${wall_index11} ${a_thixo313} ${b_thixo313} ${alpha_thixo313} ${f0_thixo313} ${s313} 0.0 0 0
+pair_coeff 3 14 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta314} ${ksai314} ${wall_index11} ${a_thixo314} ${b_thixo314} ${alpha_thixo314} ${f0_thixo314} ${s314} 0.0 0 0
+pair_coeff 3 15 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta315} ${ksai315} ${wall_index11} ${a_thixo315} ${b_thixo315} ${alpha_thixo315} ${f0_thixo315} ${s315} 0.0 0 0
+pair_coeff 3 16 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta316} ${ksai316} ${wall_index11} ${a_thixo316} ${b_thixo316} ${alpha_thixo316} ${f0_thixo316} ${s316} 0.0 0 0
+pair_coeff 3 17 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta317} ${ksai317} ${wall_index11} ${a_thixo317} ${b_thixo317} ${alpha_thixo317} ${f0_thixo317} ${s317} 0.0 0 0
+pair_coeff 3 18 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta318} ${ksai318} ${wall_index11} ${a_thixo318} ${b_thixo318} ${alpha_thixo318} ${f0_thixo318} ${s318} 0.0 0 0
+pair_coeff 3 19 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta319} ${ksai319} ${wall_index11} ${a_thixo319} ${b_thixo319} ${alpha_thixo319} ${f0_thixo319} ${s319} 0.0 0 0
+pair_coeff 3 20 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta320} ${ksai320} ${wall_index11} ${a_thixo320} ${b_thixo320} ${alpha_thixo320} ${f0_thixo320} ${s320} 0.0 0 0
+pair_coeff 3 21 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta321} ${ksai321} ${wall_index11} ${a_thixo321} ${b_thixo321} ${alpha_thixo321} ${f0_thixo321} ${s321} 0.0 0 0
+pair_coeff 3 22 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta322} ${ksai322} ${wall_index11} ${a_thixo322} ${b_thixo322} ${alpha_thixo322} ${f0_thixo322} ${s322} 0.0 0 0
+pair_coeff 3 23 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta323} ${ksai323} ${wall_index11} ${a_thixo323} ${b_thixo323} ${alpha_thixo323} ${f0_thixo323} ${s323} 0.0 0 0
+pair_coeff 3 24 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta324} ${ksai324} ${wall_index11} ${a_thixo324} ${b_thixo324} ${alpha_thixo324} ${f0_thixo324} ${s324} 0.0 0 0
+pair_coeff 3 25 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta325} ${ksai325} ${wall_index11} ${a_thixo325} ${b_thixo325} ${alpha_thixo325} ${f0_thixo325} ${s325} 0.0 0 0
+pair_coeff 3 26 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta326} ${ksai326} ${wall_index11} ${a_thixo326} ${b_thixo326} ${alpha_thixo326} ${f0_thixo326} ${s326} 0.0 0 0
+pair_coeff 3 27 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta327} ${ksai327} ${wall_index11} ${a_thixo327} ${b_thixo327} ${alpha_thixo327} ${f0_thixo327} ${s327} 0.0 0 0
+pair_coeff 4 5 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta45} ${ksai45} ${wall_index11} ${a_thixo45} ${b_thixo45} ${alpha_thixo45} ${f0_thixo45} ${s45} 0.0 0 0
+pair_coeff 4 6 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta46} ${ksai46} ${wall_index11} ${a_thixo46} ${b_thixo46} ${alpha_thixo46} ${f0_thixo46} ${s46} 0.0 0 0
+pair_coeff 4 7 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta47} ${ksai47} ${wall_index11} ${a_thixo47} ${b_thixo47} ${alpha_thixo47} ${f0_thixo47} ${s47} 0.0 0 0
+pair_coeff 4 8 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta48} ${ksai48} ${wall_index11} ${a_thixo48} ${b_thixo48} ${alpha_thixo48} ${f0_thixo48} ${s48} 0.0 0 0
+pair_coeff 4 9 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta49} ${ksai49} ${wall_index11} ${a_thixo49} ${b_thixo49} ${alpha_thixo49} ${f0_thixo49} ${s49} 0.0 0 0
+pair_coeff 4 10 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta410} ${ksai410} ${wall_index11} ${a_thixo410} ${b_thixo410} ${alpha_thixo410} ${f0_thixo410} ${s410} 0.0 0 0
+pair_coeff 4 11 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta411} ${ksai411} ${wall_index11} ${a_thixo411} ${b_thixo411} ${alpha_thixo411} ${f0_thixo411} ${s411} 0.0 0 0
+pair_coeff 4 12 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta412} ${ksai412} ${wall_index11} ${a_thixo412} ${b_thixo412} ${alpha_thixo412} ${f0_thixo412} ${s412} 0.0 0 0
+pair_coeff 4 13 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta413} ${ksai413} ${wall_index11} ${a_thixo413} ${b_thixo413} ${alpha_thixo413} ${f0_thixo413} ${s413} 0.0 0 0
+pair_coeff 4 14 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta414} ${ksai414} ${wall_index11} ${a_thixo414} ${b_thixo414} ${alpha_thixo414} ${f0_thixo414} ${s414} 0.0 0 0
+pair_coeff 4 15 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta415} ${ksai415} ${wall_index11} ${a_thixo415} ${b_thixo415} ${alpha_thixo415} ${f0_thixo415} ${s415} 0.0 0 0
+pair_coeff 4 16 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta416} ${ksai416} ${wall_index11} ${a_thixo416} ${b_thixo416} ${alpha_thixo416} ${f0_thixo416} ${s416} 0.0 0 0
+pair_coeff 4 17 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta417} ${ksai417} ${wall_index11} ${a_thixo417} ${b_thixo417} ${alpha_thixo417} ${f0_thixo417} ${s417} 0.0 0 0
+pair_coeff 4 18 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta418} ${ksai418} ${wall_index11} ${a_thixo418} ${b_thixo418} ${alpha_thixo418} ${f0_thixo418} ${s418} 0.0 0 0
+pair_coeff 4 19 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta419} ${ksai419} ${wall_index11} ${a_thixo419} ${b_thixo419} ${alpha_thixo419} ${f0_thixo419} ${s419} 0.0 0 0
+pair_coeff 4 20 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta420} ${ksai420} ${wall_index11} ${a_thixo420} ${b_thixo420} ${alpha_thixo420} ${f0_thixo420} ${s420} 0.0 0 0
+pair_coeff 4 21 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta421} ${ksai421} ${wall_index11} ${a_thixo421} ${b_thixo421} ${alpha_thixo421} ${f0_thixo421} ${s421} 0.0 0 0
+pair_coeff 4 22 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta422} ${ksai422} ${wall_index11} ${a_thixo422} ${b_thixo422} ${alpha_thixo422} ${f0_thixo422} ${s422} 0.0 0 0
+pair_coeff 4 23 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta423} ${ksai423} ${wall_index11} ${a_thixo423} ${b_thixo423} ${alpha_thixo423} ${f0_thixo423} ${s423} 0.0 0 0
+pair_coeff 4 24 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta424} ${ksai424} ${wall_index11} ${a_thixo424} ${b_thixo424} ${alpha_thixo424} ${f0_thixo424} ${s424} 0.0 0 0
+pair_coeff 4 25 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta425} ${ksai425} ${wall_index11} ${a_thixo425} ${b_thixo425} ${alpha_thixo425} ${f0_thixo425} ${s425} 0.0 0 0
+pair_coeff 4 26 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta426} ${ksai426} ${wall_index11} ${a_thixo426} ${b_thixo426} ${alpha_thixo426} ${f0_thixo426} ${s426} 0.0 0 0
+pair_coeff 4 27 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta427} ${ksai427} ${wall_index11} ${a_thixo427} ${b_thixo427} ${alpha_thixo427} ${f0_thixo427} ${s427} 0.0 0 0
+pair_coeff 5 6 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta56} ${ksai56} ${wall_index11} ${a_thixo56} ${b_thixo56} ${alpha_thixo56} ${f0_thixo56} ${s56} 0.0 0 0
+pair_coeff 5 7 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta57} ${ksai57} ${wall_index11} ${a_thixo57} ${b_thixo57} ${alpha_thixo57} ${f0_thixo57} ${s57} 0.0 0 0
+pair_coeff 5 8 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta58} ${ksai58} ${wall_index11} ${a_thixo58} ${b_thixo58} ${alpha_thixo58} ${f0_thixo58} ${s58} 0.0 0 0
+pair_coeff 5 9 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta59} ${ksai59} ${wall_index11} ${a_thixo59} ${b_thixo59} ${alpha_thixo59} ${f0_thixo59} ${s59} 0.0 0 0
+pair_coeff 5 10 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta510} ${ksai510} ${wall_index11} ${a_thixo510} ${b_thixo510} ${alpha_thixo510} ${f0_thixo510} ${s510} 0.0 0 0
+pair_coeff 5 11 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta511} ${ksai511} ${wall_index11} ${a_thixo511} ${b_thixo511} ${alpha_thixo511} ${f0_thixo511} ${s511} 0.0 0 0
+pair_coeff 5 12 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta512} ${ksai512} ${wall_index11} ${a_thixo512} ${b_thixo512} ${alpha_thixo512} ${f0_thixo512} ${s512} 0.0 0 0
+pair_coeff 5 13 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta513} ${ksai513} ${wall_index11} ${a_thixo513} ${b_thixo513} ${alpha_thixo513} ${f0_thixo513} ${s513} 0.0 0 0
+pair_coeff 5 14 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta514} ${ksai514} ${wall_index11} ${a_thixo514} ${b_thixo514} ${alpha_thixo514} ${f0_thixo514} ${s514} 0.0 0 0
+pair_coeff 5 15 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta515} ${ksai515} ${wall_index11} ${a_thixo515} ${b_thixo515} ${alpha_thixo515} ${f0_thixo515} ${s515} 0.0 0 0
+pair_coeff 5 16 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta516} ${ksai516} ${wall_index11} ${a_thixo516} ${b_thixo516} ${alpha_thixo516} ${f0_thixo516} ${s516} 0.0 0 0
+pair_coeff 5 17 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta517} ${ksai517} ${wall_index11} ${a_thixo517} ${b_thixo517} ${alpha_thixo517} ${f0_thixo517} ${s517} 0.0 0 0
+pair_coeff 5 18 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta518} ${ksai518} ${wall_index11} ${a_thixo518} ${b_thixo518} ${alpha_thixo518} ${f0_thixo518} ${s518} 0.0 0 0
+pair_coeff 5 19 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta519} ${ksai519} ${wall_index11} ${a_thixo519} ${b_thixo519} ${alpha_thixo519} ${f0_thixo519} ${s519} 0.0 0 0
+pair_coeff 5 20 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta520} ${ksai520} ${wall_index11} ${a_thixo520} ${b_thixo520} ${alpha_thixo520} ${f0_thixo520} ${s520} 0.0 0 0
+pair_coeff 5 21 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta521} ${ksai521} ${wall_index11} ${a_thixo521} ${b_thixo521} ${alpha_thixo521} ${f0_thixo521} ${s521} 0.0 0 0
+pair_coeff 5 22 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta522} ${ksai522} ${wall_index11} ${a_thixo522} ${b_thixo522} ${alpha_thixo522} ${f0_thixo522} ${s522} 0.0 0 0
+pair_coeff 5 23 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta523} ${ksai523} ${wall_index11} ${a_thixo523} ${b_thixo523} ${alpha_thixo523} ${f0_thixo523} ${s523} 0.0 0 0
+pair_coeff 5 24 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta524} ${ksai524} ${wall_index11} ${a_thixo524} ${b_thixo524} ${alpha_thixo524} ${f0_thixo524} ${s524} 0.0 0 0
+pair_coeff 5 25 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta525} ${ksai525} ${wall_index11} ${a_thixo525} ${b_thixo525} ${alpha_thixo525} ${f0_thixo525} ${s525} 0.0 0 0
+pair_coeff 5 26 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta526} ${ksai526} ${wall_index11} ${a_thixo526} ${b_thixo526} ${alpha_thixo526} ${f0_thixo526} ${s526} 0.0 0 0
+pair_coeff 5 27 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta527} ${ksai527} ${wall_index11} ${a_thixo527} ${b_thixo527} ${alpha_thixo527} ${f0_thixo527} ${s527} 0.0 0 0
+pair_coeff 6 7 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta67} ${ksai67} ${wall_index11} ${a_thixo67} ${b_thixo67} ${alpha_thixo67} ${f0_thixo67} ${s67} 0.0 0 0
+pair_coeff 6 8 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta68} ${ksai68} ${wall_index11} ${a_thixo68} ${b_thixo68} ${alpha_thixo68} ${f0_thixo68} ${s68} 0.0 0 0
+pair_coeff 6 9 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta69} ${ksai69} ${wall_index11} ${a_thixo69} ${b_thixo69} ${alpha_thixo69} ${f0_thixo69} ${s69} 0.0 0 0
+pair_coeff 6 10 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta610} ${ksai610} ${wall_index11} ${a_thixo610} ${b_thixo610} ${alpha_thixo610} ${f0_thixo610} ${s610} 0.0 0 0
+pair_coeff 6 11 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta611} ${ksai611} ${wall_index11} ${a_thixo611} ${b_thixo611} ${alpha_thixo611} ${f0_thixo611} ${s611} 0.0 0 0
+pair_coeff 6 12 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta612} ${ksai612} ${wall_index11} ${a_thixo612} ${b_thixo612} ${alpha_thixo612} ${f0_thixo612} ${s612} 0.0 0 0
+pair_coeff 6 13 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta613} ${ksai613} ${wall_index11} ${a_thixo613} ${b_thixo613} ${alpha_thixo613} ${f0_thixo613} ${s613} 0.0 0 0
+pair_coeff 6 14 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta614} ${ksai614} ${wall_index11} ${a_thixo614} ${b_thixo614} ${alpha_thixo614} ${f0_thixo614} ${s614} 0.0 0 0
+pair_coeff 6 15 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta615} ${ksai615} ${wall_index11} ${a_thixo615} ${b_thixo615} ${alpha_thixo615} ${f0_thixo615} ${s615} 0.0 0 0
+pair_coeff 6 16 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta616} ${ksai616} ${wall_index11} ${a_thixo616} ${b_thixo616} ${alpha_thixo616} ${f0_thixo616} ${s616} 0.0 0 0
+pair_coeff 6 17 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta617} ${ksai617} ${wall_index11} ${a_thixo617} ${b_thixo617} ${alpha_thixo617} ${f0_thixo617} ${s617} 0.0 0 0
+pair_coeff 6 18 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta618} ${ksai618} ${wall_index11} ${a_thixo618} ${b_thixo618} ${alpha_thixo618} ${f0_thixo618} ${s618} 0.0 0 0
+pair_coeff 6 19 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta619} ${ksai619} ${wall_index11} ${a_thixo619} ${b_thixo619} ${alpha_thixo619} ${f0_thixo619} ${s619} 0.0 0 0
+pair_coeff 6 20 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta620} ${ksai620} ${wall_index11} ${a_thixo620} ${b_thixo620} ${alpha_thixo620} ${f0_thixo620} ${s620} 0.0 0 0
+pair_coeff 6 21 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta621} ${ksai621} ${wall_index11} ${a_thixo621} ${b_thixo621} ${alpha_thixo621} ${f0_thixo621} ${s621} 0.0 0 0
+pair_coeff 6 22 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta622} ${ksai622} ${wall_index11} ${a_thixo622} ${b_thixo622} ${alpha_thixo622} ${f0_thixo622} ${s622} 0.0 0 0
+pair_coeff 6 23 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta623} ${ksai623} ${wall_index11} ${a_thixo623} ${b_thixo623} ${alpha_thixo623} ${f0_thixo623} ${s623} 0.0 0 0
+pair_coeff 6 24 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta624} ${ksai624} ${wall_index11} ${a_thixo624} ${b_thixo624} ${alpha_thixo624} ${f0_thixo624} ${s624} 0.0 0 0
+pair_coeff 6 25 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta625} ${ksai625} ${wall_index11} ${a_thixo625} ${b_thixo625} ${alpha_thixo625} ${f0_thixo625} ${s625} 0.0 0 0
+pair_coeff 6 26 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta626} ${ksai626} ${wall_index11} ${a_thixo626} ${b_thixo626} ${alpha_thixo626} ${f0_thixo626} ${s626} 0.0 0 0
+pair_coeff 6 27 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta627} ${ksai627} ${wall_index11} ${a_thixo627} ${b_thixo627} ${alpha_thixo627} ${f0_thixo627} ${s627} 0.0 0 0
+pair_coeff 7 8 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta78} ${ksai78} ${wall_index11} ${a_thixo78} ${b_thixo78} ${alpha_thixo78} ${f0_thixo78} ${s78} 0.0 0 0
+pair_coeff 7 9 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta79} ${ksai79} ${wall_index11} ${a_thixo79} ${b_thixo79} ${alpha_thixo79} ${f0_thixo79} ${s79} 0.0 0 0
+pair_coeff 7 10 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta710} ${ksai710} ${wall_index11} ${a_thixo710} ${b_thixo710} ${alpha_thixo710} ${f0_thixo710} ${s710} 0.0 0 0
+pair_coeff 7 11 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta711} ${ksai711} ${wall_index11} ${a_thixo711} ${b_thixo711} ${alpha_thixo711} ${f0_thixo711} ${s711} 0.0 0 0
+pair_coeff 7 12 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta712} ${ksai712} ${wall_index11} ${a_thixo712} ${b_thixo712} ${alpha_thixo712} ${f0_thixo712} ${s712} 0.0 0 0
+pair_coeff 7 13 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta713} ${ksai713} ${wall_index11} ${a_thixo713} ${b_thixo713} ${alpha_thixo713} ${f0_thixo713} ${s713} 0.0 0 0
+pair_coeff 7 14 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta714} ${ksai714} ${wall_index11} ${a_thixo714} ${b_thixo714} ${alpha_thixo714} ${f0_thixo714} ${s714} 0.0 0 0
+pair_coeff 7 15 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta715} ${ksai715} ${wall_index11} ${a_thixo715} ${b_thixo715} ${alpha_thixo715} ${f0_thixo715} ${s715} 0.0 0 0
+pair_coeff 7 16 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta716} ${ksai716} ${wall_index11} ${a_thixo716} ${b_thixo716} ${alpha_thixo716} ${f0_thixo716} ${s716} 0.0 0 0
+pair_coeff 7 17 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta717} ${ksai717} ${wall_index11} ${a_thixo717} ${b_thixo717} ${alpha_thixo717} ${f0_thixo717} ${s717} 0.0 0 0
+pair_coeff 7 18 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta718} ${ksai718} ${wall_index11} ${a_thixo718} ${b_thixo718} ${alpha_thixo718} ${f0_thixo718} ${s718} 0.0 0 0
+pair_coeff 7 19 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta719} ${ksai719} ${wall_index11} ${a_thixo719} ${b_thixo719} ${alpha_thixo719} ${f0_thixo719} ${s719} 0.0 0 0
+pair_coeff 7 20 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta720} ${ksai720} ${wall_index11} ${a_thixo720} ${b_thixo720} ${alpha_thixo720} ${f0_thixo720} ${s720} 0.0 0 0
+pair_coeff 7 21 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta721} ${ksai721} ${wall_index11} ${a_thixo721} ${b_thixo721} ${alpha_thixo721} ${f0_thixo721} ${s721} 0.0 0 0
+pair_coeff 7 22 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta722} ${ksai722} ${wall_index11} ${a_thixo722} ${b_thixo722} ${alpha_thixo722} ${f0_thixo722} ${s722} 0.0 0 0
+pair_coeff 7 23 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta723} ${ksai723} ${wall_index11} ${a_thixo723} ${b_thixo723} ${alpha_thixo723} ${f0_thixo723} ${s723} 0.0 0 0
+pair_coeff 7 24 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta724} ${ksai724} ${wall_index11} ${a_thixo724} ${b_thixo724} ${alpha_thixo724} ${f0_thixo724} ${s724} 0.0 0 0
+pair_coeff 7 25 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta725} ${ksai725} ${wall_index11} ${a_thixo725} ${b_thixo725} ${alpha_thixo725} ${f0_thixo725} ${s725} 0.0 0 0
+pair_coeff 7 26 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta726} ${ksai726} ${wall_index11} ${a_thixo726} ${b_thixo726} ${alpha_thixo726} ${f0_thixo726} ${s726} 0.0 0 0
+pair_coeff 7 27 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta727} ${ksai727} ${wall_index11} ${a_thixo727} ${b_thixo727} ${alpha_thixo727} ${f0_thixo727} ${s727} 0.0 0 0
+pair_coeff 8 9 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta89} ${ksai89} ${wall_index11} ${a_thixo89} ${b_thixo89} ${alpha_thixo89} ${f0_thixo89} ${s89} 0.0 0 0
+pair_coeff 8 10 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta810} ${ksai810} ${wall_index11} ${a_thixo810} ${b_thixo810} ${alpha_thixo810} ${f0_thixo810} ${s810} 0.0 0 0
+pair_coeff 8 11 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta811} ${ksai811} ${wall_index11} ${a_thixo811} ${b_thixo811} ${alpha_thixo811} ${f0_thixo811} ${s811} 0.0 0 0
+pair_coeff 8 12 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta812} ${ksai812} ${wall_index11} ${a_thixo812} ${b_thixo812} ${alpha_thixo812} ${f0_thixo812} ${s812} 0.0 0 0
+pair_coeff 8 13 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta813} ${ksai813} ${wall_index11} ${a_thixo813} ${b_thixo813} ${alpha_thixo813} ${f0_thixo813} ${s813} 0.0 0 0
+pair_coeff 8 14 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta814} ${ksai814} ${wall_index11} ${a_thixo814} ${b_thixo814} ${alpha_thixo814} ${f0_thixo814} ${s814} 0.0 0 0
+pair_coeff 8 15 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta815} ${ksai815} ${wall_index11} ${a_thixo815} ${b_thixo815} ${alpha_thixo815} ${f0_thixo815} ${s815} 0.0 0 0
+pair_coeff 8 16 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta816} ${ksai816} ${wall_index11} ${a_thixo816} ${b_thixo816} ${alpha_thixo816} ${f0_thixo816} ${s816} 0.0 0 0
+pair_coeff 8 17 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta817} ${ksai817} ${wall_index11} ${a_thixo817} ${b_thixo817} ${alpha_thixo817} ${f0_thixo817} ${s817} 0.0 0 0
+pair_coeff 8 18 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta818} ${ksai818} ${wall_index11} ${a_thixo818} ${b_thixo818} ${alpha_thixo818} ${f0_thixo818} ${s818} 0.0 0 0
+pair_coeff 8 19 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta819} ${ksai819} ${wall_index11} ${a_thixo819} ${b_thixo819} ${alpha_thixo819} ${f0_thixo819} ${s819} 0.0 0 0
+pair_coeff 8 20 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta820} ${ksai820} ${wall_index11} ${a_thixo820} ${b_thixo820} ${alpha_thixo820} ${f0_thixo820} ${s820} 0.0 0 0
+pair_coeff 8 21 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta821} ${ksai821} ${wall_index11} ${a_thixo821} ${b_thixo821} ${alpha_thixo821} ${f0_thixo821} ${s821} 0.0 0 0
+pair_coeff 8 22 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta822} ${ksai822} ${wall_index11} ${a_thixo822} ${b_thixo822} ${alpha_thixo822} ${f0_thixo822} ${s822} 0.0 0 0
+pair_coeff 8 23 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta823} ${ksai823} ${wall_index11} ${a_thixo823} ${b_thixo823} ${alpha_thixo823} ${f0_thixo823} ${s823} 0.0 0 0
+pair_coeff 8 24 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta824} ${ksai824} ${wall_index11} ${a_thixo824} ${b_thixo824} ${alpha_thixo824} ${f0_thixo824} ${s824} 0.0 0 0
+pair_coeff 8 25 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta825} ${ksai825} ${wall_index11} ${a_thixo825} ${b_thixo825} ${alpha_thixo825} ${f0_thixo825} ${s825} 0.0 0 0
+pair_coeff 8 26 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta826} ${ksai826} ${wall_index11} ${a_thixo826} ${b_thixo826} ${alpha_thixo826} ${f0_thixo826} ${s826} 0.0 0 0
+pair_coeff 8 27 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta827} ${ksai827} ${wall_index11} ${a_thixo827} ${b_thixo827} ${alpha_thixo827} ${f0_thixo827} ${s827} 0.0 0 0
+pair_coeff 9 10 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta910} ${ksai910} ${wall_index11} ${a_thixo910} ${b_thixo910} ${alpha_thixo910} ${f0_thixo910} ${s910} 0.0 0 0
+pair_coeff 9 11 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta911} ${ksai911} ${wall_index11} ${a_thixo911} ${b_thixo911} ${alpha_thixo911} ${f0_thixo911} ${s911} 0.0 0 0
+pair_coeff 9 12 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta912} ${ksai912} ${wall_index11} ${a_thixo912} ${b_thixo912} ${alpha_thixo912} ${f0_thixo912} ${s912} 0.0 0 0
+pair_coeff 9 13 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta913} ${ksai913} ${wall_index11} ${a_thixo913} ${b_thixo913} ${alpha_thixo913} ${f0_thixo913} ${s913} 0.0 0 0
+pair_coeff 9 14 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta914} ${ksai914} ${wall_index11} ${a_thixo914} ${b_thixo914} ${alpha_thixo914} ${f0_thixo914} ${s914} 0.0 0 0
+pair_coeff 9 15 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta915} ${ksai915} ${wall_index11} ${a_thixo915} ${b_thixo915} ${alpha_thixo915} ${f0_thixo915} ${s915} 0.0 0 0
+pair_coeff 9 16 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta916} ${ksai916} ${wall_index11} ${a_thixo916} ${b_thixo916} ${alpha_thixo916} ${f0_thixo916} ${s916} 0.0 0 0
+pair_coeff 9 17 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta917} ${ksai917} ${wall_index11} ${a_thixo917} ${b_thixo917} ${alpha_thixo917} ${f0_thixo917} ${s917} 0.0 0 0
+pair_coeff 9 18 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta918} ${ksai918} ${wall_index11} ${a_thixo918} ${b_thixo918} ${alpha_thixo918} ${f0_thixo918} ${s918} 0.0 0 0
+pair_coeff 9 19 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta919} ${ksai919} ${wall_index11} ${a_thixo919} ${b_thixo919} ${alpha_thixo919} ${f0_thixo919} ${s919} 0.0 0 0
+pair_coeff 9 20 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta920} ${ksai920} ${wall_index11} ${a_thixo920} ${b_thixo920} ${alpha_thixo920} ${f0_thixo920} ${s920} 0.0 0 0
+pair_coeff 9 21 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta921} ${ksai921} ${wall_index11} ${a_thixo921} ${b_thixo921} ${alpha_thixo921} ${f0_thixo921} ${s921} 0.0 0 0
+pair_coeff 9 22 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta922} ${ksai922} ${wall_index11} ${a_thixo922} ${b_thixo922} ${alpha_thixo922} ${f0_thixo922} ${s922} 0.0 0 0
+pair_coeff 9 23 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta923} ${ksai923} ${wall_index11} ${a_thixo923} ${b_thixo923} ${alpha_thixo923} ${f0_thixo923} ${s923} 0.0 0 0
+pair_coeff 9 24 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta924} ${ksai924} ${wall_index11} ${a_thixo924} ${b_thixo924} ${alpha_thixo924} ${f0_thixo924} ${s924} 0.0 0 0
+pair_coeff 9 25 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta925} ${ksai925} ${wall_index11} ${a_thixo925} ${b_thixo925} ${alpha_thixo925} ${f0_thixo925} ${s925} 0.0 0 0
+pair_coeff 9 26 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta926} ${ksai926} ${wall_index11} ${a_thixo926} ${b_thixo926} ${alpha_thixo926} ${f0_thixo926} ${s926} 0.0 0 0
+pair_coeff 9 27 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta927} ${ksai927} ${wall_index11} ${a_thixo927} ${b_thixo927} ${alpha_thixo927} ${f0_thixo927} ${s927} 0.0 0 0
+pair_coeff 10 11 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1011} ${ksai1011} ${wall_index11} ${a_thixo1011} ${b_thixo1011} ${alpha_thixo1011} ${f0_thixo1011} ${s1011} 0.0 0 0
+pair_coeff 10 12 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1012} ${ksai1012} ${wall_index11} ${a_thixo1012} ${b_thixo1012} ${alpha_thixo1012} ${f0_thixo1012} ${s1012} 0.0 0 0
+pair_coeff 10 13 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1013} ${ksai1013} ${wall_index11} ${a_thixo1013} ${b_thixo1013} ${alpha_thixo1013} ${f0_thixo1013} ${s1013} 0.0 0 0
+pair_coeff 10 14 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1014} ${ksai1014} ${wall_index11} ${a_thixo1014} ${b_thixo1014} ${alpha_thixo1014} ${f0_thixo1014} ${s1014} 0.0 0 0
+pair_coeff 10 15 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1015} ${ksai1015} ${wall_index11} ${a_thixo1015} ${b_thixo1015} ${alpha_thixo1015} ${f0_thixo1015} ${s1015} 0.0 0 0
+pair_coeff 10 16 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1016} ${ksai1016} ${wall_index11} ${a_thixo1016} ${b_thixo1016} ${alpha_thixo1016} ${f0_thixo1016} ${s1016} 0.0 0 0
+pair_coeff 10 17 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1017} ${ksai1017} ${wall_index11} ${a_thixo1017} ${b_thixo1017} ${alpha_thixo1017} ${f0_thixo1017} ${s1017} 0.0 0 0
+pair_coeff 10 18 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1018} ${ksai1018} ${wall_index11} ${a_thixo1018} ${b_thixo1018} ${alpha_thixo1018} ${f0_thixo1018} ${s1018} 0.0 0 0
+pair_coeff 10 19 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1019} ${ksai1019} ${wall_index11} ${a_thixo1019} ${b_thixo1019} ${alpha_thixo1019} ${f0_thixo1019} ${s1019} 0.0 0 0
+pair_coeff 10 20 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1020} ${ksai1020} ${wall_index11} ${a_thixo1020} ${b_thixo1020} ${alpha_thixo1020} ${f0_thixo1020} ${s1020} 0.0 0 0
+pair_coeff 10 21 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1021} ${ksai1021} ${wall_index11} ${a_thixo1021} ${b_thixo1021} ${alpha_thixo1021} ${f0_thixo1021} ${s1021} 0.0 0 0
+pair_coeff 10 22 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1022} ${ksai1022} ${wall_index11} ${a_thixo1022} ${b_thixo1022} ${alpha_thixo1022} ${f0_thixo1022} ${s1022} 0.0 0 0
+pair_coeff 10 23 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1023} ${ksai1023} ${wall_index11} ${a_thixo1023} ${b_thixo1023} ${alpha_thixo1023} ${f0_thixo1023} ${s1023} 0.0 0 0
+pair_coeff 10 24 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1024} ${ksai1024} ${wall_index11} ${a_thixo1024} ${b_thixo1024} ${alpha_thixo1024} ${f0_thixo1024} ${s1024} 0.0 0 0
+pair_coeff 10 25 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1025} ${ksai1025} ${wall_index11} ${a_thixo1025} ${b_thixo1025} ${alpha_thixo1025} ${f0_thixo1025} ${s1025} 0.0 0 0
+pair_coeff 10 26 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1026} ${ksai1026} ${wall_index11} ${a_thixo1026} ${b_thixo1026} ${alpha_thixo1026} ${f0_thixo1026} ${s1026} 0.0 0 0
+pair_coeff 10 27 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1027} ${ksai1027} ${wall_index11} ${a_thixo1027} ${b_thixo1027} ${alpha_thixo1027} ${f0_thixo1027} ${s1027} 0.0 0 0
+pair_coeff 11 12 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1112} ${ksai1112} ${wall_index11} ${a_thixo1112} ${b_thixo1112} ${alpha_thixo1112} ${f0_thixo1112} ${s1112} 0.0 0 0
+pair_coeff 11 13 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1113} ${ksai1113} ${wall_index11} ${a_thixo1113} ${b_thixo1113} ${alpha_thixo1113} ${f0_thixo1113} ${s1113} 0.0 0 0
+pair_coeff 11 14 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1114} ${ksai1114} ${wall_index11} ${a_thixo1114} ${b_thixo1114} ${alpha_thixo1114} ${f0_thixo1114} ${s1114} 0.0 0 0
+pair_coeff 11 15 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1115} ${ksai1115} ${wall_index11} ${a_thixo1115} ${b_thixo1115} ${alpha_thixo1115} ${f0_thixo1115} ${s1115} 0.0 0 0
+pair_coeff 11 16 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1116} ${ksai1116} ${wall_index11} ${a_thixo1116} ${b_thixo1116} ${alpha_thixo1116} ${f0_thixo1116} ${s1116} 0.0 0 0
+pair_coeff 11 17 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1117} ${ksai1117} ${wall_index11} ${a_thixo1117} ${b_thixo1117} ${alpha_thixo1117} ${f0_thixo1117} ${s1117} 0.0 0 0
+pair_coeff 11 18 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1118} ${ksai1118} ${wall_index11} ${a_thixo1118} ${b_thixo1118} ${alpha_thixo1118} ${f0_thixo1118} ${s1118} 0.0 0 0
+pair_coeff 11 19 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1119} ${ksai1119} ${wall_index11} ${a_thixo1119} ${b_thixo1119} ${alpha_thixo1119} ${f0_thixo1119} ${s1119} 0.0 0 0
+pair_coeff 11 20 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1120} ${ksai1120} ${wall_index11} ${a_thixo1120} ${b_thixo1120} ${alpha_thixo1120} ${f0_thixo1120} ${s1120} 0.0 0 0
+pair_coeff 11 21 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1121} ${ksai1121} ${wall_index11} ${a_thixo1121} ${b_thixo1121} ${alpha_thixo1121} ${f0_thixo1121} ${s1121} 0.0 0 0
+pair_coeff 11 22 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1122} ${ksai1122} ${wall_index11} ${a_thixo1122} ${b_thixo1122} ${alpha_thixo1122} ${f0_thixo1122} ${s1122} 0.0 0 0
+pair_coeff 11 23 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1123} ${ksai1123} ${wall_index11} ${a_thixo1123} ${b_thixo1123} ${alpha_thixo1123} ${f0_thixo1123} ${s1123} 0.0 0 0
+pair_coeff 11 24 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1124} ${ksai1124} ${wall_index11} ${a_thixo1124} ${b_thixo1124} ${alpha_thixo1124} ${f0_thixo1124} ${s1124} 0.0 0 0
+pair_coeff 11 25 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1125} ${ksai1125} ${wall_index11} ${a_thixo1125} ${b_thixo1125} ${alpha_thixo1125} ${f0_thixo1125} ${s1125} 0.0 0 0
+pair_coeff 11 26 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1126} ${ksai1126} ${wall_index11} ${a_thixo1126} ${b_thixo1126} ${alpha_thixo1126} ${f0_thixo1126} ${s1126} 0.0 0 0
+pair_coeff 11 27 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1127} ${ksai1127} ${wall_index11} ${a_thixo1127} ${b_thixo1127} ${alpha_thixo1127} ${f0_thixo1127} ${s1127} 0.0 0 0
+pair_coeff 12 13 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1213} ${ksai1213} ${wall_index11} ${a_thixo1213} ${b_thixo1213} ${alpha_thixo1213} ${f0_thixo1213} ${s1213} 0.0 0 0
+pair_coeff 12 14 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1214} ${ksai1214} ${wall_index11} ${a_thixo1214} ${b_thixo1214} ${alpha_thixo1214} ${f0_thixo1214} ${s1214} 0.0 0 0
+pair_coeff 12 15 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1215} ${ksai1215} ${wall_index11} ${a_thixo1215} ${b_thixo1215} ${alpha_thixo1215} ${f0_thixo1215} ${s1215} 0.0 0 0
+pair_coeff 12 16 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1216} ${ksai1216} ${wall_index11} ${a_thixo1216} ${b_thixo1216} ${alpha_thixo1216} ${f0_thixo1216} ${s1216} 0.0 0 0
+pair_coeff 12 17 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1217} ${ksai1217} ${wall_index11} ${a_thixo1217} ${b_thixo1217} ${alpha_thixo1217} ${f0_thixo1217} ${s1217} 0.0 0 0
+pair_coeff 12 18 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1218} ${ksai1218} ${wall_index11} ${a_thixo1218} ${b_thixo1218} ${alpha_thixo1218} ${f0_thixo1218} ${s1218} 0.0 0 0
+pair_coeff 12 19 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1219} ${ksai1219} ${wall_index11} ${a_thixo1219} ${b_thixo1219} ${alpha_thixo1219} ${f0_thixo1219} ${s1219} 0.0 0 0
+pair_coeff 12 20 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1220} ${ksai1220} ${wall_index11} ${a_thixo1220} ${b_thixo1220} ${alpha_thixo1220} ${f0_thixo1220} ${s1220} 0.0 0 0
+pair_coeff 12 21 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1221} ${ksai1221} ${wall_index11} ${a_thixo1221} ${b_thixo1221} ${alpha_thixo1221} ${f0_thixo1221} ${s1221} 0.0 0 0
+pair_coeff 12 22 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1222} ${ksai1222} ${wall_index11} ${a_thixo1222} ${b_thixo1222} ${alpha_thixo1222} ${f0_thixo1222} ${s1222} 0.0 0 0
+pair_coeff 12 23 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1223} ${ksai1223} ${wall_index11} ${a_thixo1223} ${b_thixo1223} ${alpha_thixo1223} ${f0_thixo1223} ${s1223} 0.0 0 0
+pair_coeff 12 24 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1224} ${ksai1224} ${wall_index11} ${a_thixo1224} ${b_thixo1224} ${alpha_thixo1224} ${f0_thixo1224} ${s1224} 0.0 0 0
+pair_coeff 12 25 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1225} ${ksai1225} ${wall_index11} ${a_thixo1225} ${b_thixo1225} ${alpha_thixo1225} ${f0_thixo1225} ${s1225} 0.0 0 0
+pair_coeff 12 26 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1226} ${ksai1226} ${wall_index11} ${a_thixo1226} ${b_thixo1226} ${alpha_thixo1226} ${f0_thixo1226} ${s1226} 0.0 0 0
+pair_coeff 12 27 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1227} ${ksai1227} ${wall_index11} ${a_thixo1227} ${b_thixo1227} ${alpha_thixo1227} ${f0_thixo1227} ${s1227} 0.0 0 0
+pair_coeff 13 14 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1314} ${ksai1314} ${wall_index11} ${a_thixo1314} ${b_thixo1314} ${alpha_thixo1314} ${f0_thixo1314} ${s1314} 0.0 0 0
+pair_coeff 13 15 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1315} ${ksai1315} ${wall_index11} ${a_thixo1315} ${b_thixo1315} ${alpha_thixo1315} ${f0_thixo1315} ${s1315} 0.0 0 0
+pair_coeff 13 16 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1316} ${ksai1316} ${wall_index11} ${a_thixo1316} ${b_thixo1316} ${alpha_thixo1316} ${f0_thixo1316} ${s1316} 0.0 0 0
+pair_coeff 13 17 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1317} ${ksai1317} ${wall_index11} ${a_thixo1317} ${b_thixo1317} ${alpha_thixo1317} ${f0_thixo1317} ${s1317} 0.0 0 0
+pair_coeff 13 18 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1318} ${ksai1318} ${wall_index11} ${a_thixo1318} ${b_thixo1318} ${alpha_thixo1318} ${f0_thixo1318} ${s1318} 0.0 0 0
+pair_coeff 13 19 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1319} ${ksai1319} ${wall_index11} ${a_thixo1319} ${b_thixo1319} ${alpha_thixo1319} ${f0_thixo1319} ${s1319} 0.0 0 0
+pair_coeff 13 20 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1320} ${ksai1320} ${wall_index11} ${a_thixo1320} ${b_thixo1320} ${alpha_thixo1320} ${f0_thixo1320} ${s1320} 0.0 0 0
+pair_coeff 13 21 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1321} ${ksai1321} ${wall_index11} ${a_thixo1321} ${b_thixo1321} ${alpha_thixo1321} ${f0_thixo1321} ${s1321} 0.0 0 0
+pair_coeff 13 22 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1322} ${ksai1322} ${wall_index11} ${a_thixo1322} ${b_thixo1322} ${alpha_thixo1322} ${f0_thixo1322} ${s1322} 0.0 0 0
+pair_coeff 13 23 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1323} ${ksai1323} ${wall_index11} ${a_thixo1323} ${b_thixo1323} ${alpha_thixo1323} ${f0_thixo1323} ${s1323} 0.0 0 0
+pair_coeff 13 24 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1324} ${ksai1324} ${wall_index11} ${a_thixo1324} ${b_thixo1324} ${alpha_thixo1324} ${f0_thixo1324} ${s1324} 0.0 0 0
+pair_coeff 13 25 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1325} ${ksai1325} ${wall_index11} ${a_thixo1325} ${b_thixo1325} ${alpha_thixo1325} ${f0_thixo1325} ${s1325} 0.0 0 0
+pair_coeff 13 26 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1326} ${ksai1326} ${wall_index11} ${a_thixo1326} ${b_thixo1326} ${alpha_thixo1326} ${f0_thixo1326} ${s1326} 0.0 0 0
+pair_coeff 13 27 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1327} ${ksai1327} ${wall_index11} ${a_thixo1327} ${b_thixo1327} ${alpha_thixo1327} ${f0_thixo1327} ${s1327} 0.0 0 0
+pair_coeff 14 15 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1415} ${ksai1415} ${wall_index11} ${a_thixo1415} ${b_thixo1415} ${alpha_thixo1415} ${f0_thixo1415} ${s1415} 0.0 0 0
+pair_coeff 14 16 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1416} ${ksai1416} ${wall_index11} ${a_thixo1416} ${b_thixo1416} ${alpha_thixo1416} ${f0_thixo1416} ${s1416} 0.0 0 0
+pair_coeff 14 17 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1417} ${ksai1417} ${wall_index11} ${a_thixo1417} ${b_thixo1417} ${alpha_thixo1417} ${f0_thixo1417} ${s1417} 0.0 0 0
+pair_coeff 14 18 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1418} ${ksai1418} ${wall_index11} ${a_thixo1418} ${b_thixo1418} ${alpha_thixo1418} ${f0_thixo1418} ${s1418} 0.0 0 0
+pair_coeff 14 19 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1419} ${ksai1419} ${wall_index11} ${a_thixo1419} ${b_thixo1419} ${alpha_thixo1419} ${f0_thixo1419} ${s1419} 0.0 0 0
+pair_coeff 14 20 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1420} ${ksai1420} ${wall_index11} ${a_thixo1420} ${b_thixo1420} ${alpha_thixo1420} ${f0_thixo1420} ${s1420} 0.0 0 0
+pair_coeff 14 21 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1421} ${ksai1421} ${wall_index11} ${a_thixo1421} ${b_thixo1421} ${alpha_thixo1421} ${f0_thixo1421} ${s1421} 0.0 0 0
+pair_coeff 14 22 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1422} ${ksai1422} ${wall_index11} ${a_thixo1422} ${b_thixo1422} ${alpha_thixo1422} ${f0_thixo1422} ${s1422} 0.0 0 0
+pair_coeff 14 23 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1423} ${ksai1423} ${wall_index11} ${a_thixo1423} ${b_thixo1423} ${alpha_thixo1423} ${f0_thixo1423} ${s1423} 0.0 0 0
+pair_coeff 14 24 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1424} ${ksai1424} ${wall_index11} ${a_thixo1424} ${b_thixo1424} ${alpha_thixo1424} ${f0_thixo1424} ${s1424} 0.0 0 0
+pair_coeff 14 25 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1425} ${ksai1425} ${wall_index11} ${a_thixo1425} ${b_thixo1425} ${alpha_thixo1425} ${f0_thixo1425} ${s1425} 0.0 0 0
+pair_coeff 14 26 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1426} ${ksai1426} ${wall_index11} ${a_thixo1426} ${b_thixo1426} ${alpha_thixo1426} ${f0_thixo1426} ${s1426} 0.0 0 0
+pair_coeff 14 27 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1427} ${ksai1427} ${wall_index11} ${a_thixo1427} ${b_thixo1427} ${alpha_thixo1427} ${f0_thixo1427} ${s1427} 0.0 0 0
+pair_coeff 15 16 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1516} ${ksai1516} ${wall_index11} ${a_thixo1516} ${b_thixo1516} ${alpha_thixo1516} ${f0_thixo1516} ${s1516} 0.0 0 0
+pair_coeff 15 17 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1517} ${ksai1517} ${wall_index11} ${a_thixo1517} ${b_thixo1517} ${alpha_thixo1517} ${f0_thixo1517} ${s1517} 0.0 0 0
+pair_coeff 15 18 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1518} ${ksai1518} ${wall_index11} ${a_thixo1518} ${b_thixo1518} ${alpha_thixo1518} ${f0_thixo1518} ${s1518} 0.0 0 0
+pair_coeff 15 19 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1519} ${ksai1519} ${wall_index11} ${a_thixo1519} ${b_thixo1519} ${alpha_thixo1519} ${f0_thixo1519} ${s1519} 0.0 0 0
+pair_coeff 15 20 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1520} ${ksai1520} ${wall_index11} ${a_thixo1520} ${b_thixo1520} ${alpha_thixo1520} ${f0_thixo1520} ${s1520} 0.0 0 0
+pair_coeff 15 21 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1521} ${ksai1521} ${wall_index11} ${a_thixo1521} ${b_thixo1521} ${alpha_thixo1521} ${f0_thixo1521} ${s1521} 0.0 0 0
+pair_coeff 15 22 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1522} ${ksai1522} ${wall_index11} ${a_thixo1522} ${b_thixo1522} ${alpha_thixo1522} ${f0_thixo1522} ${s1522} 0.0 0 0
+pair_coeff 15 23 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1523} ${ksai1523} ${wall_index11} ${a_thixo1523} ${b_thixo1523} ${alpha_thixo1523} ${f0_thixo1523} ${s1523} 0.0 0 0
+pair_coeff 15 24 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1524} ${ksai1524} ${wall_index11} ${a_thixo1524} ${b_thixo1524} ${alpha_thixo1524} ${f0_thixo1524} ${s1524} 0.0 0 0
+pair_coeff 15 25 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1525} ${ksai1525} ${wall_index11} ${a_thixo1525} ${b_thixo1525} ${alpha_thixo1525} ${f0_thixo1525} ${s1525} 0.0 0 0
+pair_coeff 15 26 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1526} ${ksai1526} ${wall_index11} ${a_thixo1526} ${b_thixo1526} ${alpha_thixo1526} ${f0_thixo1526} ${s1526} 0.0 0 0
+pair_coeff 15 27 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1527} ${ksai1527} ${wall_index11} ${a_thixo1527} ${b_thixo1527} ${alpha_thixo1527} ${f0_thixo1527} ${s1527} 0.0 0 0
+pair_coeff 16 17 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1617} ${ksai1617} ${wall_index11} ${a_thixo1617} ${b_thixo1617} ${alpha_thixo1617} ${f0_thixo1617} ${s1617} 0.0 0 0
+pair_coeff 16 18 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1618} ${ksai1618} ${wall_index11} ${a_thixo1618} ${b_thixo1618} ${alpha_thixo1618} ${f0_thixo1618} ${s1618} 0.0 0 0
+pair_coeff 16 19 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1619} ${ksai1619} ${wall_index11} ${a_thixo1619} ${b_thixo1619} ${alpha_thixo1619} ${f0_thixo1619} ${s1619} 0.0 0 0
+pair_coeff 16 20 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1620} ${ksai1620} ${wall_index11} ${a_thixo1620} ${b_thixo1620} ${alpha_thixo1620} ${f0_thixo1620} ${s1620} 0.0 0 0
+pair_coeff 16 21 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1621} ${ksai1621} ${wall_index11} ${a_thixo1621} ${b_thixo1621} ${alpha_thixo1621} ${f0_thixo1621} ${s1621} 0.0 0 0
+pair_coeff 16 22 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1622} ${ksai1622} ${wall_index11} ${a_thixo1622} ${b_thixo1622} ${alpha_thixo1622} ${f0_thixo1622} ${s1622} 0.0 0 0
+pair_coeff 16 23 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1623} ${ksai1623} ${wall_index11} ${a_thixo1623} ${b_thixo1623} ${alpha_thixo1623} ${f0_thixo1623} ${s1623} 0.0 0 0
+pair_coeff 16 24 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1624} ${ksai1624} ${wall_index11} ${a_thixo1624} ${b_thixo1624} ${alpha_thixo1624} ${f0_thixo1624} ${s1624} 0.0 0 0
+pair_coeff 16 25 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1625} ${ksai1625} ${wall_index11} ${a_thixo1625} ${b_thixo1625} ${alpha_thixo1625} ${f0_thixo1625} ${s1625} 0.0 0 0
+pair_coeff 16 26 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1626} ${ksai1626} ${wall_index11} ${a_thixo1626} ${b_thixo1626} ${alpha_thixo1626} ${f0_thixo1626} ${s1626} 0.0 0 0
+pair_coeff 16 27 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1627} ${ksai1627} ${wall_index11} ${a_thixo1627} ${b_thixo1627} ${alpha_thixo1627} ${f0_thixo1627} ${s1627} 0.0 0 0
+pair_coeff 17 18 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1718} ${ksai1718} ${wall_index11} ${a_thixo1718} ${b_thixo1718} ${alpha_thixo1718} ${f0_thixo1718} ${s1718} 0.0 0 0
+pair_coeff 17 19 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1719} ${ksai1719} ${wall_index11} ${a_thixo1719} ${b_thixo1719} ${alpha_thixo1719} ${f0_thixo1719} ${s1719} 0.0 0 0
+pair_coeff 17 20 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1720} ${ksai1720} ${wall_index11} ${a_thixo1720} ${b_thixo1720} ${alpha_thixo1720} ${f0_thixo1720} ${s1720} 0.0 0 0
+pair_coeff 17 21 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1721} ${ksai1721} ${wall_index11} ${a_thixo1721} ${b_thixo1721} ${alpha_thixo1721} ${f0_thixo1721} ${s1721} 0.0 0 0
+pair_coeff 17 22 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1722} ${ksai1722} ${wall_index11} ${a_thixo1722} ${b_thixo1722} ${alpha_thixo1722} ${f0_thixo1722} ${s1722} 0.0 0 0
+pair_coeff 17 23 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1723} ${ksai1723} ${wall_index11} ${a_thixo1723} ${b_thixo1723} ${alpha_thixo1723} ${f0_thixo1723} ${s1723} 0.0 0 0
+pair_coeff 17 24 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1724} ${ksai1724} ${wall_index11} ${a_thixo1724} ${b_thixo1724} ${alpha_thixo1724} ${f0_thixo1724} ${s1724} 0.0 0 0
+pair_coeff 17 25 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1725} ${ksai1725} ${wall_index11} ${a_thixo1725} ${b_thixo1725} ${alpha_thixo1725} ${f0_thixo1725} ${s1725} 0.0 0 0
+pair_coeff 17 26 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1726} ${ksai1726} ${wall_index11} ${a_thixo1726} ${b_thixo1726} ${alpha_thixo1726} ${f0_thixo1726} ${s1726} 0.0 0 0
+pair_coeff 17 27 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1727} ${ksai1727} ${wall_index11} ${a_thixo1727} ${b_thixo1727} ${alpha_thixo1727} ${f0_thixo1727} ${s1727} 0.0 0 0
+pair_coeff 18 19 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1819} ${ksai1819} ${wall_index11} ${a_thixo1819} ${b_thixo1819} ${alpha_thixo1819} ${f0_thixo1819} ${s1819} 0.0 0 0
+pair_coeff 18 20 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1820} ${ksai1820} ${wall_index11} ${a_thixo1820} ${b_thixo1820} ${alpha_thixo1820} ${f0_thixo1820} ${s1820} 0.0 0 0
+pair_coeff 18 21 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1821} ${ksai1821} ${wall_index11} ${a_thixo1821} ${b_thixo1821} ${alpha_thixo1821} ${f0_thixo1821} ${s1821} 0.0 0 0
+pair_coeff 18 22 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1822} ${ksai1822} ${wall_index11} ${a_thixo1822} ${b_thixo1822} ${alpha_thixo1822} ${f0_thixo1822} ${s1822} 0.0 0 0
+pair_coeff 18 23 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1823} ${ksai1823} ${wall_index11} ${a_thixo1823} ${b_thixo1823} ${alpha_thixo1823} ${f0_thixo1823} ${s1823} 0.0 0 0
+pair_coeff 18 24 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1824} ${ksai1824} ${wall_index11} ${a_thixo1824} ${b_thixo1824} ${alpha_thixo1824} ${f0_thixo1824} ${s1824} 0.0 0 0
+pair_coeff 18 25 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1825} ${ksai1825} ${wall_index11} ${a_thixo1825} ${b_thixo1825} ${alpha_thixo1825} ${f0_thixo1825} ${s1825} 0.0 0 0
+pair_coeff 18 26 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1826} ${ksai1826} ${wall_index11} ${a_thixo1826} ${b_thixo1826} ${alpha_thixo1826} ${f0_thixo1826} ${s1826} 0.0 0 0
+pair_coeff 18 27 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1827} ${ksai1827} ${wall_index11} ${a_thixo1827} ${b_thixo1827} ${alpha_thixo1827} ${f0_thixo1827} ${s1827} 0.0 0 0
+pair_coeff 19 20 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1920} ${ksai1920} ${wall_index11} ${a_thixo1920} ${b_thixo1920} ${alpha_thixo1920} ${f0_thixo1920} ${s1920} 0.0 0 0
+pair_coeff 19 21 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1921} ${ksai1921} ${wall_index11} ${a_thixo1921} ${b_thixo1921} ${alpha_thixo1921} ${f0_thixo1921} ${s1921} 0.0 0 0
+pair_coeff 19 22 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1922} ${ksai1922} ${wall_index11} ${a_thixo1922} ${b_thixo1922} ${alpha_thixo1922} ${f0_thixo1922} ${s1922} 0.0 0 0
+pair_coeff 19 23 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1923} ${ksai1923} ${wall_index11} ${a_thixo1923} ${b_thixo1923} ${alpha_thixo1923} ${f0_thixo1923} ${s1923} 0.0 0 0
+pair_coeff 19 24 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1924} ${ksai1924} ${wall_index11} ${a_thixo1924} ${b_thixo1924} ${alpha_thixo1924} ${f0_thixo1924} ${s1924} 0.0 0 0
+pair_coeff 19 25 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1925} ${ksai1925} ${wall_index11} ${a_thixo1925} ${b_thixo1925} ${alpha_thixo1925} ${f0_thixo1925} ${s1925} 0.0 0 0
+pair_coeff 19 26 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1926} ${ksai1926} ${wall_index11} ${a_thixo1926} ${b_thixo1926} ${alpha_thixo1926} ${f0_thixo1926} ${s1926} 0.0 0 0
+pair_coeff 19 27 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta1927} ${ksai1927} ${wall_index11} ${a_thixo1927} ${b_thixo1927} ${alpha_thixo1927} ${f0_thixo1927} ${s1927} 0.0 0 0
+pair_coeff 20 21 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta2021} ${ksai2021} ${wall_index11} ${a_thixo2021} ${b_thixo2021} ${alpha_thixo2021} ${f0_thixo2021} ${s2021} 0.0 0 0
+pair_coeff 20 22 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta2022} ${ksai2022} ${wall_index11} ${a_thixo2022} ${b_thixo2022} ${alpha_thixo2022} ${f0_thixo2022} ${s2022} 0.0 0 0
+pair_coeff 20 23 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta2023} ${ksai2023} ${wall_index11} ${a_thixo2023} ${b_thixo2023} ${alpha_thixo2023} ${f0_thixo2023} ${s2023} 0.0 0 0
+pair_coeff 20 24 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta2024} ${ksai2024} ${wall_index11} ${a_thixo2024} ${b_thixo2024} ${alpha_thixo2024} ${f0_thixo2024} ${s2024} 0.0 0 0
+pair_coeff 20 25 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta2025} ${ksai2025} ${wall_index11} ${a_thixo2025} ${b_thixo2025} ${alpha_thixo2025} ${f0_thixo2025} ${s2025} 0.0 0 0
+pair_coeff 20 26 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta2026} ${ksai2026} ${wall_index11} ${a_thixo2026} ${b_thixo2026} ${alpha_thixo2026} ${f0_thixo2026} ${s2026} 0.0 0 0
+pair_coeff 20 27 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta2027} ${ksai2027} ${wall_index11} ${a_thixo2027} ${b_thixo2027} ${alpha_thixo2027} ${f0_thixo2027} ${s2027} 0.0 0 0
+pair_coeff 21 22 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta2122} ${ksai2122} ${wall_index11} ${a_thixo2122} ${b_thixo2122} ${alpha_thixo2122} ${f0_thixo2122} ${s2122} 0.0 0 0
+pair_coeff 21 23 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta2123} ${ksai2123} ${wall_index11} ${a_thixo2123} ${b_thixo2123} ${alpha_thixo2123} ${f0_thixo2123} ${s2123} 0.0 0 0
+pair_coeff 21 24 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta2124} ${ksai2124} ${wall_index11} ${a_thixo2124} ${b_thixo2124} ${alpha_thixo2124} ${f0_thixo2124} ${s2124} 0.0 0 0
+pair_coeff 21 25 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta2125} ${ksai2125} ${wall_index11} ${a_thixo2125} ${b_thixo2125} ${alpha_thixo2125} ${f0_thixo2125} ${s2125} 0.0 0 0
+pair_coeff 21 26 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta2126} ${ksai2126} ${wall_index11} ${a_thixo2126} ${b_thixo2126} ${alpha_thixo2126} ${f0_thixo2126} ${s2126} 0.0 0 0
+pair_coeff 21 27 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta2127} ${ksai2127} ${wall_index11} ${a_thixo2127} ${b_thixo2127} ${alpha_thixo2127} ${f0_thixo2127} ${s2127} 0.0 0 0
+pair_coeff 22 23 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta2223} ${ksai2223} ${wall_index11} ${a_thixo2223} ${b_thixo2223} ${alpha_thixo2223} ${f0_thixo2223} ${s2223} 0.0 0 0
+pair_coeff 22 24 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta2224} ${ksai2224} ${wall_index11} ${a_thixo2224} ${b_thixo2224} ${alpha_thixo2224} ${f0_thixo2224} ${s2224} 0.0 0 0
+pair_coeff 22 25 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta2225} ${ksai2225} ${wall_index11} ${a_thixo2225} ${b_thixo2225} ${alpha_thixo2225} ${f0_thixo2225} ${s2225} 0.0 0 0
+pair_coeff 22 26 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta2226} ${ksai2226} ${wall_index11} ${a_thixo2226} ${b_thixo2226} ${alpha_thixo2226} ${f0_thixo2226} ${s2226} 0.0 0 0
+pair_coeff 22 27 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta2227} ${ksai2227} ${wall_index11} ${a_thixo2227} ${b_thixo2227} ${alpha_thixo2227} ${f0_thixo2227} ${s2227} 0.0 0 0
+pair_coeff 23 24 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta2324} ${ksai2324} ${wall_index11} ${a_thixo2324} ${b_thixo2324} ${alpha_thixo2324} ${f0_thixo2324} ${s2324} 0.0 0 0
+pair_coeff 23 25 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta2325} ${ksai2325} ${wall_index11} ${a_thixo2325} ${b_thixo2325} ${alpha_thixo2325} ${f0_thixo2325} ${s2325} 0.0 0 0
+pair_coeff 23 26 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta2326} ${ksai2326} ${wall_index11} ${a_thixo2326} ${b_thixo2326} ${alpha_thixo2326} ${f0_thixo2326} ${s2326} 0.0 0 0
+pair_coeff 23 27 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta2327} ${ksai2327} ${wall_index11} ${a_thixo2327} ${b_thixo2327} ${alpha_thixo2327} ${f0_thixo2327} ${s2327} 0.0 0 0
+pair_coeff 24 25 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta2425} ${ksai2425} ${wall_index11} ${a_thixo2425} ${b_thixo2425} ${alpha_thixo2425} ${f0_thixo2425} ${s2425} 0.0 0 0
+pair_coeff 24 26 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta2426} ${ksai2426} ${wall_index11} ${a_thixo2426} ${b_thixo2426} ${alpha_thixo2426} ${f0_thixo2426} ${s2426} 0.0 0 0
+pair_coeff 24 27 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta2427} ${ksai2427} ${wall_index11} ${a_thixo2427} ${b_thixo2427} ${alpha_thixo2427} ${f0_thixo2427} ${s2427} 0.0 0 0
+pair_coeff 25 26 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta2526} ${ksai2526} ${wall_index11} ${a_thixo2526} ${b_thixo2526} ${alpha_thixo2526} ${f0_thixo2526} ${s2526} 0.0 0 0
+pair_coeff 25 27 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta2527} ${ksai2527} ${wall_index11} ${a_thixo2527} ${b_thixo2527} ${alpha_thixo2527} ${f0_thixo2527} ${s2527} 0.0 0 0
+pair_coeff 26 27 sdpd/taitwater/isothermal/mf ${rho0} ${c0} ${h} ${eta2627} ${ksai2627} ${wall_index11} ${a_thixo2627} ${b_thixo2627} ${alpha_thixo2627} ${f0_thixo2627} ${s2627} 0.0 0 0
+pair_coeff 2 3 soft 2 0.8
+pair_coeff 2 4 soft 2 0.8
+pair_coeff 2 5 soft 2 0.8
+pair_coeff 2 6 soft 2 0.8
+pair_coeff 2 7 soft 2 0.8
+pair_coeff 2 8 soft 2 0.8
+pair_coeff 2 9 soft 2 0.8
+pair_coeff 2 10 soft 2 0.8
+pair_coeff 2 11 soft 2 0.8
+pair_coeff 2 12 soft 2 0.8
+pair_coeff 2 13 soft 2 0.8
+pair_coeff 2 14 soft 2 0.8
+pair_coeff 2 15 soft 2 0.8
+pair_coeff 2 16 soft 2 0.8
+pair_coeff 2 17 soft 2 0.8
+pair_coeff 2 18 soft 2 0.8
+pair_coeff 2 19 soft 2 0.8
+pair_coeff 2 20 soft 2 0.8
+pair_coeff 2 21 soft 2 0.8
+pair_coeff 2 22 soft 2 0.8
+pair_coeff 2 23 soft 2 0.8
+pair_coeff 2 24 soft 2 0.8
+pair_coeff 2 25 soft 2 0.8
+pair_coeff 2 26 soft 2 0.8
+pair_coeff 2 27 soft 2 0.8
+pair_coeff 3 4 soft 2 0.8
+pair_coeff 3 5 soft 2 0.8
+pair_coeff 3 6 soft 2 0.8
+pair_coeff 3 7 soft 2 0.8
+pair_coeff 3 8 soft 2 0.8
+pair_coeff 3 9 soft 2 0.8
+pair_coeff 3 10 soft 2 0.8
+pair_coeff 3 11 soft 2 0.8
+pair_coeff 3 12 soft 2 0.8
+pair_coeff 3 13 soft 2 0.8
+pair_coeff 3 14 soft 2 0.8
+pair_coeff 3 15 soft 2 0.8
+pair_coeff 3 16 soft 2 0.8
+pair_coeff 3 17 soft 2 0.8
+pair_coeff 3 18 soft 2 0.8
+pair_coeff 3 19 soft 2 0.8
+pair_coeff 3 20 soft 2 0.8
+pair_coeff 3 21 soft 2 0.8
+pair_coeff 3 22 soft 2 0.8
+pair_coeff 3 23 soft 2 0.8
+pair_coeff 3 24 soft 2 0.8
+pair_coeff 3 25 soft 2 0.8
+pair_coeff 3 26 soft 2 0.8
+pair_coeff 3 27 soft 2 0.8
+pair_coeff 4 5 soft 2 0.8
+pair_coeff 4 6 soft 2 0.8
+pair_coeff 4 7 soft 2 0.8
+pair_coeff 4 8 soft 2 0.8
+pair_coeff 4 9 soft 2 0.8
+pair_coeff 4 10 soft 2 0.8
+pair_coeff 4 11 soft 2 0.8
+pair_coeff 4 12 soft 2 0.8
+pair_coeff 4 13 soft 2 0.8
+pair_coeff 4 14 soft 2 0.8
+pair_coeff 4 15 soft 2 0.8
+pair_coeff 4 16 soft 2 0.8
+pair_coeff 4 17 soft 2 0.8
+pair_coeff 4 18 soft 2 0.8
+pair_coeff 4 19 soft 2 0.8
+pair_coeff 4 20 soft 2 0.8
+pair_coeff 4 21 soft 2 0.8
+pair_coeff 4 22 soft 2 0.8
+pair_coeff 4 23 soft 2 0.8
+pair_coeff 4 24 soft 2 0.8
+pair_coeff 4 25 soft 2 0.8
+pair_coeff 4 26 soft 2 0.8
+pair_coeff 4 27 soft 2 0.8
+pair_coeff 5 6 soft 2 0.8
+pair_coeff 5 7 soft 2 0.8
+pair_coeff 5 8 soft 2 0.8
+pair_coeff 5 9 soft 2 0.8
+pair_coeff 5 10 soft 2 0.8
+pair_coeff 5 11 soft 2 0.8
+pair_coeff 5 12 soft 2 0.8
+pair_coeff 5 13 soft 2 0.8
+pair_coeff 5 14 soft 2 0.8
+pair_coeff 5 15 soft 2 0.8
+pair_coeff 5 16 soft 2 0.8
+pair_coeff 5 17 soft 2 0.8
+pair_coeff 5 18 soft 2 0.8
+pair_coeff 5 19 soft 2 0.8
+pair_coeff 5 20 soft 2 0.8
+pair_coeff 5 21 soft 2 0.8
+pair_coeff 5 22 soft 2 0.8
+pair_coeff 5 23 soft 2 0.8
+pair_coeff 5 24 soft 2 0.8
+pair_coeff 5 25 soft 2 0.8
+pair_coeff 5 26 soft 2 0.8
+pair_coeff 5 27 soft 2 0.8
+pair_coeff 6 7 soft 2 0.8
+pair_coeff 6 8 soft 2 0.8
+pair_coeff 6 9 soft 2 0.8
+pair_coeff 6 10 soft 2 0.8
+pair_coeff 6 11 soft 2 0.8
+pair_coeff 6 12 soft 2 0.8
+pair_coeff 6 13 soft 2 0.8
+pair_coeff 6 14 soft 2 0.8
+pair_coeff 6 15 soft 2 0.8
+pair_coeff 6 16 soft 2 0.8
+pair_coeff 6 17 soft 2 0.8
+pair_coeff 6 18 soft 2 0.8
+pair_coeff 6 19 soft 2 0.8
+pair_coeff 6 20 soft 2 0.8
+pair_coeff 6 21 soft 2 0.8
+pair_coeff 6 22 soft 2 0.8
+pair_coeff 6 23 soft 2 0.8
+pair_coeff 6 24 soft 2 0.8
+pair_coeff 6 25 soft 2 0.8
+pair_coeff 6 26 soft 2 0.8
+pair_coeff 6 27 soft 2 0.8
+pair_coeff 7 8 soft 2 0.8
+pair_coeff 7 9 soft 2 0.8
+pair_coeff 7 10 soft 2 0.8
+pair_coeff 7 11 soft 2 0.8
+pair_coeff 7 12 soft 2 0.8
+pair_coeff 7 13 soft 2 0.8
+pair_coeff 7 14 soft 2 0.8
+pair_coeff 7 15 soft 2 0.8
+pair_coeff 7 16 soft 2 0.8
+pair_coeff 7 17 soft 2 0.8
+pair_coeff 7 18 soft 2 0.8
+pair_coeff 7 19 soft 2 0.8
+pair_coeff 7 20 soft 2 0.8
+pair_coeff 7 21 soft 2 0.8
+pair_coeff 7 22 soft 2 0.8
+pair_coeff 7 23 soft 2 0.8
+pair_coeff 7 24 soft 2 0.8
+pair_coeff 7 25 soft 2 0.8
+pair_coeff 7 26 soft 2 0.8
+pair_coeff 7 27 soft 2 0.8
+pair_coeff 8 9 soft 2 0.8
+pair_coeff 8 10 soft 2 0.8
+pair_coeff 8 11 soft 2 0.8
+pair_coeff 8 12 soft 2 0.8
+pair_coeff 8 13 soft 2 0.8
+pair_coeff 8 14 soft 2 0.8
+pair_coeff 8 15 soft 2 0.8
+pair_coeff 8 16 soft 2 0.8
+pair_coeff 8 17 soft 2 0.8
+pair_coeff 8 18 soft 2 0.8
+pair_coeff 8 19 soft 2 0.8
+pair_coeff 8 20 soft 2 0.8
+pair_coeff 8 21 soft 2 0.8
+pair_coeff 8 22 soft 2 0.8
+pair_coeff 8 23 soft 2 0.8
+pair_coeff 8 24 soft 2 0.8
+pair_coeff 8 25 soft 2 0.8
+pair_coeff 8 26 soft 2 0.8
+pair_coeff 8 27 soft 2 0.8
+pair_coeff 9 10 soft 2 0.8
+pair_coeff 9 11 soft 2 0.8
+pair_coeff 9 12 soft 2 0.8
+pair_coeff 9 13 soft 2 0.8
+pair_coeff 9 14 soft 2 0.8
+pair_coeff 9 15 soft 2 0.8
+pair_coeff 9 16 soft 2 0.8
+pair_coeff 9 17 soft 2 0.8
+pair_coeff 9 18 soft 2 0.8
+pair_coeff 9 19 soft 2 0.8
+pair_coeff 9 20 soft 2 0.8
+pair_coeff 9 21 soft 2 0.8
+pair_coeff 9 22 soft 2 0.8
+pair_coeff 9 23 soft 2 0.8
+pair_coeff 9 24 soft 2 0.8
+pair_coeff 9 25 soft 2 0.8
+pair_coeff 9 26 soft 2 0.8
+pair_coeff 9 27 soft 2 0.8
+pair_coeff 10 11 soft 2 0.8
+pair_coeff 10 12 soft 2 0.8
+pair_coeff 10 13 soft 2 0.8
+pair_coeff 10 14 soft 2 0.8
+pair_coeff 10 15 soft 2 0.8
+pair_coeff 10 16 soft 2 0.8
+pair_coeff 10 17 soft 2 0.8
+pair_coeff 10 18 soft 2 0.8
+pair_coeff 10 19 soft 2 0.8
+pair_coeff 10 20 soft 2 0.8
+pair_coeff 10 21 soft 2 0.8
+pair_coeff 10 22 soft 2 0.8
+pair_coeff 10 23 soft 2 0.8
+pair_coeff 10 24 soft 2 0.8
+pair_coeff 10 25 soft 2 0.8
+pair_coeff 10 26 soft 2 0.8
+pair_coeff 10 27 soft 2 0.8
+pair_coeff 11 12 soft 2 0.8
+pair_coeff 11 13 soft 2 0.8
+pair_coeff 11 14 soft 2 0.8
+pair_coeff 11 15 soft 2 0.8
+pair_coeff 11 16 soft 2 0.8
+pair_coeff 11 17 soft 2 0.8
+pair_coeff 11 18 soft 2 0.8
+pair_coeff 11 19 soft 2 0.8
+pair_coeff 11 20 soft 2 0.8
+pair_coeff 11 21 soft 2 0.8
+pair_coeff 11 22 soft 2 0.8
+pair_coeff 11 23 soft 2 0.8
+pair_coeff 11 24 soft 2 0.8
+pair_coeff 11 25 soft 2 0.8
+pair_coeff 11 26 soft 2 0.8
+pair_coeff 11 27 soft 2 0.8
+pair_coeff 12 13 soft 2 0.8
+pair_coeff 12 14 soft 2 0.8
+pair_coeff 12 15 soft 2 0.8
+pair_coeff 12 16 soft 2 0.8
+pair_coeff 12 17 soft 2 0.8
+pair_coeff 12 18 soft 2 0.8
+pair_coeff 12 19 soft 2 0.8
+pair_coeff 12 20 soft 2 0.8
+pair_coeff 12 21 soft 2 0.8
+pair_coeff 12 22 soft 2 0.8
+pair_coeff 12 23 soft 2 0.8
+pair_coeff 12 24 soft 2 0.8
+pair_coeff 12 25 soft 2 0.8
+pair_coeff 12 26 soft 2 0.8
+pair_coeff 12 27 soft 2 0.8
+pair_coeff 13 14 soft 2 0.8
+pair_coeff 13 15 soft 2 0.8
+pair_coeff 13 16 soft 2 0.8
+pair_coeff 13 17 soft 2 0.8
+pair_coeff 13 18 soft 2 0.8
+pair_coeff 13 19 soft 2 0.8
+pair_coeff 13 20 soft 2 0.8
+pair_coeff 13 21 soft 2 0.8
+pair_coeff 13 22 soft 2 0.8
+pair_coeff 13 23 soft 2 0.8
+pair_coeff 13 24 soft 2 0.8
+pair_coeff 13 25 soft 2 0.8
+pair_coeff 13 26 soft 2 0.8
+pair_coeff 13 27 soft 2 0.8
+pair_coeff 14 15 soft 2 0.8
+pair_coeff 14 16 soft 2 0.8
+pair_coeff 14 17 soft 2 0.8
+pair_coeff 14 18 soft 2 0.8
+pair_coeff 14 19 soft 2 0.8
+pair_coeff 14 20 soft 2 0.8
+pair_coeff 14 21 soft 2 0.8
+pair_coeff 14 22 soft 2 0.8
+pair_coeff 14 23 soft 2 0.8
+pair_coeff 14 24 soft 2 0.8
+pair_coeff 14 25 soft 2 0.8
+pair_coeff 14 26 soft 2 0.8
+pair_coeff 14 27 soft 2 0.8
+pair_coeff 15 16 soft 2 0.8
+pair_coeff 15 17 soft 2 0.8
+pair_coeff 15 18 soft 2 0.8
+pair_coeff 15 19 soft 2 0.8
+pair_coeff 15 20 soft 2 0.8
+pair_coeff 15 21 soft 2 0.8
+pair_coeff 15 22 soft 2 0.8
+pair_coeff 15 23 soft 2 0.8
+pair_coeff 15 24 soft 2 0.8
+pair_coeff 15 25 soft 2 0.8
+pair_coeff 15 26 soft 2 0.8
+pair_coeff 15 27 soft 2 0.8
+pair_coeff 16 17 soft 2 0.8
+pair_coeff 16 18 soft 2 0.8
+pair_coeff 16 19 soft 2 0.8
+pair_coeff 16 20 soft 2 0.8
+pair_coeff 16 21 soft 2 0.8
+pair_coeff 16 22 soft 2 0.8
+pair_coeff 16 23 soft 2 0.8
+pair_coeff 16 24 soft 2 0.8
+pair_coeff 16 25 soft 2 0.8
+pair_coeff 16 26 soft 2 0.8
+pair_coeff 16 27 soft 2 0.8
+pair_coeff 17 18 soft 2 0.8
+pair_coeff 17 19 soft 2 0.8
+pair_coeff 17 20 soft 2 0.8
+pair_coeff 17 21 soft 2 0.8
+pair_coeff 17 22 soft 2 0.8
+pair_coeff 17 23 soft 2 0.8
+pair_coeff 17 24 soft 2 0.8
+pair_coeff 17 25 soft 2 0.8
+pair_coeff 17 26 soft 2 0.8
+pair_coeff 17 27 soft 2 0.8
+pair_coeff 18 19 soft 2 0.8
+pair_coeff 18 20 soft 2 0.8
+pair_coeff 18 21 soft 2 0.8
+pair_coeff 18 22 soft 2 0.8
+pair_coeff 18 23 soft 2 0.8
+pair_coeff 18 24 soft 2 0.8
+pair_coeff 18 25 soft 2 0.8
+pair_coeff 18 26 soft 2 0.8
+pair_coeff 18 27 soft 2 0.8
+pair_coeff 19 20 soft 2 0.8
+pair_coeff 19 21 soft 2 0.8
+pair_coeff 19 22 soft 2 0.8
+pair_coeff 19 23 soft 2 0.8
+pair_coeff 19 24 soft 2 0.8
+pair_coeff 19 25 soft 2 0.8
+pair_coeff 19 26 soft 2 0.8
+pair_coeff 19 27 soft 2 0.8
+pair_coeff 20 21 soft 2 0.8
+pair_coeff 20 22 soft 2 0.8
+pair_coeff 20 23 soft 2 0.8
+pair_coeff 20 24 soft 2 0.8
+pair_coeff 20 25 soft 2 0.8
+pair_coeff 20 26 soft 2 0.8
+pair_coeff 20 27 soft 2 0.8
+pair_coeff 21 22 soft 2 0.8
+pair_coeff 21 23 soft 2 0.8
+pair_coeff 21 24 soft 2 0.8
+pair_coeff 21 25 soft 2 0.8
+pair_coeff 21 26 soft 2 0.8
+pair_coeff 21 27 soft 2 0.8
+pair_coeff 22 23 soft 2 0.8
+pair_coeff 22 24 soft 2 0.8
+pair_coeff 22 25 soft 2 0.8
+pair_coeff 22 26 soft 2 0.8
+pair_coeff 22 27 soft 2 0.8
+pair_coeff 23 24 soft 2 0.8
+pair_coeff 23 25 soft 2 0.8
+pair_coeff 23 26 soft 2 0.8
+pair_coeff 23 27 soft 2 0.8
+pair_coeff 24 25 soft 2 0.8
+pair_coeff 24 26 soft 2 0.8
+pair_coeff 24 27 soft 2 0.8
+pair_coeff 25 26 soft 2 0.8
+pair_coeff 25 27 soft 2 0.8
+pair_coeff 26 27 soft 2 0.8

@@ -1,0 +1,373 @@
+##### General initialization of meso simulations in 2D
+dimension	2
+boundary	p p p
+
+variable pairStyle string sph
+atom_style    ${pairStyle}
+
+newton on
+comm_modify vel yes
+
+variable dim equal 2
+variable pairStyle string 'meso'
+variable Amdpd equal 1
+variable Bmdpd equal 25
+variable gamdpd equal 18
+variable pi_number equal 3.14159265359
+variable dh equal 0.2
+variable T equal 0.000000000000000001
+variable Tbuf equal 1.0
+variable rho0 equal 1.0
+variable rho equal 1.0
+variable c0 equal 20.0
+variable h equal ${dh}*4
+variable hrho equal ${dh}*4
+variable mass equal ${dh}^${dim}
+variable dt equal 0.0001
+variable dVx equal 1
+variable dVy equal 1
+variable dSSx equal 1
+variable dSSy equal 1
+variable fqV equal 10000
+variable fqDump equal 5000
+variable fqRes equal 100000
+variable fqTher equal 10000
+##variable preRun equal 5000
+variable preRunNo equal 1500000
+variable prodRun equal 5000000
+
+variable coreL equal 12.2
+variable vel_wall equal 2.5
+
+variable consL equal 1.0
+variable buffL equal 1.0
+variable freqVelUpd equal 10
+variable atomsFile string 'atomsData2'
+
+
+####### Viscosity and bulk viscosity definition
+
+variable eta11 equal 5
+variable ksai11 equal 0.999*${eta11}*(2.0*${dim}-1.0)/${dim}
+
+variable eta22 equal 5
+variable ksai22 equal 0.999*${eta22}*(2.0*${dim}-1.0)/${dim}
+
+variable eta33 equal 15
+variable ksai33 equal 0.999*${eta22}*(2.0*${dim}-1.0)/${dim}
+
+variable eta12 equal 2*(${eta11}*${eta22})/(${eta11}+${eta22})
+variable ksai12 equal 0.999*${eta12}*(2.0*${dim}-1.0)/${dim}
+
+variable eta13 equal 2*(${eta11}*${eta33})/(${eta11}+${eta33})
+variable ksai13 equal 0.999*${eta12}*(2.0*${dim}-1.0)/${dim}
+
+variable eta23 equal 2*(${eta22}*${eta33})/(${eta22}+${eta33})
+variable ksai23 equal 0.999*${eta23}*(2.0*${dim}-1.0)/${dim}
+
+####### Variable wall
+
+variable wall_index11 equal 0
+variable wall_index22 equal 0
+variable wall_index33 equal 0
+variable wall_index12 equal 0
+variable wall_index13 equal 0
+variable wall_index23 equal 0
+
+
+####### Fluid type = 1 (newtonnian) or 2 (thixotropic)
+
+variable fluid_type equal 2
+
+######## Thixotropic parameters
+
+variable a_thixo11 equal 0.000000000000000000025
+variable b_thixo11 equal 0.0
+variable alpha_thixo11 equal 0.0
+variable f0_thixo11 equal 0.0
+
+variable a_thixo22 equal 0.0000000000000025
+variable b_thixo22 equal 0.0
+variable alpha_thixo22 equal 0.0
+variable f0_thixo22 equal 0.0
+
+variable a_thixo33 equal 0.0000000000000025
+variable b_thixo33 equal 0.0
+variable alpha_thixo33 equal 0.0
+variable f0_thixo33 equal 0.0
+
+variable a_thixo12 equal 2*(${a_thixo11}*${a_thixo22})/(${a_thixo11}+${a_thixo22})
+variable b_thixo12 equal 0
+variable alpha_thixo12 equal 0
+variable f0_thixo12 equal 0
+
+variable a_thixo13 equal 2*(${a_thixo11}*${a_thixo33})/(${a_thixo11}+${a_thixo33})
+variable b_thixo13 equal 0
+variable alpha_thixo13 equal 0
+variable f0_thixo13 equal 0
+
+variable a_thixo23 equal 2*(${a_thixo22}*${a_thixo33})/(${a_thixo22}+${a_thixo33})
+variable b_thixo23 equal 0
+variable alpha_thixo23 equal 0
+variable f0_thixo23 equal 0
+
+
+
+
+########Parameters for Lei2016
+
+variable rhoeq equal (1/${dh})^${dim}
+variable sigmao equal 2			#### Input surface tension
+#variable rb equal ${rhoeq}^(-1/${dim})	#### rb using rhoeq 
+variable rb equal ${h}/3.5			#### rb using h 
+variable ra equal ${rb}/2
+
+#### F_int Models 1 to 3 from Tartakovsky_2016
+
+variable F equal 3				## F_int model number (1 to 4) 
+
+#### F_int_1 definition (2D & 3D)
+if "(${dim}==2)&&(${F}==1)" then &
+"variable A equal 0" &
+"variable lam equal (8/81)*(${h}^4/${pi_number}^4)*((9/4)*${pi_number}^3-6*${pi_number}-4)" &
+"variable xi equal ${h}^3*(-8+9*${pi_number}^2)/(27*${pi_number}^2)" &
+elif ${dim}==3 &
+"variable A equal 0" &
+"variable lam equal (3/(4*${pi_number}^4))*(2^7-3^2+2^4*${pi_number}^2+3^4*${pi_number}^4)*(${h}/3)^5" &
+"variable xi equal (16/81)*(${h}^4/${pi_number}^3)*((9*${pi_number}^3/4)-6*${pi_number}-4"
+
+#### F_int_2 definition (2D & 3D)
+if "(${dim}==2)&&(${F}==2)" then &
+"variable A equal (${rb}/${ra})^2" &
+"variable lam equal (2/3)*(-${A}*${ra}^4+${rb}^4)" & 
+"variable xi equal (${pi_number}*(${pi_number}^(0.5))/(2*(2^0.5)))*(-${A}*${ra}^3+${rb}^3)" &
+elif ${dim}==3 &
+"variable A equal (${rb}/${ra})^3" &
+"variable lam equal (2*${pi_number})^(3/2)*(3/32)*(-${A}*${ra}^5+${rb}^5)" & 
+"variable xi equal (4*${pi_number}/3)*(-${A}*${ra}^4+${rb}^4)" &
+
+#### F_int_3 definition (2D & 3D)
+if "(${dim}==2)&&(${F}==3)" then &
+"variable A equal (${rb}/${ra})^3" & 
+"variable lam equal 0.5*sqrt(2*${pi_number})*(-${A}*${ra}^5+${rb}^5)" &
+"variable xi equal ${pi_number}*(-${A}*${ra}^4+${rb}^4)" &
+elif ${dim}==3 &
+"variable A equal (${rb}/${ra})^4" & 
+"variable lam equal ${pi_number}*(-${A}*${ra}^6+${rb}^6)" &
+"variable xi equal sqrt(2)*${pi_number}^(3/2)*(-${A}*${ra}^5+${rb}^5)"
+
+
+###### Strenght factor definition 
+variable s11 equal 1/((1-1e-3))*(${rhoeq}^(-2))*${sigmao}/${lam}
+variable s22 equal ${s11}
+variable s33 equal ${s11}
+variable s44 equal ${s11}
+variable s55 equal ${s11}
+variable s66 equal ${s11}
+variable s77 equal ${s11}
+variable s88 equal ${s11}
+variable s99 equal ${s11}
+variable s1010 equal ${s11}
+variable s1111 equal ${s11}
+variable s1212 equal ${s11}
+variable s1313 equal ${s11}
+variable s12 equal ${s11}/1e3
+variable s13 equal ${s11}/1e3
+variable s23 equal ${s11}/1e3
+
+
+variable s14 equal ${s11}/1e3
+variable s15 equal ${s11}/1e3
+variable s16 equal ${s11}/1e3
+variable s17 equal ${s11}/1e3
+variable s18 equal ${s11}/1e3
+variable s19 equal ${s11}/1e3
+variable s110 equal ${s11}/1e3
+variable s111 equal ${s11}/1e3
+variable s112 equal ${s11}/1e3
+variable s113 equal ${s11}/1e3
+variable s24 equal ${s11}/1e3
+variable s25 equal ${s11}/1e3
+variable s26 equal ${s11}/1e3
+variable s27 equal ${s11}/1e3
+variable s28 equal ${s11}/1e3
+variable s29 equal ${s11}/1e3
+variable s210 equal ${s11}/1e3
+variable s211 equal ${s11}/1e3
+variable s212 equal ${s11}/1e3
+variable s213 equal ${s11}/1e3
+variable s34 equal ${s11}/1e3
+variable s35 equal ${s11}/1e3
+variable s36 equal ${s11}/1e3
+variable s37 equal ${s11}/1e3
+variable s38 equal ${s11}/1e3
+variable s39 equal ${s11}/1e3
+variable s310 equal ${s11}/1e3
+variable s311 equal ${s11}/1e3
+variable s312 equal ${s11}/1e3
+variable s313 equal ${s11}/1e3
+variable s45 equal ${s11}/1e3
+variable s46 equal ${s11}/1e3
+variable s47 equal ${s11}/1e3
+variable s48 equal ${s11}/1e3
+variable s49 equal ${s11}/1e3
+variable s410 equal ${s11}/1e3
+variable s411 equal ${s11}/1e3
+variable s412 equal ${s11}/1e3
+variable s413 equal ${s11}/1e3
+variable s56 equal ${s11}/1e3
+variable s57 equal ${s11}/1e3
+variable s58 equal ${s11}/1e3
+variable s59 equal ${s11}/1e3
+variable s510 equal ${s11}/1e3
+variable s511 equal ${s11}/1e3
+variable s512 equal ${s11}/1e3
+variable s513 equal ${s11}/1e3
+variable s67 equal ${s11}/1e3
+variable s68 equal ${s11}/1e3
+variable s69 equal ${s11}/1e3
+variable s610 equal ${s11}/1e3
+variable s611 equal ${s11}/1e3
+variable s612 equal ${s11}/1e3
+variable s613 equal ${s11}/1e3
+variable s78 equal ${s11}/1e3
+variable s79 equal ${s11}/1e3
+variable s710 equal ${s11}/1e3
+variable s711 equal ${s11}/1e3
+variable s712 equal ${s11}/1e3
+variable s713 equal ${s11}/1e3
+variable s89 equal ${s11}/1e3
+variable s810 equal ${s11}/1e3
+variable s811 equal ${s11}/1e3
+variable s812 equal ${s11}/1e3
+variable s813 equal ${s11}/1e3
+variable s910 equal ${s11}/1e3
+variable s911 equal ${s11}/1e3
+variable s912 equal ${s11}/1e3
+variable s913 equal ${s11}/1e3
+variable s1011 equal ${s11}/1e3
+variable s1012 equal ${s11}/1e3
+variable s1013 equal ${s11}/1e3
+variable s1112 equal ${s11}/1e3
+variable s1113 equal ${s11}/1e3
+variable s1213 equal ${s11}/1e2
+
+
+
+####### Background Pressure
+variable pb equal ${xi}*${rhoeq}^2*${s11}
+
+
+###### Particle creation -  Lattice defition or read data
+
+include ${atomsFile}
+
+#######END SID manager variables
+
+variable skin equal 0.2*$h
+variable therBinx equal round(${coreL}/(1.2*${dh}))
+variable therBiny equal round(${coreL}/(1.2*${dh}))
+
+variable        volCore equal ${coreL}*${coreL}*(3-${dim}+(${dim}-2)*${coreL})   #If is 2d gives the area of the square 
+
+###### 2D
+
+###### Include pair styles for the simulation
+
+neighbor        ${skin} bin
+neigh_modify	delay 0 every 1 check yes
+timestep        ${dt}
+
+
+fix 2d all enforce2d
+fix pairSPH all sph
+
+include micro
+
+variable box_area equal ${volCore}
+
+###### velocity     boundary set 0.0 0.0 0.0		
+
+fix	     6 lower meso/move linear -${vel_wall} 0 0 units box	
+fix	     8 upper meso/move linear ${vel_wall} 0 0 units box										
+
+###### Computes
+
+compute	density all property/atom rho						#compute per atom density
+compute	peratom all stress/atom NULL						#compute per atom stress tensor
+
+compute	peratom_mag lower reduce max c_peratom[1] c_peratom[2]					#compute per atom stress tensor
+compute	grad_1 all property/atom gdvxx 						#compute per atom density
+compute	grad_2 all property/atom gdvyy 						#compute per atom density
+compute	grad_3 all property/atom gdvxy 						#compute per atom density
+compute	grad_4 all property/atom gdvyx 						#compute per atom density
+compute	gamma all property/atom gammadot
+compute	finterx all property/atom fintx
+compute	fintery all property/atom finty
+
+dump	1 all custom ${fqDump} dumps/dump.*.lammpstrj id type x y z vx vy vz fx fy fz mass c_density c_peratom[1] c_peratom[2] c_peratom[3] c_peratom[4] c_grad_1 c_grad_2 c_grad_3 c_grad_4 c_gamma c_finterx c_fintery
+
+run ${preRunNo}
+
+reset_timestep 0
+
+######## Thixotropic parameters
+
+variable a_thixo11 equal 0.01
+variable b_thixo11 equal 0.01
+variable alpha_thixo11 equal 4.0
+variable f0_thixo11 equal 1.0
+variable eta11 equal 1
+variable ksai11 equal 0.999*${eta11}*(2.0*${dim}-1.0)/${dim}
+
+
+variable a_thixo22 equal 0.0000000000000025
+variable b_thixo22 equal 0.0
+variable alpha_thixo22 equal 0.0
+variable f0_thixo22 equal 0.0
+variable eta22 equal 1
+variable ksai22 equal 0.999*${eta22}*(2.0*${dim}-1.0)/${dim}
+
+
+variable a_thixo33 equal 0.0000000000000025
+variable b_thixo33 equal 0.0
+variable alpha_thixo33 equal 0.0
+variable f0_thixo33 equal 0.0
+variable eta33 equal 15
+variable ksai33 equal 0.999*${eta22}*(2.0*${dim}-1.0)/${dim}
+
+
+variable a_thixo12 equal 2*(${a_thixo11}*${a_thixo22})/(${a_thixo11}+${a_thixo22})
+variable b_thixo12 equal 2*(${b_thixo11}*${b_thixo22})/(${b_thixo11}+${b_thixo22})
+variable alpha_thixo12 equal 2*(${alpha_thixo11}*${alpha_thixo22})/(${alpha_thixo11}+${alpha_thixo22})
+variable f0_thixo12 equal 2*(${f0_thixo11}*${f0_thixo22})/(${f0_thixo11}+${f0_thixo22})
+variable eta12 equal (${eta11}*${eta22})^0.5
+variable ksai12 equal 0.999*${eta12}*(2.0*${dim}-1.0)/${dim}
+
+
+variable a_thixo13 equal 2*(${a_thixo11}*${a_thixo33})/(${a_thixo11}+${a_thixo33})
+variable b_thixo13 equal 2*(${b_thixo11}*${b_thixo33})/(${b_thixo11}+${b_thixo33})
+variable alpha_thixo13 equal 2*(${alpha_thixo11}*${alpha_thixo33})/(${alpha_thixo11}+${alpha_thixo33})
+variable f0_thixo13 equal 2*(${f0_thixo11}*${f0_thixo33})/(${f0_thixo11}+${f0_thixo33})
+variable eta13 equal 2*(${eta11}*${eta33})/(${eta11}+${eta33})
+variable ksai13 equal 0.999*${eta12}*(2.0*${dim}-1.0)/${dim}
+
+
+variable a_thixo23 equal 2*(${a_thixo22}*${a_thixo33})/(${a_thixo22}+${a_thixo33})
+variable b_thixo23 equal 0
+variable alpha_thixo23 equal 0
+variable f0_thixo23 equal 0
+variable eta23 equal 2*(${eta22}*${eta33})/(${eta22}+${eta33})
+variable ksai23 equal 0.999*${eta23}*(2.0*${dim}-1.0)/${dim}
+
+
+include micro
+
+compute	tilt all temp/profile 1 1 0 xy ${therBinx} ${therBiny}
+### _______________________________________________________________________________________________________________________________________________
+
+thermo          ${fqTher}
+thermo_style	custom step temp press 
+thermo_modify temp tilt
+
+run ${prodRun}
