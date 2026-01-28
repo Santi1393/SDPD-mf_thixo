@@ -24,6 +24,9 @@ This SDPD extension must be compiled in the 21-Nov-2023 release of the open sour
 2. Copy the files pair_sdpd_taitwater_isothermal_mf.cpp and pair_sdpd_taitwater_isothermal_mf.h in the folder DPD-SMOOTH
 3. Run: make mpi
 
-# Examples
+# Numerical examples
 
-Here you will find an example (folder named “Example”) containing the files needed to run a case of the interaction of three droplets under a continuous fluid phase. The main script is called “in.sdpd_phase.2d”.
+In the folder called “Numerical examples” you will find a collection of all the numerical cases covered in this research. Detailed information on each case and how to run them can be found in the README file in each example folder. The complete list of cases studied is detailed below: 
+
+1. Surface tension of a droplet - Used for static validation - See Figure 1_(a)
+2. Retraction of a stretched droplet - Used for static validation - See Figure 1_(b)
