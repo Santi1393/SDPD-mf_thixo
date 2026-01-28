@@ -25,24 +25,31 @@ The installation process and build flags are detailed step by step below.
 1. Download and unzip the .tar.gz file “lammps-21Nov23.tar.gz” found in this repository.
 2. Replace the following files with the files from the .tar
 
-   *atom.cpp     atom.h      atom_vec.cpp     atom_vec.h     fix_sph.cpp     fix_sph.h*
+   *atom.cpp
+   atom.h
+   atom_vec.cpp
+   atom_vec.h
+   fix_sph.cpp
+   fix_sph.h*
 
-3. Copy the files *pair_sdpd_taitwater_isothermal_mf.cpp* and *pair_sdpd_taitwater_isothermal_mf.h* in the folder "DPD-SMOOTH"
-4. In the same folder, locate the “Install.sh” file. Include these two lines to indicate that you are going to install a new dependency:
+4. Copy the files *pair_sdpd_taitwater_isothermal_mf.cpp* and *pair_sdpd_taitwater_isothermal_mf.h* in the folder "DPD-SMOOTH"
+5. In the same folder, locate the “Install.sh” file. Include these two lines to indicate that you are going to install a new dependency:
 
    *action pair_sdpd_taitwater_isothermal_mf.h*
+   
    *action pair_sdpd_taitwater_isothermal_mf.cpp*
    
-5. LAMMPS must be compiled with the SPH and SDPD package enabled. To activate it, located in the “src” folder type:
+6. LAMMPS must be compiled with the SPH and SDPD package enabled. To activate it, located in the “src” folder type:
 
    *make yes-SPH*
+   
    *make yes-DPD-SMOOTH*
  
-6. LAMMPS must be compiled using MPI support. Located in the “src” folder type:
+8. LAMMPS must be compiled using MPI support. Located in the “src” folder type:
 
    *make mpi*
 
-7. Run a numerical example to verify the installation. Copy any example to your local folder and, once located in the case folder, type:
+9. Run a numerical example to verify the installation. Copy any example to your local folder and, once located in the case folder, type:
 
    *lmp_mpi <in.sdpd_phase.2d*
 
