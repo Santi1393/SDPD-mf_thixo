@@ -1,6 +1,6 @@
 # SDPD-mf_thixo
 
-![Image](Numerical_examples/12_LLPS/image.png)
+![Image](image.png)
 
 Smoothed Dissipative Particle Dynamics (SDPD) model for multiphase and thixotropic fluids implemented in LAMMPS.
 
