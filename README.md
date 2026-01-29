@@ -48,6 +48,7 @@ The installation process and build flags are detailed step by step below.
 8. LAMMPS must be compiled using MPI support. Located in the “src” folder type:
 
    *make pu*
+   
    *make mpi*
 
 10. Run a numerical example to verify the installation. Copy any example to your local folder and, once located in the case folder, type:
