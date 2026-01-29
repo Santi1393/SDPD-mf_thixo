@@ -26,10 +26,15 @@ The installation process and build flags are detailed step by step below.
 2. Replace the following files with the files from the .tar
 
    *atom.cpp
+   
    atom.h
+   
    atom_vec.cpp
+   
    atom_vec.h
+   
    fix_sph.cpp
+   
    fix_sph.h*
 
 4. Copy the files *pair_sdpd_taitwater_isothermal_mf.cpp* and *pair_sdpd_taitwater_isothermal_mf.h* in the folder "DPD-SMOOTH"
@@ -75,7 +80,7 @@ In the folder called “Numerical examples” you will find a collection of all 
 14. Emulsion with thixotropic continuous phase and newtonian droplets - Second exploratory case - See Figure 7
 15. Emulsion with newtonian continuous phase and thixotropic droplets - Second exploratory case - See Figure 8
 16. Droplet dynamics in a periodically constricted channel - Third exploratory case - See Figure 9 and 10
-17. Droplet merging using micro-devices - Third exploratory case - See Figure 11
+17. Droplet merging using micro-devices - fourth exploratory case - See Figure 11
 
 
 
