@@ -1,6 +1,6 @@
 # Retraction of a stretched droplet
 
-![Stretched droplet](stretched_droplet.png)
+![Image](image.png)
 
 To run the case, execute the following command in the terminal:
 
