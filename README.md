@@ -25,17 +25,17 @@ The installation process and build flags are detailed step by step below.
 1. Download and unzip the .tar.gz file “lammps-21Nov23.tar.gz” found in this repository.
 2. Replace the following files with the files from the .tar
 
-   *atom.cpp
+   *atom.cpp*
    
-   atom.h
+   *atom.h*
    
-   atom_vec.cpp
+   *atom_vec.cpp*
    
-   atom_vec.h
+   *atom_vec.h*
    
-   fix_sph.cpp
+   *fix_sph.cpp*
    
-   fix_sph.h*
+   *fix_sph.h*
 
 4. Copy the files *pair_sdpd_taitwater_isothermal_mf.cpp* and *pair_sdpd_taitwater_isothermal_mf.h* in the folder "DPD-SMOOTH"
 5. In the same folder, locate the “Install.sh” file. Include these two lines to indicate that you are going to install a new dependency:
