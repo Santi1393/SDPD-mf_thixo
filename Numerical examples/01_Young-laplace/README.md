@@ -1,5 +1,7 @@
 # Surface tension of a droplet
 
+![Surface tension](drop.png)
+
 To run the case, execute the following command in the terminal:
 
 *lmp_mpi <in.sdpd_phase.2d*
