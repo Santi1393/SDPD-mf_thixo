@@ -1,3 +1,5 @@
+# Numerical examples
+
 In this folder you will find a collection of all the numerical cases covered in this research. Detailed information on each case and how to run them can be found in the README file in each example folder. The complete list of cases studied is detailed below:
 
 1. Surface tension of a droplet - Used for static validation - See Figure 1_(a)
