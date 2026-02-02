@@ -77,7 +77,7 @@ include ${thixo_input}
 ######## Parameters for Lei2016
 
 variable rhoeq equal (1/${dh})^${dim}
-variable sigmao equal 0.00000000000001	#### Input surface tension
+variable sigmao equal 2	#### Input surface tension
 #variable rb equal ${rhoeq}^(-1/${dim})	#### rb using rhoeq 
 variable rb equal ${h}/3.5			#### rb using h 
 variable ra equal ${rb}/2
