@@ -29,9 +29,9 @@ The installation process and build flags are detailed step by step below.
    
    *atom.h*
    
-   *atom_vec.cpp*
+   *atom_vec_sph.cpp*
    
-   *atom_vec.h*
+   *atom_vec_sph.h*
    
    *fix_sph.cpp*
    
